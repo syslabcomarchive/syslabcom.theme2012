@@ -6388,6 +6388,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
   .row-fluid .thumbnails {
     margin-left: 0;
   }
+
+#ankeiler .text {
+	-webkit-transform: scale(1.5);
+	-webkit-transform-origin: 0 0;
+}
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
