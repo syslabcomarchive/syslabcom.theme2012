@@ -169,9 +169,10 @@ textarea {
 
 body {
 	margin: 0;
-	color: #333333;
+	color: #444;
 	background-color: #efefef;
 	font: 14px/22px "Lucida Grande", Lucida, Verdana, sans-serif;
+	text-shadow: white 0 1px 0;
 }
 
 a {
@@ -5450,15 +5451,15 @@ to {
     background-position: 40px 0;
 }
 
-to {
-	background-position: 0 0;
-}
-
 }
 
 @-o-keyframes progress-bar-stripes {
 	from {
     background-position: 0 0;
+}
+
+to {
+	background: #ededed 0 0;
 }
 
 to {
@@ -5921,7 +5922,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 /* @group Ankeiler */
 
 #ankeiler {
-	border-bottom: 370px solid #536f8f;
+	border-bottom: 0px solid #536f8f;
 }
 
 
@@ -5931,11 +5932,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 /* @group Services block */
 
 #services {
-	color: white;
-	margin-top: -470px;
 	position: relative;
-	padding-right: 20px;
-	padding-left: 20px;
+	background-color: #536f8f;
+	text-shadow: black 0 1px 0;
+	color: #a9bad2;
+	margin-top: -30px;
+	padding-bottom: 60px;
+}
+
+#services a {
+	color: white;
 }
 
 
