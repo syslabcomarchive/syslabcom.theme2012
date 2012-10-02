@@ -5901,7 +5901,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 
 #global-nav {
 	text-align: right;
-	
+	background: url(logo.png) no-repeat 0 15px;
 }
 
 #global-nav a {
