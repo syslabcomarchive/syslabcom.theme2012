@@ -187,7 +187,7 @@ body {
 }
 
 a {
-	color: #0088cc;
+	color: #4e6e91;
 	text-decoration: none;
 }
 
@@ -4213,6 +4213,14 @@ IE7 inline-block hack */
 	margin-bottom: 20px;
 	overflow: visible;
 	color: #777777;
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
 }
 
 .navbar-inner {
@@ -4220,21 +4228,10 @@ IE7 inline-block hack */
 	padding-right: 20px;
 	padding-left: 20px;
 	background-color: #fafafa;
-	background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
-	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
-	background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
-	background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
-	background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
-	background-repeat: repeat-x;
-	border: 1px solid #d4d4d4;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
 	*zoom: 1;
-	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
-	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
-	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+
+
 }
 
 .navbar-inner:before,
@@ -4372,7 +4369,7 @@ IE7 inline-block hack */
 	position: static;
 	width: 100%;
 	margin-bottom: 0;
-}
+	border-bottom: 1px solid white;}
 
 .navbar-static-top .navbar-inner {
 	-webkit-border-radius: 0;
@@ -5914,6 +5911,40 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 
 /* @group Components */
 
+/* @group Footer links */
+
+.footer-links {
+	text-align: center;
+	list-style-type: none;
+}
+
+.footer-links li {
+	display: inline-block;
+}
+
+.footer-links li a {
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+
+
+/* @end */
+
+/* @group Appendix */
+
+#appendix {
+	font-size: 12px;
+	line-height: 18px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+
+/* @end */
+
 /* @group Pill bar */
 
 .pill-bar {
@@ -5921,18 +5952,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 	margin-bottom: 22px;
 }
 
+.pill-bar:before {
+	content: " ";
+	height: 2px;
+	display: block;
+	background-color: #6984ab;
+	width: 1000px;
+	margin-bottom: -14px;
+}
+
 .pill-bar a {
 	background-color: #4e6e91;
-	color: #4e6e91;
+	color: #9fb9d3;
 	display: inline-block;
 	margin-right: -15px;
 	padding-right: 20px;
 	padding-left: 20px;
-	border: 1px solid #5579a1;
+	border: 2px solid #6984ab;
 	border-top-right-radius: 12px;
 	border-bottom-right-radius: 12px;
 	font-size: 12px;
 	box-shadow: inset 0 0 5px rgba(0,0,0,0.4);
+	position: relative;
 }
 
 .pill-bar a.current {
@@ -5974,7 +6015,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 #global-nav {
 	text-align: right;
 	background: url(logo.png) no-repeat 0 15px;
-	border-bottom: 1px solid white;
 }
 
 #global-nav a {
@@ -5985,6 +6025,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 	font-weight: bold;
 	color: #808080;
 	text-shadow: white 0 1px 0;
+	margin-right: -5px;
+}
+
+#global-nav a:before {
+	content: " ";
+	width: 8px;
+	height: 8px;
+	background-color: #808090;
+	border-radius: 50%;
+	float: left;
+	margin-top: 31px;
+	margin-left: -24px;
+}
+
+#global-nav a:first-child:before {
+	display: none;
 }
 
 #global-nav a:hover {
