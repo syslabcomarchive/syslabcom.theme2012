@@ -5936,7 +5936,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 }
 
 .pill-bar a.current {
-	background-color: #8d95a0;
+	background-color: #6984ab;
+	box-shadow: none;
 }
 
 .pill-bar a:hover {
