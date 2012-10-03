@@ -692,8 +692,8 @@ h6 small {
 }
 
 h1 {
-	font-size: 36px;
-	line-height: 40px;
+	font: 36px/40px Abadi;
+	letter-spacing: 2px;
 }
 
 h2 {
@@ -5913,6 +5913,46 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 /* @end */
 
 /* @group Components */
+
+/* @group Pill bar */
+
+.pill-bar {
+	text-align: center;
+	margin-bottom: 22px;
+}
+
+.pill-bar a {
+	background-color: #4e6e91;
+	color: #4e6e91;
+	display: inline-block;
+	margin-right: -15px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border: 1px solid #5579a1;
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;
+	font-size: 12px;
+	box-shadow: inset 0 0 5px rgba(0,0,0,0.4);
+}
+
+.pill-bar a.current {
+	background-color: #8d95a0;
+}
+
+.pill-bar a:hover {
+	text-decoration: none;
+	background-color: #476587;
+}
+
+.pill-bar a:first-child {
+	border-top-left-radius: 12px;
+	border-bottom-left-radius: 12px;
+	
+}
+
+
+
+/* @end */
 
 /* @group Floats */
 
