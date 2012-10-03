@@ -1,3 +1,14 @@
+/* @group Fonts */
+
+@font-face {
+	font-family: "Abadi";
+	src: url("fonts/Abadi-MT-Std-Condensed Light.otf")
+}
+
+
+
+/* @end */
+
 /* @group Bootstrap */
 
 /*!
@@ -609,7 +620,7 @@ a:hover {
 }
 
 p {
-	margin: 0 0 10px;
+	margin: 0 0 22px;
 }
 
 .lead {
@@ -686,8 +697,11 @@ h1 {
 }
 
 h2 {
-	font-size: 30px;
-	line-height: 40px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font: normal normal 18px/1.5 Abadi;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 h3 {
@@ -5898,11 +5912,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 
 /* @end */
 
+/* @group Components */
+
+/* @group Floats */
+
+.float-after {
+	float: right;
+}
+
+.float-before {
+	
+}
+
+
+
+/* @end */
+
 /* @group Global nav */
 
 #global-nav {
 	text-align: right;
 	background: url(logo.png) no-repeat 0 15px;
+	border-bottom: 1px solid white;
 }
 
 #global-nav a {
@@ -5915,6 +5946,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 	text-shadow: white 0 1px 0;
 }
 
+#global-nav a:hover {
+	background-color: rgba(0,0,0,0.04);
+	text-decoration: none;
+}
+
 
 
 /* @end */
@@ -5922,7 +5958,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 /* @group Ankeiler */
 
 #ankeiler {
-	border-bottom: 0px solid #536f8f;
+	border-bottom: 0px solid #536f8f;	border-top: 3px solid #dfecf0;
+
 }
 
 
@@ -5945,6 +5982,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 }
 
 
+
+/* @end */
 
 /* @end */
 
