@@ -182,7 +182,7 @@ body {
 	margin: 0;
 	color: #444;
 	background-color: #efefef;
-	font: 14px/22px "Lucida Grande", Lucida, Verdana, sans-serif;
+	font: 14px/2 "Lucida Grande", Lucida, Verdana, sans-serif;
 	text-shadow: white 0 1px 0;
 }
 
@@ -692,8 +692,17 @@ h6 small {
 }
 
 h1 {
-	font: 36px/40px Abadi;
 	letter-spacing: 2px;
+	line-height: 22px;
+	font-size: 14px;
+	float: left;
+	margin: 0 10px 0 0;
+	text-transform: uppercase;
+}
+
+h1:after {
+	content: "—";
+	margin-left: 10px;
 }
 
 h2 {
@@ -4213,14 +4222,9 @@ IE7 inline-block hack */
 	margin-bottom: 20px;
 	overflow: visible;
 	color: #777777;
-	background: rgb(255,255,255); /* Old browsers */
-	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
-	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+background-color: #efefef;
+background-image: linear-gradient(transparent 50%, rgba(255,255,255,.6) 50%);
+background-size: 4px 3px;
 }
 
 .navbar-inner {
@@ -5821,8 +5825,6 @@ to {
 .hero-unit {
 	margin-bottom: 30px;
 	background-color: #eeeeee;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
 	border-radius: 6px;
 	position: relative;
 }
@@ -5843,16 +5845,15 @@ to {
 }
 
 .hero-unit .text {
-	position: relative;
 	margin-top: 40px;
 	font-size: 40px;
 	line-height: 80px;
 	color: white;
-	height: 400px;
+	padding-bottom: 10px;
 }
 
 .hero-unit img {
-	margin-top: -440px;
+	margin-top: 0;
 }
 
 .hero-unit .btn {
@@ -5911,6 +5912,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 
 /* @group Components */
 
+/* @group Section Projects */
+
+#projects {
+	padding-top: 44px;
+	padding-bottom: 44px;
+	background-color: #ecbb5a;
+}
+
+
+
+/* @end */
+
 /* @group Footer links */
 
 .footer-links {
@@ -5949,17 +5962,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 
 .pill-bar {
 	text-align: center;
-	margin-bottom: 22px;
+	margin-bottom: 32px;
+	margin-top: 32px;
 }
 
-.pill-bar:before {
+/*.pill-bar:before {
 	content: " ";
 	height: 2px;
 	display: block;
 	background-color: #6984ab;
 	width: 1000px;
 	margin-bottom: -14px;
-}
+}*/
 
 .pill-bar a {
 	background-color: #4e6e91;
@@ -6048,6 +6062,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 	text-decoration: none;
 }
 
+@media (max-width: 767px) {
+
+#global-nav {
+	padding-top: 65px;
+	text-align: center;
+	background-position: center 27px;
+}
+}
+
 
 
 /* @end */
@@ -6056,7 +6079,30 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 
 #ankeiler {
 	border-bottom: 0px solid #536f8f;	border-top: 3px solid #dfecf0;
+	background-color: #4e6e91;
+	margin-bottom: 0;
+}
 
+#ankeiler .text {
+	height: 250px;
+	position: relative;
+}
+
+#ankeiler img {
+	margin-top: -300px;
+}
+
+@media (max-width: 767px) {
+
+#ankeiler .text {
+	height: 140px;
+	position: absolute;
+	left: 20px;
+}
+
+#ankeiler img {
+	margin-top: 0;
+}
 }
 
 
@@ -6071,11 +6117,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 	text-shadow: black 0 1px 0;
 	color: #a9bad2;
 	margin-top: -30px;
-	padding-bottom: 60px;
+	padding-bottom: 0;
 }
 
 #services a {
 	color: white;
+}
+
+#services .row {
+	background: url(slith.png) no-repeat center bottom;
+	margin-top: 40px;
+	padding-bottom: 20px;
 }
 
 
@@ -6874,6 +6926,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
     padding-right: 20px;
     padding-left: 20px;
   }
+
+body > section {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: -20px;
+	margin-right: -20px;
+}
   .navbar-fixed-top,
   .navbar-fixed-bottom,
   .navbar-static-top {
