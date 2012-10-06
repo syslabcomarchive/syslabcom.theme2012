@@ -5965,6 +5965,19 @@ body > section {
 
 /* @group News flash */
 
+.news-flash .collapsible h3 {
+	font-size: 14px;
+}
+
+.news-flash .collapsible h3:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.news-flash .collapsible h3:after {
+	content: "…";
+}
+
 .news-flash footer {
 	font-size: 12px;
 }
