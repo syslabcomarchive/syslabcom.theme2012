@@ -6368,6 +6368,7 @@ img.float-before {
 	border-bottom: 0px solid #536f8f;	border-top: 3px solid #dfecf0;
 	background-color: #4e6e91;
 	margin-bottom: 0;
+	overflow: hidden;
 }
 
 #ankeiler .text {
