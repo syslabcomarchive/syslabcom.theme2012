@@ -6128,7 +6128,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 
 body > section {
 	background: url(slith.png) no-repeat center bottom;
-	background-size: auto 100%
+	background-size: 100% auto;
 }
 
 /* @end */
@@ -6186,7 +6186,6 @@ body > section {
 #projects {
 	padding-top: 44px;
 	padding-bottom: 44px;
-	background-color: #a7cf55;
 }
 
 
@@ -6439,6 +6438,21 @@ img.float-before {
 
 #services-elaboration img {
 	width: 40%;
+}
+
+@media (max-width: 767px) {
+
+#services .pill-bar {
+	border-radius: 12px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 20px;
+}
+
+#services-elaboration img {
+	width: 100%;
+	float: none;
+}
 }
 
 
