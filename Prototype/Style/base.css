@@ -6410,9 +6410,13 @@ img.float-before {
 	color: #a9bad2;
 	padding-bottom: 0;
 	padding-top: 0;
-	font-size: 20px;
 	text-align: center;
-	letter-spacing: 1px;
+}
+
+#services blockquote {
+	margin-top: -30px;
+	font-size: 30px;
+	margin-bottom: 0;
 }
 
 #services .pill-bar {
