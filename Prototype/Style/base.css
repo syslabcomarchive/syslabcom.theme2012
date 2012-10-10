@@ -182,6 +182,7 @@ body {
 	background-color: #efefef;
 	font: 14px/2 "Lucida Grande", Lucida, Verdana, sans-serif;
 	text-shadow: white 0 1px 0;
+	background-image: url(texture-light-grain.png);
 }
 
 a {
