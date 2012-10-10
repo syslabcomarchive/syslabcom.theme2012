@@ -5831,6 +5831,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 
 /* @group Components */
 
+/* @group Illustration */
+
+
+
+/* @end */
+
+.illustration {
+	
+}
+
+@media (max-width: 767px) {
+
+.illustration,
+.illustration.float-before,
+.illustration.float-after {
+	width: 100%;
+	margin-right: 0;
+	margin-left: 0;
+}
+}
+
 /* @group Portfolio */
 
 .portfolio {
@@ -6479,10 +6500,6 @@ img.float-before {
 
 #services-elaboration {
 	padding-top: 60px;
-}
-
-#services-elaboration img {
-	width: 40%;
 }
 
 @media (max-width: 767px) {
