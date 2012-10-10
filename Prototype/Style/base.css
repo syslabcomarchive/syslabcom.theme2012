@@ -5862,6 +5862,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 	position: relative;
 }
 
+#projects .anythingSlider {
+	box-shadow: 0 1px 5px rgba(0,0,0,0.3)
+}
+
 .portfolio .item .description {
 	position: absolute;
 	background-color: rgba(0,0,0,0.8);
@@ -6021,16 +6025,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 	margin: -70px 0 0 0; /* half height of image */
 	text-align: center;
 	outline: 0;
-	background: url(../images/default.png) no-repeat;
+	background: url(carousel-arrows.png) no-repeat;
+	z-index: 10;
 }
 
 /* back arrow */
-.anythingSlider-default .back { left: 0; }
+.anythingSlider-default .back { left: -50px; }
 .anythingSlider-default .back a { background-position: left top; }
 .anythingSlider-default .back a:hover,
 .anythingSlider-default .back a.hover { background-position: left -140px; }
 /* forward arrow */
-.anythingSlider-default .forward { right: 0; }
+.anythingSlider-default .forward { right: -50px; }
 .anythingSlider-default .forward a { background-position: right top; }
 .anythingSlider-default .forward a:hover,
 .anythingSlider-default .forward a.hover { background-position: right -140px; }
