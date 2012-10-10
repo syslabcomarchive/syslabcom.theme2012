@@ -6015,7 +6015,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 .anythingSlider-default .arrow {
 	top: 50%;
 	position: absolute;
-	display: block;
+	transition: opacity 0.2s;
+	opacity: 0;
+}
+
+section:hover .anythingSlider-default .arrow {
+	opacity: 1;
 }
 
 .anythingSlider-default .arrow a {
