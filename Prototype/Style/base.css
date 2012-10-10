@@ -712,8 +712,10 @@ h2 {
 }
 
 h3 {
-	font-size: 24px;
-	line-height: 40px;
+	font-size: 16px;
+	line-height: 2;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 h4 {
@@ -5902,7 +5904,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 .anythingSlider-default {
 	margin: 0 auto;
 	/* 45px right & left padding for the arrows, 28px @ bottom for navigation */
-	padding: 0 0 28px;
+	padding: 0;
 }
 /* slider window - top & bottom borders, default state */
 .anythingSlider-default .anythingWindow {
@@ -6170,6 +6172,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 body > section {
 	background: url(slith.png) no-repeat center bottom;
 	background-size: 100% auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 /* @end */
