@@ -5729,7 +5729,6 @@ to {
 .hero-unit {
 	margin-bottom: 30px;
 	background-color: #eeeeee;
-	border-radius: 6px;
 	position: relative;
 }
 
@@ -5981,8 +5980,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 /* Navigation buttons, active state */
 .anythingSlider-default.activeSlider .anythingControls a {
 	/* background image = top shadow */
-	background-color: rgba(0,0,0,0.8);
-	border: 3px solid white;
 }
 /* Navigation current & hovered button, active state */
 .anythingSlider-default.activeSlider .anythingControls a.cur,
@@ -6047,18 +6044,22 @@ section:hover .anythingSlider-default .arrow {
 /* Navigation Links */
 .anythingSlider-default .anythingControls { outline: 0; display: none;
 	position: absolute;
-	top: 10px;
+	top: -30px;
 	right: 10px;
 }
 .anythingSlider-default .anythingControls ul { margin: 0; padding: 0; float: left; }
 .anythingSlider-default .anythingControls ul li { display: inline; }
 .anythingSlider-default .anythingControls ul a {
 	display: inline-block;
-	width: 12px;
-	height: 12px;
+	width: 8px;
+	height: 8px;
 	margin-left: 5px;
 	text-indent: -1000px;
 	overflow: hidden;
+	border-width: 1px;
+	
+	background-color: rgba(0,0,0,0.2);
+	box-shadow: inset 0 1px 4px rgba(0,0,0,0.3)
 }
 
 /* navigationSize window */
