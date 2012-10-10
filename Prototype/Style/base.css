@@ -6046,7 +6046,7 @@ section:hover .anythingSlider-default .arrow {
 .anythingSlider-default .anythingControls { outline: 0; display: none;
 	position: absolute;
 	top: -30px;
-	right: 10px;
+	right: 0;
 }
 .anythingSlider-default .anythingControls ul { margin: 0; padding: 0; float: left; }
 .anythingSlider-default .anythingControls ul li { display: inline; }
