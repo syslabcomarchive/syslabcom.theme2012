@@ -5829,6 +5829,47 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 
 /* @group Components */
 
+/* @group Portfolio */
+
+.portfolio {
+	
+}
+
+.portfolio .item {
+	position: relative;
+}
+
+.portfolio .item .description {
+	position: absolute;
+	background-color: rgba(0,0,0,0.8);
+	padding: 20px 20px 0;
+	bottom: 0;
+	left: 0;
+	width: 70%;
+}
+
+.portfolio .item h2 {
+	float: left;
+	font-size: 14px;
+	line-height: 2;
+	padding-right: 10px;
+	margin-bottom: 0;
+}
+
+.portfolio .item h2:after {
+	content: "—";
+	padding-left: 10px;
+}
+
+.portfolio .item .description {
+	color: white;
+	text-shadow: #000000 0px 1px 0px;
+}
+
+
+
+/* @end */
+
 /* @group Carousel  */
 
 /*
