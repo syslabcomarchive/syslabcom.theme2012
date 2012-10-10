@@ -6336,14 +6336,14 @@ body > section {
 	margin-bottom: 22px;
 }
 
-.pill-bar a.current {
-	background-color: #6984ab;
-	box-shadow: none;
-}
-
 .pill-bar a:hover {
 	text-decoration: none;
 	background-color: #476587;
+}
+
+.pill-bar a.current {
+	background-color: #6984ab;
+	box-shadow: none;
 }
 
 .pill-bar a:first-child {
