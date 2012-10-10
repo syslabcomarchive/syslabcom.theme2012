@@ -5938,11 +5938,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 /* Navigation buttons + start/stop button, default state */
 .anythingSlider-default .anythingControls a {
 	/* top shadow */
-	background: #777 url(../images/default.png) center -288px repeat-x;
 	color: #000;
-	border-radius: 0 0 5px 5px;
-	-moz-border-radius: 0 0 5px 5px;
-	-webkit-border-radius: 0 0 5px 5px;
+	border-radius: 50%;
+	background-color: rgba(0,0,0,0.8);
 }
 /* Make sure navigation text is visible */
 .anythingSlider-default .anythingControls a span {
@@ -5983,13 +5981,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 /* Navigation buttons, active state */
 .anythingSlider-default.activeSlider .anythingControls a {
 	/* background image = top shadow */
-	background-color: #7C9127;
+	background-color: rgba(0,0,0,0.8);
+	border: 3px solid white;
 }
 /* Navigation current & hovered button, active state */
 .anythingSlider-default.activeSlider .anythingControls a.cur,
 .anythingSlider-default.activeSlider .anythingControls a:hover {
 	/* background image removed */
-	background: #7C9127;
+	background: #4e6e91;
 }
 
 /* start-stop button, stopped, active state */
@@ -6046,18 +6045,20 @@ section:hover .anythingSlider-default .arrow {
 .anythingSlider-default .forward a.hover { background-position: right -140px; }
 
 /* Navigation Links */
-.anythingSlider-default .anythingControls { outline: 0; display: none; }
+.anythingSlider-default .anythingControls { outline: 0; display: none;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
 .anythingSlider-default .anythingControls ul { margin: 0; padding: 0; float: left; }
 .anythingSlider-default .anythingControls ul li { display: inline; }
 .anythingSlider-default .anythingControls ul a {
-	font: 11px/18px Georgia, Serif;
 	display: inline-block;
-	text-decoration: none;
-	padding: 2px 8px;
-	height: 18px;
-	margin: 0 5px 0 0;
-	text-align: center;
-	outline: 0;
+	width: 12px;
+	height: 12px;
+	margin-left: 5px;
+	text-indent: -1000px;
+	overflow: hidden;
 }
 
 /* navigationSize window */
