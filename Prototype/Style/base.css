@@ -6505,13 +6505,12 @@ img.float-before {
 	color: white;
 }
 
-#services .row {
-	background: url(slith.png) no-repeat center bottom;
-	padding-bottom: 20px;
-}
-
 #services-elaboration {
 	padding-top: 60px;
+}
+
+#services-elaboration .carousel {
+	margin-bottom: 20px;
 }
 
 @media (max-width: 767px) {
