@@ -692,24 +692,23 @@ h6 small {
 
 h1 {
 	letter-spacing: 2px;
-	line-height: 2;
-	font-size: 14px;
-	float: left;
-	margin: 0 10px 0 0;
 	text-transform: uppercase;
-}
-
-h1:after {
-	content: "—";
-	margin-left: 10px;
+	margin-top: 0;
+	margin-bottom: 20px;
+	margin-left: 0;
+	text-align: center;
+	font: normal normal normal 22px/1.5 Abadi;
 }
 
 h2 {
 	text-transform: uppercase;
 	letter-spacing: 4px;
-	font: normal normal 22px/1.5 Abadi;
 	margin-top: 0;
 	margin-bottom: 22px;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 1.5;
 }
 
 h2 sup {
@@ -6255,12 +6254,6 @@ body > section {
 #news {
 	padding-top: 44px;
 	padding-bottom: 44px;
-}
-
-#news h1 {
-	float: none;
-	font-size: 12px;
-	color: #4e6e91;
 }
 
 #news h1:after {
