@@ -5932,7 +5932,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
  ==================================*/
 /* Overall Wrapper */
 .anythingSlider-default {
-	margin: 0 auto;
+	margin: 40px auto 0;
 	/* 45px right & left padding for the arrows, 28px @ bottom for navigation */
 	padding: 0;
 }
@@ -6050,7 +6050,7 @@ section:hover .anythingSlider-default .arrow {
 /* Navigation Links */
 .anythingSlider-default .anythingControls { outline: 0; display: none;
 	position: absolute;
-	top: -30px;
+	top: -35px;
 	right: 0;
 	left: 0;
 	text-align: center;
@@ -6403,10 +6403,10 @@ img.float-before {
 	line-height: 70px;
 	padding-right: 20px;
 	padding-left: 20px;
-	font-weight: bold;
 	color: #808080;
 	text-shadow: white 0 1px 0;
 	margin-right: -5px;
+	font-size: 18px;
 }
 
 #global-nav a:before {
