@@ -701,7 +701,6 @@ h1 {
 }
 
 h2 {
-	text-transform: uppercase;
 	letter-spacing: 4px;
 	margin-top: 0;
 	margin-bottom: 22px;
@@ -6216,7 +6215,7 @@ section:hover .anythingSlider-default .arrow {
 body > section {
 	background: url(slith.png) no-repeat center bottom;
 	background-size: 100% auto;
-	padding-top: 20px;
+	padding-top: 30px;
 	padding-bottom: 20px;
 }
 
@@ -6252,7 +6251,6 @@ body > section {
 /* @group Section News */
 
 #news {
-	padding-top: 44px;
 	padding-bottom: 44px;
 }
 
