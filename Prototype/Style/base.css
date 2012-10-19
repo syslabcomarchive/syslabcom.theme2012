@@ -851,6 +851,7 @@ blockquote {
 	padding: 0;
 	margin: 0 0 22px;
 	text-shadow: #000000 0 1px 0;
+	font-family: Abadi;
 }
 
 blockquote p {
@@ -4242,8 +4243,8 @@ IE7 inline-block hack */
 	margin-bottom: 20px;
 	overflow: visible;
 	color: #777777;
-	background-color: #efefef;
-	background-image: linear-gradient(transparent 50%, rgba(255,255,255,.6) 50%);
+	background-color: #323232;
+	/*background-image: linear-gradient(transparent 50%, rgba(255,255,255,.6) 50%);*/
 	background-size: 4px 3px;
 }
 
@@ -4390,7 +4391,7 @@ IE7 inline-block hack */
 .navbar-static-top {
 	position: static;
 	margin-bottom: 0;
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid #bcbcbc;
 }
 
 .navbar-static-top .navbar-inner {
@@ -5755,10 +5756,10 @@ to {
 
 .hero-unit .text {
 	margin-top: 40px;
-	font-size: 40px;
-	line-height: 80px;
 	color: white;
 	padding-bottom: 10px;
+	line-height: 80px;
+	font-size: 50px;
 }
 
 .hero-unit img {
@@ -6403,17 +6404,18 @@ img.float-before {
 	line-height: 70px;
 	padding-right: 20px;
 	padding-left: 20px;
-	color: #808080;
-	text-shadow: white 0 1px 0;
+	color: #c3c3c3;
+	text-shadow: black 0 0 0;
 	margin-right: -5px;
 	font-size: 18px;
+	text-transform: uppercase;
 }
 
 #global-nav a:before {
 	content: " ";
 	width: 8px;
 	height: 8px;
-	background-color: #808090;
+	background-color: #c1c1c1;
 	border-radius: 50%;
 	float: left;
 	margin-top: 31px;
@@ -6425,8 +6427,9 @@ img.float-before {
 }
 
 #global-nav a:hover {
-	background-color: rgba(0,0,0,0.04);
+	background-color: #3f3f3f;
 	text-decoration: none;
+	color: white;
 }
 
 @media (max-width: 767px) {
@@ -6445,7 +6448,8 @@ img.float-before {
 /* @group Ankeiler */
 
 #ankeiler {
-	border-bottom: 0px solid #536f8f;	border-top: 3px solid #dfecf0;
+	border-bottom: 0px solid #536f8f;	
+	/*border-top: 3px solid #dfecf0;*/
 	background-color: #4e6e91;
 	margin-bottom: 0;
 	overflow: hidden;
@@ -7425,8 +7429,8 @@ body > section {
 }
 
 .hero-unit .text {
-	font-size: 20px;
-	line-height: 30px;
+	font-size: 30px;
+	line-height: 40px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
