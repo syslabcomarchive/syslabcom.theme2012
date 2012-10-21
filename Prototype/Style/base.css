@@ -5883,6 +5883,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 	width: 70%;
 }
 
+.portfolio .item .description:after {
+	content: " ";
+	background: rgba(0,0,0,0.8) url(arrow-right.png) no-repeat 0 center;
+	display: block;
+	width: 50px;
+	top: 0;
+	right: -51px;
+	bottom: 0;
+	position: absolute;
+	transition: all 0.2s;
+}
+
+section:hover .portfolio .item .description:after {
+	right: -55px;
+}
+
 .portfolio .item h2 {
 	float: left;
 	font-size: 14px;
@@ -6280,6 +6296,25 @@ body > section {
 #projects h1 {
 	margin-bottom: 40px;
 	color: #797a7b;
+}
+
+#projects .anythingSlider-default .back a {
+	display: none;
+}
+
+#projects .anythingSlider-default .forward {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	opacity: 1;
+	cursor: pointer;
+}
+
+#projects .anythingSlider-default .forward a {
+	display: none;
 }
 
 
