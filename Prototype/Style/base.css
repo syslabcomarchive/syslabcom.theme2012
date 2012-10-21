@@ -6017,6 +6017,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 	position: absolute;
 	transition: opacity 0.2s;
 	opacity: 0;
+	transition: all 0.2s
 }
 
 section:hover .anythingSlider-default .arrow {
@@ -6030,17 +6031,26 @@ section:hover .anythingSlider-default .arrow {
 	margin: -70px 0 0 0; /* half height of image */
 	text-align: center;
 	outline: 0;
-	background: url(carousel-arrows.png) no-repeat;
+	background: rgba(0,0,0,0.5) url(carousel-arrows.png) no-repeat;
 	z-index: 10;
 }
 
 /* back arrow */
-.anythingSlider-default .back { left: -50px; }
+.anythingSlider-default .back { left: 0; }
+
+section:hover .anythingSlider-default .back {
+	left: -45px;
+}
 .anythingSlider-default .back a { background-position: left top; }
 .anythingSlider-default .back a:hover,
 .anythingSlider-default .back a.hover { background-position: left -140px; }
 /* forward arrow */
-.anythingSlider-default .forward { right: -50px; }
+.anythingSlider-default .forward { right: 0; }
+
+section:hover .anythingSlider-default .forward {
+	right: -45px;
+}
+
 .anythingSlider-default .forward a { background-position: right top; }
 .anythingSlider-default .forward a:hover,
 .anythingSlider-default .forward a.hover { background-position: right -140px; }
