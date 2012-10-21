@@ -5875,6 +5875,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 .portfolio .item .description {
 	position: absolute;
 	background-color: rgba(0,0,0,0.8);
+	color: white;
+	text-shadow: #000000 0px 1px 0px;
 	padding: 20px 20px 0;
 	bottom: 0;
 	left: 0;
@@ -5892,11 +5894,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 .portfolio .item h2:after {
 	content: "—";
 	padding-left: 10px;
-}
-
-.portfolio .item .description {
-	color: white;
-	text-shadow: #000000 0px 1px 0px;
 }
 
 
@@ -6336,7 +6333,7 @@ body > section {
 	display: inline-block;
 	padding-right: 25px;
 	padding-left: 25px;
-	border-radius: 16px;
+	border-radius: 4px;
 	font-size: 12px;
 	margin-bottom: 0;
 	margin-right: -26px;
@@ -6349,7 +6346,7 @@ body > section {
 }
 
 .pill-bar a.current {
-	background-color: #49637c;
+	background-color: #7c7c7c;
 	box-shadow: none;
 	position: relative;
 	color: white;
@@ -6501,9 +6498,15 @@ img.float-before {
 }
 
 #services blockquote {
-	margin-top: -30px;
+	margin-bottom: -45px;
+	
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+	text-shadow: #000000 0px 1px 0px;
+	padding: 20px 20px 50px;
+	margin-top: -110px;
 	font-size: 30px;
-	margin-bottom: 0;
+	transition: all 0.4s;
 }
 
 #services .pill-bar {
@@ -6530,6 +6533,11 @@ img.float-before {
 #services-elaboration img {
 	width: 100%;
 	float: none;
+}
+
+#services blockquote {
+	margin-bottom: 0px;
+	padding-bottom: 20px;
 }
 }
 
