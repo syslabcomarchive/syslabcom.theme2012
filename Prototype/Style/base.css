@@ -850,7 +850,7 @@ abbr.initialism {
 blockquote {
 	padding: 0;
 	margin: 0 0 22px;
-	text-shadow: #000000 0 1px 0;
+	/*text-shadow: #000000 0 1px 0;*/
 	font-family: Abadi;
 }
 
@@ -5839,12 +5839,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 
 /* @group Illustration */
 
-
-
-/* @end */
-
 .illustration {
-	
 }
 
 @media (max-width: 767px) {
@@ -5857,6 +5852,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
 	margin-left: 0;
 }
 }
+
+
+
+/* @end */
 
 /* @group Portfolio */
 
@@ -6373,7 +6372,7 @@ body > section {
 }*/
 
 .pill-bar a {
-	background-color: #f7f7f8;
+	background-color: #fbfbfb;
 	color: #354d64;
 	display: inline-block;
 	padding-right: 25px;
@@ -6382,7 +6381,7 @@ body > section {
 	font-size: 12px;
 	margin-bottom: 0;
 	margin-right: -26px;
-	border: 2px solid #fafafb;
+	border: 2px solid #fbfbfb;
 	transition: all 1s;
 }
 
@@ -6521,7 +6520,7 @@ img.float-before {
 	margin-top: 0;
 }
 
-#ankeiler .btn {
+#ankeiler .button {
 	font-size: 16px;
 	line-height: 24px;
 }
