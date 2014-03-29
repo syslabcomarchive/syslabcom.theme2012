@@ -6,7 +6,8 @@
 
     <link rel="stylesheet" type="text/css" href="Style/base.css"/>
 	<script src="Libraries/patterns-standalone.min.js" type="text/javascript"></script>
-	<script src="Libraries/jquery.jfeed.pack.js" type="text/javascript"></script>
+	<!--script src="Libraries/jquery.jfeed.pack.js" type="text/javascript"></script-->
+	<script src="Libraries/jquery.zrssfeed.min.js" type="text/javascript"></script>
 
      </head>
   <body>
@@ -219,22 +220,23 @@
 			<script type="text/javascript">
 
 			jQuery(function() {
-
-			    jQuery.getFeed({
+$('article.news-flash').rssfeed('http://www.syslab.com/blog/?cat=6&feed=rss2', {
+    limit: 1, content: true, snippet: false, media: true, titletag: 'h2', header: false
+  });
+/*			    jQuery.getFeed({
 			        url: 'blog/?cat=6&feed=rss2',
 			        success: function(feed) {
 
 			            var html = '';
 		                var item = feed.items[0];
-
 			            jQuery('article.news-flash').append(
 						'<img src="Media/News-flash.png" alt="Newsflash" class="illustration float-after" />'
 						+  '<h2>'
 			            + item.title
 			            + '</h2>'
-						+ item.description);
+						+ item.description  );
 			        }    
-			    });
+			    });*/
 			});
 			</script>
 			
