@@ -28,6 +28,8 @@ pip-log.txt
 
 .DS_Store
 
+_site/
+
 *.espressostorage
 
 Prototype/Media/.DS_Store
