@@ -20,3 +20,23 @@ $colour-alert: red;
 
 // Responsive font-size: 
 $mobile:768px;
+
+// libraries
+@import "libraries/animation";
+@import "libraries/mixins";
+@import "libraries/reset";
+
+// patterns
+@import "libraries/patterns/checklist";
+@import "libraries/patterns/grid";
+@import "libraries/patterns/form";
+@import "libraries/patterns/injection";
+
+// components
+@import "components/anchor";
+@import "components/body";
+@import "components/html";
+@import "components/icon";
+@import "components/image";
+@import "components/logo";
+@import "components/section";

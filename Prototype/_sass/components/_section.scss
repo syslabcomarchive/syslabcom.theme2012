@@ -8,6 +8,11 @@ section {
     @include clear-floats(both);
   }
 
+  &#home {
+    background-color: $colour-tertiary;
+    height: 100%;
+  }
+
   &#services {
     background-color: $colour-primary;
   }
