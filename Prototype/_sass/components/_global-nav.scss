@@ -1,6 +1,6 @@
 .global-nav {
 
-	background: rgba(0,0,0,0.3);
+	background: rgba(0,0,0,0.4);
 	position: relative;
 	top: 50%;
 	text-align: center;
@@ -10,10 +10,17 @@
 	li {
 		display: inline-block;
 		padding: 0 1em;
+    	color: $colour-tertiary;
 	}
 
 	a {
 		display: inline-block;
 		font-weight: 700;
+    	color: $colour-tertiary;
+
+    	&:hover {
+    		color: white;
+    		text-decoration: none;
+    	}
 	}
 }

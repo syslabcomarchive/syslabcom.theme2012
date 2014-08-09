@@ -1,19 +1,36 @@
 .lid-opener {
 	font-family: fontello;
+	text-align: center;
 	
-
 	a {
 		display: block;
-		width: 2em;
-		height: 1em;
+		width: 4em;
+		height: 4em;
 		overflow: hidden;
 		text-indent: -1000px;
+		line-height: 4em;
+
+		&:before {
+			font-size: 3em;
+			content: "\e80e";
+			text-indent: 0;
+			display: block;
+			color: rgba(0,0,0,0.4)
+		}
+
+		&:hover {
+			text-decoration: none;
+
+			&:before {
+				color: white;				
+			}
+		}
 	}
 
 	&#first-scroll {
 		position: absolute;
-		top: 90%;
+		top: 85%;
 		left: 50%;
-		margin-left: -1em;	
+		margin-left: -2em;
 	}
 }
