@@ -1,0 +1,19 @@
+.lid-opener {
+	font-family: fontello;
+	
+
+	a {
+		display: block;
+		width: 2em;
+		height: 1em;
+		overflow: hidden;
+		text-indent: -1000px;
+	}
+
+	&#first-scroll {
+		position: absolute;
+		top: 90%;
+		left: 50%;
+		margin-left: -1em;	
+	}
+}
