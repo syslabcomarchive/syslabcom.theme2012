@@ -29,6 +29,7 @@ pip-log.txt
 .DS_Store
 
 _site/
+.sass-cache
 
 *.espressostorage
 
