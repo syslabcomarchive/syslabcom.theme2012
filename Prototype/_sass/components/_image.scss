@@ -1,11 +1,19 @@
 img {
 
-	&.float-before {
-		margin-right: 2em;
+	&.float-before,&.float-after {
+		float: none;
 	}
 
-	&.float-after {
-		margin-left: 2em;
+	@media screen and (min-width: $tablet) {
+		&.float-before {
+			float: left;
+			margin-right: 2em;
+		}
+
+		&.float-after {
+			float: right;
+			margin-left: 2em;
+		}
 	}
 }
 
