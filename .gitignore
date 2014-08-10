@@ -33,3 +33,5 @@ _site/
 *.espressostorage
 
 Prototype/Media/.DS_Store
+
+*.scssc
