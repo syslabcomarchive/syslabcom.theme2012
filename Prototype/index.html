@@ -168,64 +168,61 @@ layout: shell
 	</div>
 </section>
 
-		<section id="news">
+<section id="news">
+	<div class="container">
+		<h2>News</h2>
+        <img src="media/News-flash.png" alt="Newsflash" class="illustration float-after" />
+		<article class="news-flash">
 
-			<div class="row portfolio" data-carousel="control-arrows: false; auto-play: false; default: true; time-animation: 300; expand: false">
-			<div class="container">
-			<h2>News</h2>
-            <img src="media/News-flash.png" alt="Newsflash" class="illustration float-after" />
-			<article class="news-flash">
+			<!--img src="media/News-flash.png" alt="Newsflash" class="illustration float-after" />
+			<h2>60<sup>th</sup> Plone Tune-Up Closes Record Number of Tickets with Help of Global Participation</h2>
+			<p>Last Friday, a group of 31 Plone developers and companies located around the world undertook one of the largest Plone Tune-Ups ever to celebrate the 60th time such an event has been held.</p>
+			<p>Plone Tune-Up <span class="highlightedSearchTerm"></span><span class="highlightedSearchTerm"></span>are regularly-scheduled, one-day mini-sprints where members of the Plone Community from around the world come together online to grab some outstanding tickets from the Plone Trac system and help move Plone forward. As an open source system, Plone relies on developers of all interests and skill levels to participate so that Plone can continue to be a leader in open source Content Management Systems.</p>
 
-				<!--img src="media/News-flash.png" alt="Newsflash" class="illustration float-after" />
-				<h2>60<sup>th</sup> Plone Tune-Up Closes Record Number of Tickets with Help of Global Participation</h2>
-				<p>Last Friday, a group of 31 Plone developers and companies located around the world undertook one of the largest Plone Tune-Ups ever to celebrate the 60th time such an event has been held.</p>
-				<p>Plone Tune-Up <span class="highlightedSearchTerm"></span><span class="highlightedSearchTerm"></span>are regularly-scheduled, one-day mini-sprints where members of the Plone Community from around the world come together online to grab some outstanding tickets from the Plone Trac system and help move Plone forward. As an open source system, Plone relies on developers of all interests and skill levels to participate so that Plone can continue to be a leader in open source Content Management Systems.</p>
+			<div class="pat-collapsible closed">
 
-				<div class="pat-collapsible closed">
+				<h3>Read more</h3>
 
-					<h3>Read more</h3>
+				<p>Attendees included: pingviini, datakurre, HammerToe, adam_c, Kabz|4D, pbauer, keul, alert77, maurits, polyester, kingel, aclark, ebigras, massimo_azzol, palendae, fredvd, cdw9, eleddy, BlueAidan, oferw, acsr, fulv, claytron, gabrielle, esteele, markcorum, tony__, witsch, ctxlken, mhi1, carolsixfeetup.&nbsp;</p>
 
-					<p>Attendees included: pingviini, datakurre, HammerToe, adam_c, Kabz|4D, pbauer, keul, alert77, maurits, polyester, kingel, aclark, ebigras, massimo_azzol, palendae, fredvd, cdw9, eleddy, BlueAidan, oferw, acsr, fulv, claytron, gabrielle, esteele, markcorum, tony__, witsch, ctxlken, mhi1, carolsixfeetup.&nbsp;</p>
+				<p>The group closed an amazing 34 out of the 72 open Plone 4 tickets tagged. You can see the entire list of tickets here<a href="http://tinyurl.com/94ywjx4">&nbsp;http://tinyurl.com/94ywjx4</a></p>
 
-					<p>The group closed an amazing 34 out of the 72 open Plone 4 tickets tagged. You can see the entire list of tickets here<a href="http://tinyurl.com/94ywjx4">&nbsp;http://tinyurl.com/94ywjx4</a></p>
+				<p>According to Carol Ganz of Six Feet Up, who oversees the Tune-Ups, “I was totally astonished when I created this report. The sheer number of issues that were addressed in the Tune-Up &nbsp;was amazing! “</p>
 
-					<p>According to Carol Ganz of Six Feet Up, who oversees the Tune-Ups, “I was totally astonished when I created this report. The sheer number of issues that were addressed in the Tune-Up &nbsp;was amazing! “</p>
+				<p>The 60th Plone Tune-Up winner is Maarten Kling (Kabz|4D). Maarten has participated in many Tune-Ups and previously won a Tune-Up t-shirt. Since he can only wear one shirt at a time, he has donated his shirt to the Plone Awards as a prize. Thanks so much for participating and your generosity!</p>
 
-					<p>The 60th Plone Tune-Up winner is Maarten Kling (Kabz|4D). Maarten has participated in many Tune-Ups and previously won a Tune-Up t-shirt. Since he can only wear one shirt at a time, he has donated his shirt to the Plone Awards as a prize. Thanks so much for participating and your generosity!</p>
+				<p>The next Plone Tune-Up will be Friday, October 19th, 2012 from 9am-6pm in your local time zone. To find out more about how to participate, visit the Tune-Up site -&nbsp;<a href="http://plone-tuneup.ning.com/">http://plone-tuneup.ning.com</a></p>
+				<footer>
+					<h3>Source of this information:</h3>
+					<p><a class="external-link" href="http://plone.org/news/plone-tuneup-60">http://plone.org/news/plone-tuneup-60</a></p>
+					<p><em>Author: Mark Corum</em></p>
+				</footer>
+			</div-->
+		</article>
+		<script type="text/javascript">
 
-					<p>The next Plone Tune-Up will be Friday, October 19th, 2012 from 9am-6pm in your local time zone. To find out more about how to participate, visit the Tune-Up site -&nbsp;<a href="http://plone-tuneup.ning.com/">http://plone-tuneup.ning.com</a></p>
-					<footer>
-						<h3>Source of this information:</h3>
-						<p><a class="external-link" href="http://plone.org/news/plone-tuneup-60">http://plone.org/news/plone-tuneup-60</a></p>
-						<p><em>Author: Mark Corum</em></p>
-					</footer>
-				</div-->
-			</article>
-			<script type="text/javascript">
-
-			jQuery(function() {
+		jQuery(function() {
 $('article.news-flash').rssfeed('http://www.syslab.com/blog/?cat=6&feed=rss2', {
-    limit: 1, content: true, snippet: false, media: true, titletag: 'h3', header: false
-  });
+limit: 1, content: true, snippet: false, media: true, titletag: 'h3', header: false
+});
 /*			    jQuery.getFeed({
-			        url: 'blog/?cat=6&feed=rss2',
-			        success: function(feed) {
+		        url: 'blog/?cat=6&feed=rss2',
+		        success: function(feed) {
 
-			            var html = '';
-		                var item = feed.items[0];
-			            jQuery('article.news-flash').append(
-						'<img src="media/News-flash.png" alt="Newsflash" class="illustration float-after" />'
-						+  '<h2>'
-			            + item.title
-			            + '</h2>'
-						+ item.description  );
-			        }
-			    });*/
-			});
-			</script>
-
-			</div>
-		</section>
+		            var html = '';
+	                var item = feed.items[0];
+		            jQuery('article.news-flash').append(
+					'<img src="media/News-flash.png" alt="Newsflash" class="illustration float-after" />'
+					+  '<h2>'
+		            + item.title
+		            + '</h2>'
+					+ item.description  );
+		        }
+		    });*/
+		});
+		</script>
+	</div>
+</section>
 
 		<section id="careers">
 			<div class="container">
