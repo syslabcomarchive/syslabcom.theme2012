@@ -7,19 +7,7 @@ layout: shell
 	<p id="first-scroll" class="lid-opener">
 		<a href="#services">Jump to content</a>
 	</p>
-  	<ul class="global-nav navigation pat-bumper">
-  		<li>
-	  		<a href="#services">Services</a> and 
-	  		<a href="#projects">Projects</a>
-	  		in IT
-	  	</li>
-	  	<li>
-	  		<a href="#news">News</a>
-	  	</li>
-	  	<li>
-			<a href="#careers">Careers</a>
-		</li>
-  	</ul>
+	{% include global-nav.html %}
 </section>
 
 <section id="services">
@@ -46,7 +34,7 @@ layout: shell
 			 </div>
 
 			 <div class="item" id="implementation">
-			 	<img src="media/Implementation-Integration.png" alt="Magnify glass" class="illustration float-before" />
+			 	<img src="media/implementation-dp.svg" alt="Magnify glass" class="illustration float-before" />
 				<p>Our Implementation and Integration services assist in initial
 				  	deployment, with a broad range of test and quality assurance measures. One of
 				  	the main service offerings within the integration phase is migration of existing

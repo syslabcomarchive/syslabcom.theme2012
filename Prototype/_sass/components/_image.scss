@@ -1,18 +1,18 @@
 img {
 
 	&.float-before {
-		margin-right: 1em;
+		margin-right: 2em;
 	}
 
 	&.float-after {
-		margin-left: 1em;
+		margin-left: 2em;
 	}
 }
 
-.container img {
+img {
 	max-width: 100%;
 	display: block;
-	margin: 0 auto;
+	margin-left: 0 auto;
 }
 
 .container .item img {
