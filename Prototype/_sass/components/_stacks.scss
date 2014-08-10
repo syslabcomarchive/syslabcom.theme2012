@@ -1,0 +1,17 @@
+.pat-stacks {
+	
+	.item {
+			
+	}
+
+	// > .hidden {
+	// 	opacity: 0;
+	// }
+
+	> .visible {
+	  -webkit-animation: bounceInLeft 0.5s;
+	  animation: bounceInLeft 0.5s;
+	  -webkit-animation-fill-mode: both;
+	  animation-fill-mode: both;
+	}
+}

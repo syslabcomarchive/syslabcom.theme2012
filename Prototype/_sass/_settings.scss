@@ -22,7 +22,7 @@ $colour-alert: red;
 $mobile:768px;
 
 // libraries
-@import "libraries/animation";
+@import "libraries/animate";
 @import "libraries/mixins";
 @import "libraries/reset";
 
@@ -45,4 +45,5 @@ $mobile:768px;
 @import "components/logo";
 @import "components/paragraph";
 @import "components/section";
+@import "components/stacks";
 @import "components/tabs";
