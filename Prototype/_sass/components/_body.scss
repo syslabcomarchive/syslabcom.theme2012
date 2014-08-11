@@ -7,6 +7,10 @@ body {
 	color: white;
 	height: 100%;
 
+	@media screen and (min-width: $tablet) {
+
+	}
+
 	[hidden="hidden"],[hidden],[type="hidden"] {
 	display: none;
 	}
