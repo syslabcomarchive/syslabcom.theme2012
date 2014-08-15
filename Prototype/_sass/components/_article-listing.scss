@@ -1,0 +1,15 @@
+.article-listing {
+	margin: 0 -2em;
+	
+	.item {
+		float: left;
+		webkit-box-sizing: border-box;
+		moz-box-sizing: border-box;
+		box-sizing: border-box;
+		padding: 0 2em;
+
+		@media screen and (min-width: $tablet) {
+			width: 50%;
+		}
+	}
+}
