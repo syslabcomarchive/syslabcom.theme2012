@@ -5,12 +5,14 @@ img {
 	}
 
 	@media screen and (min-width: $tablet) {
-		&.float-before {
+		&.float-before,
+		&[alt*="(left aligned)"] {
 			float: left;
 			margin-right: 2em;
 		}
 
-		&.float-after {
+		&.float-after,
+		&[alt*="(right aligned)"] {
 			float: right;
 			margin-left: 2em;
 		}
