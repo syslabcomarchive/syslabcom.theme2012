@@ -240,7 +240,8 @@ layout: shell
 		</div>
 		<script type="text/javascript">
 var rssurl = 'http://new.syslab.com/blog/?cat=6&feed=rss2';
-$.get(rssurl, function(data) {
+$(document).ready(function(){
+  $.get(rssurl, function(data) {
     var $xml = $(data);
     $xml.find("item").slice(0,6).each(function() {
         var $this = $(this),
@@ -259,8 +260,8 @@ $.get(rssurl, function(data) {
           + '<p>' + item.description + '</p>'
           + '</a></article>');
     });
+  });
 });
-
 
 		</script>
 	</div>
