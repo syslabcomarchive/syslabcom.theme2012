@@ -115,6 +115,7 @@ layout: shell
 			<img src="media/reporter-dp.svg" class="hero" alt="Newsflash" class="illustration" />
 		</p>
 		<div class="article-listing">
+<!--
 			<article class="item">
 				<a href="#">
 					<h3>
@@ -234,53 +235,33 @@ layout: shell
 					</p>
 				</a>
 			</article>
+-->
 
-			<!--img src="media/News-flash.png" alt="Newsflash" class="illustration float-after" />
-			<h2>60<sup>th</sup> Plone Tune-Up Closes Record Number of Tickets with Help of Global Participation</h2>
-			<p>Last Friday, a group of 31 Plone developers and companies located around the world undertook one of the largest Plone Tune-Ups ever to celebrate the 60th time such an event has been held.</p>
-			<p>Plone Tune-Up <span class="highlightedSearchTerm"></span><span class="highlightedSearchTerm"></span>are regularly-scheduled, one-day mini-sprints where members of the Plone Community from around the world come together online to grab some outstanding tickets from the Plone Trac system and help move Plone forward. As an open source system, Plone relies on developers of all interests and skill levels to participate so that Plone can continue to be a leader in open source Content Management Systems.</p>
-
-			<div class="pat-collapsible closed">
-
-				<h3>Read more</h3>
-
-				<p>Attendees included: pingviini, datakurre, HammerToe, adam_c, Kabz|4D, pbauer, keul, alert77, maurits, polyester, kingel, aclark, ebigras, massimo_azzol, palendae, fredvd, cdw9, eleddy, BlueAidan, oferw, acsr, fulv, claytron, gabrielle, esteele, markcorum, tony__, witsch, ctxlken, mhi1, carolsixfeetup.&nbsp;</p>
-
-				<p>The group closed an amazing 34 out of the 72 open Plone 4 tickets tagged. You can see the entire list of tickets here<a href="http://tinyurl.com/94ywjx4">&nbsp;http://tinyurl.com/94ywjx4</a></p>
-
-				<p>According to Carol Ganz of Six Feet Up, who oversees the Tune-Ups, “I was totally astonished when I created this report. The sheer number of issues that were addressed in the Tune-Up &nbsp;was amazing! “</p>
-
-				<p>The 60th Plone Tune-Up winner is Maarten Kling (Kabz|4D). Maarten has participated in many Tune-Ups and previously won a Tune-Up t-shirt. Since he can only wear one shirt at a time, he has donated his shirt to the Plone Awards as a prize. Thanks so much for participating and your generosity!</p>
-
-				<p>The next Plone Tune-Up will be Friday, October 19th, 2012 from 9am-6pm in your local time zone. To find out more about how to participate, visit the Tune-Up site -&nbsp;<a href="http://plone-tuneup.ning.com/">http://plone-tuneup.ning.com</a></p>
-				<footer>
-					<h3>Source of this information:</h3>
-					<p><a class="external-link" href="http://plone.org/news/plone-tuneup-60">http://plone.org/news/plone-tuneup-60</a></p>
-					<p><em>Author: Mark Corum</em></p>
-				</footer>
-			</div-->
 		</div>
 		<script type="text/javascript">
-
-		jQuery(function() {
-$('article.news-flash').rssfeed('http://www.syslab.com/blog/?cat=6&feed=rss2', {
-limit: 1, content: true, snippet: false, media: true, titletag: 'h3', header: false
+var rssurl = 'http://new.syslab.com/blog/?cat=6&feed=rss2';
+$.get(rssurl, function(data) {
+    var $xml = $(data);
+    $xml.find("item").slice(0,6).each(function() {
+        var $this = $(this),
+            item = {
+                title: $this.find("title").text(),
+                link: $this.find("link").text(),
+                description: $this.find("description").text().substring(0, 100) + "…",
+                D: $this.find("pubDate").text().split(' '),
+                author: $this.find("author").text()
+        };
+        //Do something with item here...
+        $('.article-listing').append(
+          '<article class="item"><a href="' + item.link + '">'
+          + '<h3>' + item.title + '</h3>'
+          + '<p class="date"><time>' + item.D[1] + ' ' + item.D[2] + ' ' +  item.D[3] + '</time></p>'
+          + '<p>' + item.description + '</p>'
+          + '</a></article>');
+    });
 });
-/*			    jQuery.getFeed({
-		        url: 'blog/?cat=6&feed=rss2',
-		        success: function(feed) {
 
-		            var html = '';
-	                var item = feed.items[0];
-		            jQuery('article.news-flash').append(
-					'<img src="media/News-flash.png" alt="Newsflash" class="illustration float-after" />'
-					+  '<h2>'
-		            + item.title
-		            + '</h2>'
-					+ item.description  );
-		        }
-		    });*/
-		});
+
 		</script>
 	</div>
 </section>
