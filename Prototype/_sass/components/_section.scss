@@ -4,8 +4,14 @@ section {
   .container {
     max-width: 1100px;
     padding: 7rem 5% 4rem;
+
     margin: 0 auto;
     position: relative;
+
+    @media screen and (min-width: $tablet) {
+      padding: 4rem 5%;
+      top: 50% !important;
+    }
 
     @include clear-floats(both);
   }
@@ -30,4 +36,8 @@ section {
   &#projects {
     background-color: $colour-quaternary;
   }
+}
+
+.sub-page section .container {
+    padding-top: 2.8rem;
 }
