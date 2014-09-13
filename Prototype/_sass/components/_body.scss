@@ -29,4 +29,11 @@ body {
 		font-size: 3em;
 		margin-bottom: 3rem;
 	}
+
+	h2 + .byline {
+		text-align: center;
+		font-size: 1.5em;
+		margin-top: -0.5em;
+		margin-bottom: 1em;
+	}
 }
