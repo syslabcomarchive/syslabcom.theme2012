@@ -10,6 +10,15 @@ layout: shell
 	{% include global-nav.html %}
 </section>
 
+<section id="opensource">
+	<div class="container">
+		<h2>Open source</h2>
+	  		{% for item in site.categories['opensource'] %}
+	  			{{ item.content }}
+	  		{% endfor %}
+	</div>
+</section>
+
 <section id="services">
 	<div class="container introduction">
 		<h2>Services</h2>
