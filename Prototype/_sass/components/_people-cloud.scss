@@ -1,0 +1,16 @@
+.people-cloud {
+	text-align: center;
+
+	.person {
+		width: 25%;
+		display: inline-block;
+
+		figcaption {
+			font-style: italic;
+		}
+
+		img {
+			margin-bottom: 1em;
+		}
+	}
+}
