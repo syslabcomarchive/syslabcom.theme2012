@@ -18,6 +18,12 @@
 		figcaption {
 			text-align: center;
 			font-style: italic;
+
+			strong {
+				display: block;
+				font-size: 1.4em;
+				margin-bottom: 0.5rem;
+			}
 		}
 
 		img {
