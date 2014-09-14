@@ -5,8 +5,14 @@
 	line-height: 1.5em;
 
 	.person {
-		width: 25%;
-		display: inline-block;
+		@media screen and (min-width: $tablet) {
+			width: 25%;
+			display: inline-block;
+		}
+		@media screen and (max-width: $tablet) {
+			display: block;
+			margin: 3em auto;
+		}
 		margin: 0 1em;
 
 		figcaption {
