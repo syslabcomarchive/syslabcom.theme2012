@@ -45,7 +45,7 @@ layout: shell
 		<p class="byline">
 			We shape the web for businesses and organisations.
 		</p>
-		<nav class="navigation tabs">
+<!-- 		<nav class="navigation tabs">
 			<a href="#star">Star Alliance</a>
 			<a href="#thorn">Thorn</a>
 			<a href="#bildergut">Bildergut</a>
@@ -53,11 +53,11 @@ layout: shell
 			<a href="#osha">Osha</a>
 			<a href="#recensio">Recensio</a>
 			<a href="#unibw">Unibw</a>
-		</nav>
+		</nav> -->
 		<div class="pat-stacks">
 			<div class="item" id="logos">
 				<p class="logo-cloud">
-					<img src="/media/logos/bayerische-Staatsbibliothek.svg" alt="" />
+<!-- 					<img src="/media/logos/bayerische-Staatsbibliothek.svg" alt="" />
 					<img src="/media/logos/bundesanstalt-fuer-arbeitsschutz-und-rbeitsmedizin.svg" alt="" />
 					<img src="/media/logos/denso.svg" alt="" />
 					<img src="/media/logos/enisa.svg" alt="" />
@@ -68,9 +68,23 @@ layout: shell
 					<a href="#star"><img src="/media/logos/star-alliance.svg" alt="" /></a>
 					<a href="#thorn"><img src="/media/logos/thorn.svg" alt="" /></a>
 					<img src="/media/logos/tu-muenchen.svg" alt="" />
-					<img src="/media/logos/zeiss.svg" alt="" />
+					<img src="/media/logos/zeiss.svg" alt="" /> -->
+			  		{% for item in site.categories['showcases'] %}
+			  			<a title="{{ item.summary }}" href="#{{ item.id | remove: '/' }}"><img src="/media/logos/{{ item.id | remove: '/' }}.svg" alt="" /></a>
+			  		{% endfor %}
 				</p>
 			</div>
+
+	  		{% for item in site.categories['showcases'] %}
+				<div class="item" id="{{ item.id | remove: '/' }}">
+					<div class="description">
+						<h3>Stardesk</h3>
+						<img src="media/Portfolio-Syslab-Stardesk.jpg" alt="Portfolio image for Stardesk" />
+					</div>
+					<a href="#logos" class="escape iconified icon-cancel-circle">Choose another project</a>
+				</div>
+	  		{% endfor %}
+<!-- 
 			<div class="item" id="star">
 				<div class="description">
 					<h3>Stardesk</h3>
@@ -137,7 +151,7 @@ layout: shell
 				</div>
 				<img src="media/Portfolio-Syslab-UniBW.png" alt="Portfolio image for UniBW" />
 				<a href="#logos" class="escape iconified icon-cancel-circle">Choose another project</a>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </section>
