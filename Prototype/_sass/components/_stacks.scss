@@ -1,7 +1,14 @@
 .pat-stacks {
 	margin-bottom: 4em;
 	.item {
-			
+		position: relative;
+
+		.escape {
+			position: absolute;
+			top: 0;
+			right: -0.4em;
+			font-size: 1.5em;
+		}
 	}
 
 	// > .hidden {
