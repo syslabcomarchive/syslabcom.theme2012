@@ -78,13 +78,13 @@ layout: shell
 	  		{% for item in site.categories['showcases'] %}
 				<div class="item" id="{{ item.id | remove: '/' }}">
 					<div class="description">
-						<h3>Stardesk</h3>
+						<h3>{{ item.title }}</h3>
 						<img src="media/showcases/{{ item.id | remove: '/' }}.jpg" alt="Portfolio image for Stardesk" />
 					</div>
 					<a href="#logos" class="escape iconified icon-cancel-circle">Choose another project</a>
 				</div>
 	  		{% endfor %}
-<!-- 
+<!--
 			<div class="item" id="star">
 				<div class="description">
 					<h3>Stardesk</h3>
