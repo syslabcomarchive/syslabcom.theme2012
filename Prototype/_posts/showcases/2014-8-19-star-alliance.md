@@ -2,5 +2,5 @@
 layout: sub-page
 title: StarDesk
 category: showcases
-summary: Some summary
+summary: The Star Alliance Extranet
 ---
