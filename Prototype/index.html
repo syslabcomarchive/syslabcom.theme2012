@@ -292,7 +292,6 @@ $(document).ready(function(){
 		</script>
 	</div>
 </section>
-
 <section id="careers">
 	<div class="container">
 		<h2>Careers</h2>
@@ -308,5 +307,23 @@ $(document).ready(function(){
 		<p>We create innovative solutions based on content management frameworks like zope and plone. As an alternative to commercial monolithic ECM software, we strive to tie the best components of open source software together to match the individual needs. Doing so we are not bound to any specific industry but service the general need for information management.</p>
 		<h4>Interested?</h4>
 		<p>Then do not hesitate to send your application by e-mail to <a title="external-link" href="mailto:info@syslab.com">info@syslab.com</a>.</p>
+	</div>
+</section>
+<section id="people">
+	<div class="container">
+		<h2>People</h2>
+		<p class="byline">
+			The people behind Syslab.com
+		</p>
+		<p class="people-cloud">
+	  		{% for item in site.categories['people'] %}
+				<figure class="person">
+					<img src="/media/avatar-{{ item.id | remove: '/' }}.jpg" alt="" />
+					<figcaption>
+						<strong>{{ item.title }}</strong> {{ item.summary }}
+					</figcaption>
+				</figure>
+	  		{% endfor %}
+		</p>	
 	</div>
 </section>
