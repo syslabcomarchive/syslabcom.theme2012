@@ -7,6 +7,7 @@ template: sub-page showcase
 
 <section>
 	<div class="container">
+		<h1>{{page.title}}</h1>
 		{% if page.summary %}
 		    <p>
 		    	{{ page.summary }}
@@ -19,7 +20,7 @@ template: sub-page showcase
 	</div>
 </section>
 
-<section>
+<section id="main-content">
 	<div class="container">
 		{{ content }}
 	</div>
