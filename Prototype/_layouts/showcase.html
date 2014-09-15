@@ -20,7 +20,10 @@ template: sub-page showcase
 	</div>
 </section>
 
-{% if page.content %}
+{% capture this_content %}{{ content | strip | remove: " " }}{% endcapture %}
+{% capture content_size %}{{ this_content | size }}{% endcapture %}
+
+{% if this_content and content_size != '1' and content_size != '0' %}
 	<section id="main-content">
 		<div class="container">
 			{{ content }}
