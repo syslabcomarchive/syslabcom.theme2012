@@ -45,32 +45,15 @@ layout: shell
 		<p class="byline">
 			We shape the web for businesses and organisations.
 		</p>
-<!-- 		<nav class="navigation tabs">
-			<a href="#star">Star Alliance</a>
-			<a href="#thorn">Thorn</a>
-			<a href="#bildergut">Bildergut</a>
-			<a href="#denso">Denso</a>
-			<a href="#osha">Osha</a>
-			<a href="#recensio">Recensio</a>
-			<a href="#unibw">Unibw</a>
-		</nav> -->
 		<div class="pat-stacks">
 			<div class="item" id="logos">
 				<p class="logo-cloud">
-<!-- 					<img src="/media/logos/bayerische-Staatsbibliothek.svg" alt="" />
-					<img src="/media/logos/bundesanstalt-fuer-arbeitsschutz-und-rbeitsmedizin.svg" alt="" />
-					<img src="/media/logos/denso.svg" alt="" />
-					<img src="/media/logos/enisa.svg" alt="" />
-					<img src="/media/logos/iabg.svg" alt="" />
-					<a href="#osha"><img src="/media/logos/osha.svg" alt="" /></a>
-					<img src="/media/logos/oira.svg" alt="" />
-					<a href="#unibw"><img src="/media/logos/signet-unibw.svg" alt="" /></a>
-					<a href="#star"><img src="/media/logos/star-alliance.svg" alt="" /></a>
-					<a href="#thorn"><img src="/media/logos/thorn.svg" alt="" /></a>
-					<img src="/media/logos/tu-muenchen.svg" alt="" />
-					<img src="/media/logos/zeiss.svg" alt="" /> -->
 			  		{% for item in site.categories['showcases'] %}
-			  			<a title="{{ item.summary }}" href="#{{ item.id | remove: '/' }}"><img src="/media/logos/{{ item.id | remove: '/' }}.svg" alt="" /></a>
+			  			{% if item.images %}
+			  			    <a title="{{ item.summary }}" href="#{{ item.id | remove: '/' }}"><img src="/media/logos/{{ item.id | remove: '/' }}.svg" alt="" /></a>
+			  			{% else %}
+			  				<img src="/media/logos/{{ item.id | remove: '/' }}.svg" alt="" />
+			  			{% endif %}
 			  		{% endfor %}
 				</p>
 			</div>
@@ -80,81 +63,21 @@ layout: shell
 					<div class="description">
 						<h3>{{ item.title }}</h3>
 						{% if item.summary %}
-						    <p>{{ item.summary }}</p>
+						    <p>
+						    	{{ item.summary }}
+						    </p>
 						{% endif %}
-						<img src="media/showcases/{{ item.id | remove: '/' }}.jpg" alt="Portfolio image for Stardesk" />
+						{% for subitem in item.images %}
+							<label>
+								<img src="media/showcases/{{ subitem.file }}" alt="{{subitem.name}}" />
+							</label>
+							<br/>
+						{% endfor %}
 					</div>
 					<a href="#logos" class="escape iconified icon-cancel-circle">Choose another project</a>
 				</div>
 	  		{% endfor %}
-<!--
-			<div class="item" id="star">
-				<div class="description">
-					<h3>Stardesk</h3>
-					<img src="media/Portfolio-Syslab-Stardesk.jpg" alt="Portfolio image for Stardesk" />
-				</div>
-				<a href="#logos" class="escape iconified icon-cancel-circle">Choose another project</a>
-			</div>
-			<div class="item" id="thorn">
-				<div class="description">
-					<h3>Thorn Lighting</h3>
-					<p>
-						Supporting the internal development team in the relaunch of the Thorn Lightning site. Special focus was placed on multilingual features supporting as many as 27 country sites and 25 languages as well as on search optimisations. <a href="http://www.thornlighting.com/" title="Thorn Lighting website">Thorn Lighting</a>
-					</p>
-				</div>
-				<img src="media/Portfolio-Syslab-Thorn.jpg" alt="Portfolio image for Thorn" />
-				<a href="#logos" class="escape iconified icon-cancel-circle">Choose another project</a>
-			</div>
-			<div class="item" id="bildergut">
-				<div class="description">
-					<h3>Bildergut</h3>
-					<p>
-						Bildergut aims at creating a distinctive style using digital means. The website features hi-res images backed by a CMS for quick update and support for fullscreen and mobile. <a href="http://www.bildergut.com" title="Bildergut website">Bildergut</a>
-					</p>
-				</div>
-				<img src="media/Portfolio-Syslab-Bildergut.jpg" alt="Portfolio image for Bildergut" />
-				<a href="#logos" class="escape iconified icon-cancel-circle">Choose another project</a>
-			</div>
-			<div class="item" id="osha">
-				<div class="description">
-					<h3>OSHA Campaign website</h3>
-					<p>
-      					The European Agency for Safety and Health at Work has chosen the internet as its primary means to disseminate information. We facilitate that on several platforms including CMS, Wiki, campaign sites and communication tools. <a href="http://hw2012.healthy-workplaces.eu" title="Healthy Workplaces website">Healthy Workplaces</a>
-					</p>
-				</div>
-				<img src="media/Portfolio-Syslab-Osha-hw2012-2.png" alt="Portfolio image for Osha" />
-				<a href="#logos" class="escape iconified icon-cancel-circle">Choose another project</a>
-			</div>
-			<div class="item" id="recensio">
-				<div class="description">
-					<h3>recensio.net</h3>
-					<p>
-						A Europe-wide, multi-language platform for reviews of historical literature supporting humanities scholars to communicate in the digital future. (Supported by DFG, Bayerische Staatsbibliothek, Leibniz-Institut für Europäische Geschichte Mainz and Universität zu Köln). <a href="http://www.recensio.de" title="Recensio website">Recensio</a>
-					</p>
-				</div>
-				<img src="media/Portfolio-Syslab-Recensio-1.jpg" alt="Portfolio image for Recensio" />
-				<a href="#logos" class="escape iconified icon-cancel-circle">Choose another project</a>
-			</div>
-			<div class="item" id="denso">
-				<div class="description">
-					<h3>DENSO CMR Database</h3>
-					<p>
-					To track, present, approve and manage changes in the production cycle we have created an intranet based Change Management System in close cooperation with the Denso QA personnel. The solution allows distributed access to all relevant information at any time.
-					</p>
-				</div>
-				<img src="media/Portfolio-Syslab-Denso.png" alt="Portfolio image for Denso" />
-				<a href="#logos" class="escape iconified icon-cancel-circle">Choose another project</a>
-			</div>
-			<div class="item" id="unibw">
-				<div class="description">
-					<h3>Universität der Bundeswehr</h3>
-					<p>
-					SYSLAB.COM provides technical support to The University of the Federal Armed Forces Munich (UniBwM) on 176 CMS portals. <a href="http://www.unibw.de" title="Universität der Bundeswehr website">UniBW</a>
-					</p>
-				</div>
-				<img src="media/Portfolio-Syslab-UniBW.png" alt="Portfolio image for UniBW" />
-				<a href="#logos" class="escape iconified icon-cancel-circle">Choose another project</a>
-			</div> -->
+
 		</div>
 	</div>
 </section>
