@@ -1,6 +1,6 @@
 .people-cloud {
 	text-align: center;
-	padding: 2em 0 3em 0;
+	padding: 2em 0 2em 0;
 	@media screen and (max-width: $tablet) {
 		padding: 0;
 	}
@@ -8,8 +8,11 @@
 	line-height: 1.5em;
 
 	.person {
+		margin: 0 2em 3em;
+		vertical-align: top;
+
 		@media screen and (min-width: $tablet) {
-			width: 25%;
+			width: 14em;
 			display: inline-block;
 		}
 		@media screen and (max-width: $tablet) {
@@ -17,7 +20,6 @@
 			width: 80%;
 			margin: 4em auto;
 		}
-		margin: 0 2em;
 
 		figcaption {
 			text-align: center;
@@ -29,11 +31,15 @@
 				font-style: normal;
 				margin-bottom: 0.5rem;
 			}
-		}
+		}		
 
 		img {
 			margin-bottom: 1em;
 			border-radius: 50%;
+			
+			@media screen and (min-width: $tablet) {
+				height: 14em;
+			}
 		}
 	}
 }
