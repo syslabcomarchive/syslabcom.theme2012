@@ -64,7 +64,13 @@ layout: shell
 						<h3>{{ item.title }}</h3>
 						{% if item.summary %}
 						    <p>
-						    	{{ item.summary }} <a href="{{ item.url }}/#main-content"><strong>Learn more…</strong></a>
+						    	{{ item.summary }} 
+								{% capture this_content %}{{ item.content | strip | remove: " " }}{% endcapture %}
+								{% capture content_size %}{{ this_content | size }}{% endcapture %}
+
+								{% if this_content and content_size != '1' and content_size != '0' %}
+						    		<a href="{{ item.url }}/#main-content"><strong>Learn more…</strong></a>
+								{% endif %}
 						    </p>
 						{% endif %}
 						{% for subitem in item.images %}
