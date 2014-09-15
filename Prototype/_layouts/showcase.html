@@ -1,0 +1,26 @@
+---
+layout: shell
+template: sub-page showcase
+---
+
+{% include global-nav.html %}
+
+<section>
+	<div class="container">
+		{% if page.summary %}
+		    <p>
+		    	{{ page.summary }}
+		    </p>
+		{% endif %}
+
+		{% for subitem in page.images %}
+			<img src="/media/showcases/{{ subitem.file }}" alt="{{subitem.name}}" />
+		{% endfor %}	
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		{{ content }}
+	</div>
+</section>

@@ -68,10 +68,9 @@ layout: shell
 						    </p>
 						{% endif %}
 						{% for subitem in item.images %}
-							<label>
+							<p>
 								<img src="media/showcases/{{ subitem.file }}" alt="{{subitem.name}}" />
-							</label>
-							<br/>
+							</p>
 						{% endfor %}
 					</div>
 					<a href="#logos" class="escape iconified icon-cancel-circle">Choose another project</a>
