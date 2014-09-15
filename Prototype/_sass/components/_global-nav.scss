@@ -1,5 +1,4 @@
 .global-nav {
-
 	background: rgba(0,0,0,0.4);
 	position: relative;
 	z-index: 5;
@@ -35,4 +34,9 @@
 
 #home .global-nav {
 	top: 50%;
+
+	@media screen and (max-width: $tablet) {
+		// disable bumper for cell phones (Not enough screen estate)
+		top: 50% !important;
+	}
 }
