@@ -1,5 +1,5 @@
 ---
-layout: sub-page
+layout: showcase
 title: Star Alliance Extranet
 category: showcases
 summary: The Star Alliance Extranet.
