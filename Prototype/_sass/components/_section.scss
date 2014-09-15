@@ -43,7 +43,9 @@ section {
 
   &#people {
     background-color: $colour-quinary;
-    p {text-align: center;}
+    @media screen and (min-width: $tablet) {
+      p {text-align: center;}
+    }
   }
 }
 
