@@ -1,6 +1,8 @@
 .global-nav {
 	background: rgba(0,0,0,0.4);
 	position: relative;
+	// Override pat-bumper left value:
+	left: 0 !important;
 	z-index: 5;
 	text-align: center;
 	font-size: 1.3rem;
