@@ -7,6 +7,10 @@ body {
 	color: white;
 	height: 100%;
 
+	&.biography {
+		background-color: $colour-quinary;
+	}
+
 	@media screen and (min-width: $tablet) {
 
 	}
