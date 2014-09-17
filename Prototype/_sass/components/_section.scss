@@ -50,18 +50,7 @@ section {
 
   &.biography {
     article {
-      margin-left: -1rem;
-      // & .main-content:before {
-      //   content: " ";
-      //   background: pink;
-      //   float: left;
-      //   width: 8rem;
-      //   height: 16rem;
-      //   -webkit-shape-outside:circle();
-      //   shape-outside:circle();
-      // }
-
-      
+      margin-left: -1rem;  
 
       @media screen and (min-width: $tablet) {
         .main-content,
@@ -72,6 +61,7 @@ section {
         -webkit-column-gap: 0em;
       }
     }
+    
     @media screen and (min-width: $tablet) {
       h1 {
         padding-left: 8rem;
