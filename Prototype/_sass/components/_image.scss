@@ -17,15 +17,22 @@ img {
 			margin-left: 2em;
 		}
 	}
-}
 
-img {
 	max-width: 100%;
 	display: block;
 	margin: 0 auto;
 
 	&.hero {
 		margin: 0 auto 3em;
+	}
+
+	&.centre-piece {
+		border-radius: 50%;
+		float: left;
+		margin: 1em;
+	  	-webkit-shape-outside:circle();
+	  	shape-outside:circle();
+	  	width: 14em;
 	}
 }
 
