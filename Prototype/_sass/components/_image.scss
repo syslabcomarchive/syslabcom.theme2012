@@ -29,10 +29,11 @@ img {
 	&.centre-piece {
 		border-radius: 50%;
 		float: left;
-		margin: 1em;
-	  	-webkit-shape-outside:circle();
-	  	shape-outside:circle();
-	  	width: 14em;
+	  	width: 14rem;
+		-webkit-shape-outside:circle();
+		shape-outside:circle();
+
+	  	margin: 1rem;
 	}
 }
 
