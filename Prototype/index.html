@@ -253,10 +253,10 @@ $(document).ready(function(){
 		</p>
 		<div class="people-cloud pat-equaliser">
 	  		{% for item in site.categories['people'] %}
-				<figure class="person">
-					<img src="/media/avatar-{{ item.id | remove: '/' }}.jpg" alt="" />
+				<figure class="person" itemscope itemtype="http://data-vocabulary.org/Person">
+					<img itemprop="photo" src="/media/avatar-{{ item.id | remove: '/' }}.jpg" alt="" />
 					<figcaption>
-						<strong>{{ item.title }}</strong> {{ item.summary }}
+						<strong itemprop="fn">{{ item.title }}</strong> {{ item.summary }}
 					</figcaption>
 				</figure>
 	  		{% endfor %}

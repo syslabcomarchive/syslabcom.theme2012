@@ -3,16 +3,19 @@ layout: sub-page
 ---
 
 <section id="about">
-	<div class="container">
+	<div class="container" itemscope itemtype="http://schema.org/Organization">
 		<h2>About us</h2>
 
         <h3>Fast facts</h3>
 
-        <ul>
-            <li>Company: SYSLAB.COM GmbH</li>
+        <ul itemscope itemtype="http://schema.org/PostalAddress">
+            <li itemprop="name">SYSLAB.COM GmbH</li>
             <li>Year Founded: 1998</li>
             <li>Main area of work: CMS and content with Plone, Pyramid and Python</li>
-            <li>Phone: +49 89 30635890</li>
+            <li itemprop="streetAddress">Landwehrstr 60</li>
+            <li itemprop="addressLocality">80336 München</li>
+            <li itemprop="addressCountry">Germany</li>
+            <li itemprop="telephone">Phone: +49 89 30635890</li>
             <li>Email: <a href="mailto:info@syslab.com">info@syslab.com</a></li>
         </ul>
 

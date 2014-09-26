@@ -1,6 +1,6 @@
 title: Patterns
 author: Cornelis G. A. Kolbach
-baseurl: http://syslab.com
+#baseurl: http://syslab.com
 domain: syslab.com
 media: /media
 markdown: kramdown
