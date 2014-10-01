@@ -3,7 +3,7 @@ layout: sub-page
 ---
 
 <section id="about">
-    <div class="container">
+    <div class="container" itemscope itemtype="http://schema.org/Organization">
         <h2>Contact us</h2>
 
 <p>Our offices are located between the <a href="http://www.muenchen.de/int/en">heart of the city</a>, the <a href="http://www.bahnhof.de/bahnhof-de/München_Hbf.html">Main Railwaystation</a> and the famous <a href="http://www.oktoberfest.de/en/">Octoberfest</a> - all in walking distances. If you plan to arrive by <a href="http://www.munich-airport.de/en/consumer/index.jsp">plane</a>, you can either take the <a href="http://www.airportbus-muenchen.de/en/home/">Airport Bus</a> or the <a href="http://www.munich-airport.de/en/consumer/anab/bahn1/index.jsp">S-train to the Main Station (Hauptbahnhof)</a> and take a 5 minutes walk from there.</p>
@@ -11,13 +11,14 @@ layout: sub-page
         <h2>Address</h2>
 
         <p>
-        Syslab.com GmbH<br>
-        Landwehrstrasse 60-62<br>
-        D-80336 Munich<br>
-        Germany</p>
-
-        <p>Fon: +49 89 306 35 890<br>
-        Fax: +49 89 306 35 899<br>
+        <span itemprop="name">Syslab.com GmbH</span><br>
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <span itemprop="streetAddress">Landwehrstrasse 60-62</span><br>
+            <span itemprop="postalCode">80336</span> <span itemprop="addressLocality">Munich</span><br>
+            <span itemprop="addressCountry">Germany</span></p>
+        </span>
+        <p>Fon: <span itemprop="telephone">+49 89 306 35 89 0</span><br>
+        Fax: <span itemprop="telefax">+49 89 306 35 89 9</span><br>
         Email: <a href="mailto:info@syslab.com">info@syslab.com</a></p>
 
         <p>Register: Munich HRB135057<br>
