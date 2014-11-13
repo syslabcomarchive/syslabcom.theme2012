@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/pilz
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://syslab.com
+  * I am pilz (https://keybase.io/pilz) on keybase.
+  * I have a public key with fingerprint C9FC EE53 47A9 D310 4980  8653 67D8 D49F 62D5 1A1F
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "c9fcee5347a9d3104980865367d8d49f62d51a1f",
+            "host": "keybase.io",
+            "key_id": "67d8d49f62d51a1f",
+            "uid": "6f46e291cdaa9b631b789a1646a41200",
+            "username": "pilz"
+        },
+        "service": {
+            "hostname": "syslab.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1415874774,
+    "expire_in": 157680000,
+    "prev": "31e403dfa18306da7af181d5acc8a09e223dc300fcb2cfcd3624415a9228de9e",
+    "seqno": 16,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Comment: GPGTools - http://gpgtools.org
+
+owFtUV1IFFEY3XUtUZMCKSvKlZFKymz+dn42UOshzAJTRDSJ7c7cO7vDrjvrzKy6
+/mVpoPRSSQUaVJCQVrAW9SBBaS2ZRhCUGSo9FG0RqRGWUVR3yt66Lx/3fOec7zt8
+J9MctgS7d/LZBen5eqd9/N6sZCuHndNNhKTBCOFuIvzoT1HUoBfpIV0NmoSbkEVF
+RsjFsDwQIUORrCiQAudiOB4KkBUVjoYuClAKkUv4NMNSYBsJGChP1TCGPx4VYvQ/
+/PDfhsJyiBYpGQIgShxDSbwgAopjOcBSNElaRAPpQVCDMDukBhqJllwCI3WqjKx9
+rbFLXSNiBICUJ2s1WBXSNVOTtQDGfaYZMtyWzoyELGI9kjxLFh5JDUIcGSvqkG6o
+WpBwU5gpm6rlSbGUS+BZnmdzCdQQUnXkUS2Gi+cEEj9rDqrDlgyFWJKBCqAEhuQg
+4IFCCRR0AVkWACkimmagzJCkIku0rMiQ4WgWewORpgWIRERYoWqDGvbm8J7Aa+VR
+vUFghnVEtKR02Tck2uwJtuXLEqyz2VKSV/07Zm1j0k8uO7U0J6NyqDvxWNWLFv+B
+kUPO+EjW8MNNbQWnvYJU8SY6e/H23bCxvSpylC+9nP9qdnCPdJUsjMQX2rcurmku
+WTX0+Nf8zPjNc+nt2ZEKh/Kho39u285WZ7THn5RzbfPxHQ9uOSd8q1u3VDdUVjXv
+dxSaBfOZi62xzMG3jviZb/6Or9G9Wf3C6HQsNjaV8OhdU7i472WvnhGzp/Wkli+M
+evNZ/XzXDT4+0beAkvrLukeeXlkrHm54siJ/hrpzfXTqe/2JwMdPc9UbJ9cdObVP
+e33p8/z7It8PSUvu2VVM3N8tpk8MD5SVlHQOZEXZg/Tk2b6VFZ1Fc2PuL8m9bcJv
+=XAVc
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/pilz
+
+==================================================================
+
+
