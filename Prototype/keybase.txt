@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/pilz
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://syslab.com
+  * I am pilz (https://keybase.io/pilz) on keybase.
+  * I have a public key with fingerprint C9FC EE53 47A9 D310 4980  8653 67D8 D49F 62D5 1A1F
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "c9fcee5347a9d3104980865367d8d49f62d51a1f",
+            "host": "keybase.io",
+            "key_id": "67d8d49f62d51a1f",
+            "kid": "01010a67db76df4d135b759a93dc9a2734f50e1a2da8abce91a51b75ae7531814c6b0a",
+            "uid": "6f46e291cdaa9b631b789a1646a41200",
+            "username": "pilz"
+        },
+        "revoke": {
+            "sig_ids": [
+                "87709ef6b85ab33589188f799650f0b79975ba44e26456b632f9241833baaa3f0f"
+            ]
+        },
+        "service": {
+            "hostname": "syslab.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1430768172,
+    "expire_in": 157680000,
+    "prev": "981402755cce85f4161c9984ed19540ffe6b1e3160020d2a24a87e95b0690f7a",
+    "seqno": 28,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Comment: GPGTools - http://gpgtools.org
+
+owFtUl1sFUUUvv3hN0gagiZgCTgIvFzrzO7M7MyV34BoIJKi1lBte5nZnblsW3Yv
+u/feWpsCL9XLixQffJASpEkJBBITDCQg5YGoaSomjSkIhcQ0QgIECATQB/TG2Ypv
+zjzMzDnf+b5zzpz+F2pS1VW5q+OH5eWFi6t+uiNTTW+Nru0BMvS6QaYHdKipQ/tB
+TkX5yA8KIANcrl2liI0dwT0bQcwZZJTY1PGYh7mmlkeQQBqkwY4wTiIMjRSxavBD
+YzOPrO8Z6//gO6YcEJktjFs61NPYQzaRDuGC257LheXYWBOokLA8wYR0FUeCIIMQ
+yiE2Ygi7VEJh6Ir/6mhMlcWR6wnBJbUNlHGBKKYCIwvCBBirKBA7lUHn/c5PQG8a
+RKoUdqik+tjPmYRjkPkIMMeBXGkqGRHStgnjiDHtcE4J1FCai0OkwFhZFBNqtCzN
+LYyYbUshhK2hBq2G26iVfHeKPOnQc+W4O+4UssENd5qM8lFYCN2w09h3FAr5OJPk
+VOjOJ8AuJbPPKbLSDzzzOyaipKLYDwOQQQbpFvyEE2EbOpQhx0oD9XHej1TWTxDE
+GKFZiY4qGUpuugYtp5kQ11WMaIwocjlnWHmIEwy1VlQiZSMKoQU9S1hYMEdxIiHl
+UDtJt2O1KwhBxmImUZFLCvJzgSgUIwV6Z++rqq9NVVWnpk+rTkYsNXtW3X9zN3Ro
+xrNpNyrtzfvrCrvK5TmsbfjdD2sf7y8ftB8dhe7CtuCrdZOrny7wTp7MLmsZf6nm
+ccvDn7d/cQvFu4/sdU6tWNNTvW107qnTpUvr594d/Lo76Bq4cqxyra/y+0D90lWV
+1Vfdh5tG9tS+B+98+seBGz8s/77SX7z/RufZiVW/flmub/3s4Ivzr73+8t9XJtJb
+S7MaB3YP9LV9PjJzcvB48c93xl9pvN16+Zlc1FVpgiPX2/Hy7/ih4gffuumLf52L
+hvovnq3bIm92bR5beW/m0yckPgA2vHmh/dUz9XdvrpWXer3jDyrZ11JjZ765MPz+
+xJK+jfMmT480nn/7xG+tC4Yam0ZnxD+Gvwzeq5T/AQ==
+=Fw7j
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/pilz
+
+==================================================================
+
