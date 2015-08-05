@@ -1,0 +1,12 @@
+.link-list {
+	a {
+		&:before {
+			display: inline-block;
+			content: '\e4a2';
+			font-family: fontello;
+			margin-right: 0.5em;
+			opacity: 0.5;
+			font-size: 0.7em;
+		}
+	}
+}
