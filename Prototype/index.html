@@ -19,7 +19,10 @@ layout: shell
 
 <section id="services">
 	<div class="container introduction">
-		<h2>Web solutions</h2>
+		<h2>
+			Web solutions
+		</h2>
+		
 	  	<!-- <p class="introduction">SYSLAB.COM provides services for companies, organisations and governmental institutions within the whole software lifecycle.</p> -->
 
 	  	<nav class="navigation tabs">
@@ -27,6 +30,7 @@ layout: shell
 	  			<a href="#{{ item.id | remove: '/' }}">{{ item.title }}</a>
 	  		{% endfor %}
 	  	</nav>
+
   		<div class="pat-stacks">
 	  		{% for item in site.categories['services'] %}
 	  			<div class="item" id="{{ item.id | remove: '/' }}">
@@ -35,10 +39,10 @@ layout: shell
 	  		{% endfor %}
   		</div>
 
-		<h2>Our customers</h2>
 		<p class="byline">
 			We shape the web for businesses and organisations.
 		</p>
+
 		<div class="pat-stacks">
 			<div class="item" id="logos">
 				<p class="logo-cloud">
