@@ -5,9 +5,16 @@ layout: shell
 <section id="home">
 	<h1 class="logo" id="site-logo">Syslab.com</h1>
 	<p id="first-scroll" class="lid-opener">
-		<a data-scroll href="#opensource">Jump to content</a>
+		<a data-scroll href="#intranet-solutions">Jump to content</a>
 	</p>
 	{% include global-nav.html %}
+</section>
+
+<section id="intranet-solutions">
+	<div class="container">
+		<h2>Intranet solutions</h2>
+
+	</div>
 </section>
 
 <section id="services">
@@ -27,22 +34,8 @@ layout: shell
 	  			</div>
 	  		{% endfor %}
   		</div>
-	</div>
-</section>
 
-<section id="opensource">
-	<div class="container">
-		<h2>Open source</h2>
-	  		{% for item in site.categories['opensource'] %}
-	  			{{ item.content }}
-	  		{% endfor %}
-	</div>
-</section>
-
-
-<section id="projects">
-	<div class="container">
-		<h2>Small and big</h2>
+		<h2>Our customers</h2>
 		<p class="byline">
 			We shape the web for businesses and organisations.
 		</p>
@@ -85,7 +78,9 @@ layout: shell
 	  		{% endfor %}
 
 		</div>
+	
 	</div>
+
 </section>
 
 <section id="news">

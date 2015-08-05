@@ -58,19 +58,13 @@ $fixViewport: false !default;
 	}
 }
 
-// specific breakpoint on type
-// $breakpoints: (
-// 				(small, 36em),
-// 				(medium, 50em),
-// 				(large, 58em)
-// 			);
-// @mixin respond-to($respond-to-breakpoint) {
-// 	@each $breakpoint in $breakpoints {
-// 		@if nth($breakpoint, 1) == $respond-to-breakpoint {
-// 			@include respond-min(nth($breakpoint, 2));
-// 		}
-// 	}
-// }
+@mixin clear-fix() {
+  &:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+}
 
 // general media query
 @mixin media-query($value, $operator: 'min-width', $query: 'screen') {
