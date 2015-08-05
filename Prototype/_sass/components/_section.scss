@@ -40,6 +40,23 @@ section {
   &#intranet-solutions {
     background-color: white;
     color: gray;
+
+    .container {
+      max-width: 100%;
+
+      .sidebar {
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 40%;
+        padding: 30% 20% 20%;
+      }
+
+      .illustration {
+
+      }
+    }
   }
 
   &#people {
