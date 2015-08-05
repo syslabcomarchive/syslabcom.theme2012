@@ -66,6 +66,12 @@ $fixViewport: false !default;
   }
 }
 
+@mixin box-sizing() {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 // general media query
 @mixin media-query($value, $operator: 'min-width', $query: 'screen') {
 	@media #{$query} and (#{$operator}: #{$value}) {

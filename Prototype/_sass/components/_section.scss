@@ -38,23 +38,76 @@ section {
   }
 
   &#intranet-solutions {
+    position: relative;
+    height: 100%;
     background-color: white;
     color: gray;
 
-    .container {
-      max-width: 100%;
+    .pat-stacks {
+      width: 100%;
+      height: 100%;
 
-      .sidebar {
-        position: absolute;
-        left: 0;
-        top: 0;
-        bottom: 0;
-        width: 40%;
-        padding: 30% 20% 20%;
+      .item {
+        width: 100%;
+        height: 100%;
+
+        &#intranet-solution-intro {
+          .sidebar {
+            padding-right: 0;
+            padding-left: 8%;
+          }
+        }
       }
+    }
 
-      .illustration {
+    h2 {
+      position: absolute;
+      top: 7rem;
+      left: 50%;
+        -moz-transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+      float: left;
+    }
 
+    a {
+      color: black;
+    }
+
+    .sidebar {
+      @include box-sizing();
+      height: 100%;
+      float: left;
+      width: 40%;
+      padding: 4rem 7% 0;
+
+      .content {
+        position: relative;
+        top: 50%;
+        -moz-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+
+        * {
+          text-align: center;
+        }
+      }
+    }
+
+    .illustration {
+      @include box-sizing();
+      height: 100%;
+      float: right;
+      width: 60%;
+      padding: 4rem 7% 0;
+      
+      img {
+        max-width: 100%;
+        position: relative;
+        top: 50%;
+        -moz-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
       }
     }
   }
