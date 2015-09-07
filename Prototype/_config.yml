@@ -25,3 +25,98 @@ defaults:
   values:
     layout: default
     lang: de
+
+t:
+  en:
+    home: "Home"
+    andother: "and other"
+    createdby: "created by"
+    social_intranet_solutions: "Social intranet solutions"
+    social_intranet_solutions_text: "Syslab's intranet solution helps you make the transtion from…"
+    web_solutions: "Web solutions"
+    references_text: "We shape the web for businesses and organisations."
+    people_headline: "People"
+    people_byline: "The people behind Syslab.com"
+    people_subline: "…plus a team of highly skilled and open-source devoted developers, designers and administrators."
+    careers: "Careers"
+
+  de:
+    home: "Start"
+    andother: "und andere"
+    createdby: "erdacht von"
+    social_intranet_solutions: "Social Intranet Lösungen"
+    social_intranet_solutions_text: "Syslab's Intranet Lösungen helfen beim…"
+    web_solutions: "Weblösungen"
+    references_text: "Wir formen das Web für Firmen und Organisationen."
+    people_headline: "Mitarbeiter"
+    people_byline: "Die Menschen hinter Syslab.com"
+    people_subline: "…sowie ein Team aus hochspezialisierten Open-Source Entwicklern, Designern und Administratoren."
+    careers: "Karriere"
+
+mainnav:
+  en:
+    homepage:
+      name: "Homepage"
+      url: "/homepage/index.html"
+    socialintranet:
+      name: "Social intranet"
+      url: "/homepage/index.html#intranet-solutions"
+    websolutions:
+      name: "Web solutions"
+      url: "/homepage/index.html#services"
+    people:
+      name: "Passionate People"
+      url: "/homepage/index.html#people"
+  de:
+    homepage:
+      name: "Startseite"
+      url: "/startseite/index.html"
+    socialintranet:
+      name: "Soziales Intranet"
+      url: "/startseite/index.html#intranet-solutions"
+    websolutions:
+      name: "Weblösungen"
+      url: "/startseite/index.html#services"
+    people:
+      name: "hochmotivierten Menschen"
+      url: "/startseite/index.html#people"
+
+appendix:
+  en:
+    contact:
+      name: "Contact"
+      url: "/contact/"
+    about:
+      name: "About"
+      url: "/about/"
+    press:
+      name: "Press"
+      url: "/press/"
+    disclaimer:
+      name: "Disclaimer"
+      url: "/disclaimer/"
+    news:
+      name: "News"
+      url: "/homepage/index.html#news"
+    careers:
+      name: "Careers"
+      url: "/homepage/index.html#careers"
+  de:
+    contact:
+      name: "Kontakt"
+      url: "/kontakt/"
+    about:
+      name: "Über"
+      url: "/ueber/"
+    press:
+      name: "Presse"
+      url: "/presse/"
+    disclaimer:
+      name: "Disclaimer"
+      url: "/disclaimer/"
+    news:
+      name: "News"
+      url: "/startseite/index.html#news"
+    careers:
+      name: "Karriere"
+      url: "/homepage/index.html#careers"

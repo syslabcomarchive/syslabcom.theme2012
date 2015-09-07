@@ -2,10 +2,19 @@
 	<li>
 		<!-- <a {% if page.url == '/index.html' %}data-scroll{% endif %} href="{% unless page.layout == 'index.html' %}/index.html{% endunless %}#home">Syslab</a>
 		= -->
-		<a {% if page.url == '/index.html' %}data-scroll{% endif %} href="{% unless page.layout == 'index.html' %}/index.html{% endunless %}#intranet-solutions">Social intranet</a>
-		and other
-		<a {% if page.url == '/index.html' %}data-scroll{% endif %} href="{% unless page.layout == 'index.html' %}/index.html{% endunless %}#services">Web solutions</a>
-		 created by
-      	<a {% if page.url == '/index.html' %}data-scroll{% endif %} href="{% unless page.layout == 'index.html' %}/index.html{% endunless %}#people">Passionate people</a> 
+    {% assign mainnav=site.mainnav[page.lang] %}
+    {% assign t=site.t[page.lang] %}
+    <a {% if page.url == mainnav['homepage'].url %}data-scroll{% endif %} href="{{mainnav['socialintranet'].url }}">{{ mainnav['socialintranet'].name }}</a>
+		{{ t['andother']}}
+    <a {% if page.url == mainnav['homepage'].url %}data-scroll{% endif %} href="{{mainnav['websolutions'].url }}">{{ mainnav['websolutions'].name }}</a>
+    {{ t['createdby']}}
+    <a {% if page.url == mainnav['homepage'].url %}data-scroll{% endif %} href="{{mainnav['people'].url }}">{{ mainnav['people'].name }}</a>
   	</li>
+    {% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
+    {% for post in posts %}
+    <li class="lang">
+        <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
+    </li>
+    {% endfor %}
+</ul>
 </ul>

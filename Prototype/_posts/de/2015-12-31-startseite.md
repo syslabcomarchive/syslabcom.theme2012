@@ -1,5 +1,5 @@
 ---
 layout: index
-lang: en
+name: homepage
 ---
 
