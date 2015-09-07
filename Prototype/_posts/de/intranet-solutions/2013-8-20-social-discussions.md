@@ -1,6 +1,7 @@
 ---
 layout: sub-page
 title: Social discussions
+name: social-discussions
 category: intranet-solutions
 tagline: e-mail clutter to social disucssions
 image: pi-discussion.jpg

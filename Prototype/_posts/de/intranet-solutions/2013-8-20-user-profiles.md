@@ -1,6 +1,7 @@
 ---
 layout: sub-page
 title: User profiles
+name: user-profiles
 category: intranet-solutions
 tagline: shattered contacts to user profiles
 image: pi-profile.jpg

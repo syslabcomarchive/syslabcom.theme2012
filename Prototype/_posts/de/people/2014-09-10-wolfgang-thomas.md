@@ -1,6 +1,7 @@
 ---
 layout: biography
 title: Wolfgang Thomas
+name: wolfgang-thomas
 category: people
 summary: "<span itemprop='title'>Technical Director</span> — Spezialist und Allrounder mit umfassender Erfahrung in Software-Design und -Architektur. Tief in der Open Source-Technologie und Teammanagement verankert."
 ---

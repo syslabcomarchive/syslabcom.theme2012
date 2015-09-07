@@ -4,7 +4,7 @@ author: Cornelis G. A. Kolbach
 domain: syslab.com
 media: /media
 markdown: kramdown
-permalink: /:title
+permalink: /:title/
 sass:
   style: :compressed
 exclude: 
@@ -12,3 +12,16 @@ exclude:
   - Gemfile.lock
   - config.codekit
   - config.rb
+defaults:
+-
+  scope:
+    path: _posts/en
+  values:
+    layout: default
+    lang: en
+-
+  scope:
+    path: _posts/de
+  values:
+    layout: default
+    lang: de

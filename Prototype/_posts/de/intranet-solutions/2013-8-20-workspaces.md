@@ -1,6 +1,7 @@
 ---
 layout: sub-page
 title: Workspaces
+name: workspaces
 category: intranet-solutions
 tagline: file sharing to workspaces
 image: pi-workspace-docs-select-fade-top.jpg
