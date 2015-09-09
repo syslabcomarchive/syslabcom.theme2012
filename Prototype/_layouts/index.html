@@ -1,0 +1,359 @@
+---
+layout: shell
+---
+{% assign t=site.t[page.lang] %}
+
+<section id="home">
+	<h1 class="logo" id="site-logo">Syslab.com</h1>
+	<p id="first-scroll" class="lid-opener">
+		<a data-scroll href="#intranet-solutions">Jump to content</a>
+	</p>
+	{% include global-nav.html %}
+</section>
+
+<section id="intranet-solutions">
+	<div class="pat-stacks">
+		<div class="item" id="intranet-solution-intro">
+			<h2>
+				{{ t['social_intranet_solutions'] }} 
+			</h2>
+			<aside class="sidebar">
+				<article class="pat-rich content">
+					<h3>
+						{{ t['social_intranet_solutions_text'] }} 
+					</h3>
+					<ul class="link-list">
+					{% assign posts=site.posts | where:"lang", page.lang %}
+						{% for item in posts %}
+							{% if item.category == 'intranet-solutions' %}    
+							<li>
+								<a href="#intranet-solution-{{ item.title | downcase | replace: ' ','-' }}">{{ item.tagline }}</a>
+							</li>
+							{% endif %}
+						{% endfor %}
+					</ul>
+				</article>
+			</aside>
+			<figure class="illustration laptop">
+				<img class="slide" src="/media/pi-login.jpg" alt="" />
+				<img class="slide" src="/media/pi-dashboard.jpg" alt="" />
+				<img class="slide" src="/media/pi-news.jpg" alt="" />
+				<img class="slide" src="/media/pi-workspaces.jpg" alt="" />
+				<img class="slide" src="/media/pi-workspace.jpg" alt="" />
+				<img class="slide" src="/media/pi-workspace-docs.jpg" alt="" />
+				<img class="slide" src="/media/pi-workspace-image.jpg" alt="" />
+				<img class="slide" src="/media/pi-case.jpg" alt="" />
+				<img class="cover" src="/media/macbook.png" alt="" />
+			</figure>
+		</div>
+		{% for item in posts %}
+			{% if item.category == 'intranet-solutions' %}    
+				<div class="item" id="intranet-solution-{{ item.title | downcase | replace: ' ','-' }}">
+					<aside class="sidebar">
+						<article class="pat-rich content">
+							<h3>
+								{{ item.title }}
+							</h3>
+							{{ item.content | markdownify }}
+			 				<ul class="link-list">
+								<li class="home">
+									<a href="#intranet-solution-intro">Social intranet solutions</a>
+								</li>
+							</ul>
+						</article>
+					</aside>
+					<figure class="illustration">
+						<img class="slide" src="/media/{{ item.image }}" alt="" />
+					</figure>
+				</div>
+			{% endif %}
+		{% endfor %}
+	</div>
+</section>
+
+<section id="services">
+	<div class="container introduction">
+		<h2>
+			{{ t['web_solutions'] }} 
+		</h2>
+
+	  	<!-- <p class="introduction">SYSLAB.COM provides services for companies, organisations and governmental institutions within the whole software lifecycle.</p> -->
+
+		{% assign services=site.categories['services'] | where:"lang", page.lang %}
+
+	  	<nav class="navigation tabs">
+	  		{% for item in services %}
+	  			<a href="#{{ item.id | remove: '/' }}">{{ item.title }}</a>
+	  		{% endfor %}
+	  	</nav>
+
+  		<div class="pat-stacks">
+	  		{% for item in services %}
+	  			<div class="item" id="{{ item.id | remove: '/' }}">
+	  				{{ item.content }}
+	  			</div>
+	  		{% endfor %}
+  		</div>
+
+		<p class="byline">
+			{{ t['references_text'] }} 
+		</p>
+
+		<div class="pat-stacks">
+			<div class="item" id="logos">
+				<p class="logo-cloud">
+					{% assign showcases=site.categories['showcases'] | where:"lang", page.lang %}
+
+			  		{% for item in showcases %}
+			  			{% if item.images %}
+			  			    <a title="{{ item.summary }}" href="#{{ item.id | remove: '/' }}"><img src="/media/logos/{{ item.id | remove: '/' }}.svg" alt="" /></a>
+			  			{% else %}
+			  				<img src="/media/logos/{{ item.id | remove: '/' }}.svg" alt="" />
+			  			{% endif %}
+			  		{% endfor %}
+				</p>
+			</div>
+
+	  		{% for item in showcases %}
+				<div class="item" id="{{ item.id | remove: '/' }}">
+					<div class="description">
+						<h3>{{ item.title }}</h3>
+						{% if item.summary %}
+						    <p>
+						    	{{ item.summary }}
+								{% capture this_content %}{{ item.content | strip | remove: " " }}{% endcapture %}
+								{% capture content_size %}{{ this_content | size }}{% endcapture %}
+
+								{% if this_content and content_size != '1' and content_size != '0' %}
+						    		<a href="{{ item.url }}/#main-content"><strong>Learn more…</strong></a>
+								{% endif %}
+						    </p>
+						{% endif %}
+						{% for subitem in item.images %}
+							<p>
+								<img src="media/showcases/{{ subitem.file }}" alt="{{subitem.name}}" />
+							</p>
+						{% endfor %}
+					</div>
+					<a href="#logos" class="escape iconified icon-cancel-circle">Choose another project</a>
+				</div>
+	  		{% endfor %}
+
+		</div>
+	
+	</div>
+
+</section>
+
+<section id="news">
+	<div class="container">
+		<h2>News</h2>
+		<p>
+			<img src="media/reporter-dp.svg" class="hero" alt="Newsflash" class="illustration" />
+		</p>
+		<div class="article-listing">
+<!--
+			<article class="item">
+				<a href="#">
+					<h3>
+						Escapémonos por necesidad
+					</h3>
+					<p class="date">
+						<time>10 August 2014</time>
+					</p>
+					<p>
+						Last Friday, a group of 31 Plone developers and companies located around the world undertook one of the largest Plone Tune-Ups ever.
+					</p>
+				</a>
+			</article>
+			<article class="item">
+				<a href="#">
+					<h3>
+						Nos debemos tanto
+					</h3>
+					<p class="date">
+						<time>10 August 2014</time>
+					</p>
+					<p>
+						Last Friday, a group of 31 Plone developers and companies located around the world undertook oneLast Friday, a group of 31 Plone developers and companies located around the world undertook one of the largest Plone Tune-Ups ever to celebrate the 60th time such an event has been held.
+					</p>
+				</a>
+			</article>
+			<article class="item">
+				<a href="#">
+					<h3>
+						Si el amor está, no hay porqué esperar
+					</h3>
+					<p class="date">
+						<time>10 August 2014</time>
+					</p>
+					<p>
+						Various companies located around the world undertook one of the largest Plone Tune-Ups ever to celebrate the 60th time such an event has been held.
+					</p>
+				</a>
+			</article>
+			<article class="item">
+				<a href="#">
+					<h3>
+						El donde o el cuando
+					</h3>
+					<p class="date">
+						<time>10 August 2014</time>
+					</p>
+					<p>
+						Last Friday, a group of 31 Plone developers and companies located around the world undertook one of the largest Plone Tune-Ups ever to celebrate the 60th time such an event has been held.
+					</p>
+				</a>
+			</article>
+			<article class="item">
+				<a href="#">
+					<h3>
+						Consectetur
+					</h3>
+					<p class="date">
+						<time>10 August 2014</time>
+					</p>
+					<p>
+						Escapémonos tan lejos de aquí
+						Distantes de todo
+						En la oscuridad donde no haya más
+						Que ver en tus ojos
+					</p>
+				</a>
+			</article>
+			<article class="item">
+				<a href="#">
+					<h3>
+						60<sup>th</sup> Plone Tune-Up Closes Record Number of Tickets with Help of Global Participation
+					</h3>
+					<p class="date">
+						<time>10 August 2014</time>
+					</p>
+					<p>
+						Escondámonos de la multitud
+						Del absurdo día a día
+						Donde todas esas cosas que perturben
+						No estén más en nuestras vidas, en nuestras vidas
+					</p>
+				</a>
+			</article>
+			<article class="item">
+				<a href="#">
+					<h3>
+						Para que estemos solos amor
+					</h3>
+					<p class="date">
+						<time>10 August 2014</time>
+					</p>
+					<p>
+
+						Y el universo se nos quede en un abrazo
+						Donde se esfumen esas dudas
+						Y esos miedos que nos quedan del pasado
+					</p>
+				</a>
+			</article>
+			<article class="item">
+				<a href="#">
+					<h3>
+						Para que estemos solos amor
+					</h3>
+					<p class="date">
+						<time>10 August 2014</time>
+					</p>
+					<p>
+						En un día sin fin
+						Sin preocuparnos más
+						Del que podrán decir
+						Donde durmamos abrazados
+						Y si entonces nos sorprende el amanecer
+						Saber que estás ahí
+						Que estamos solos
+					</p>
+				</a>
+			</article>
+-->
+
+		</div>
+		<script type="text/javascript">
+var rssurl = 'https://www.syslab.com/blog/?cat=6&feed=rss2';
+$(document).ready(function(){
+  $.get(rssurl, function(data) {
+    var $xml = $(data);
+    $xml.find("item").slice(0,6).each(function() {
+        var $this = $(this),
+            item = {
+                title: $this.find("title").text(),
+                link: $this.find("link").text(),
+                description: $this.find("description").text().substring(0, 100) + "…",
+                D: $this.find("pubDate").text().split(' '),
+                author: $this.find("author").text()
+        };
+        //Do something with item here...
+        $('.article-listing').append(
+          '<article class="item"><a href="' + item.link + '">'
+          + '<h3>' + item.title + '</h3>'
+          + '<p class="date"><time>' + item.D[1] + ' ' + item.D[2] + ' ' +  item.D[3] + '</time></p>'
+          + '<p>' + item.description + '</p>'
+          + '</a></article>');
+    });
+  });
+});
+
+		</script>
+	</div>
+</section>
+<section id="people">
+	<div class="container">
+		<h2> {{ t['people_headline'] }} </h2>
+		<p class="byline">
+			{{ t['people_byline'] }}
+		</p>
+		<div class="people-cloud pat-equaliser">
+			{% assign people=site.categories['people'] | where:"lang", page.lang %}
+
+	  		{% for item in people %}
+				<figure class="person" itemscope itemtype="http://data-vocabulary.org/Person">
+					<img itemprop="photo" src="/media/avatar-{{ item.id | remove: '/' }}.jpg" alt="" />
+					<figcaption>
+						<strong itemprop="fn">{{ item.title }}</strong> {{ item.summary }}
+					</figcaption>
+				</figure>
+	  		{% endfor %}
+		</div>
+        <p>{{ t['people_subline']}}</p>
+	</div>
+</section>
+<section id="careers">
+	<div class="container">
+		<h2>{{ t['careers']}}</h2>
+		<!-- <img src="media/Careers2.png" alt="Carreers" class="illustration float-after" /> -->
+		<p class="byline">Are you our next UX and Design Engineer?</p>
+		<h4>We are looking for a UX Engineer specialising in Design and Javascript. </h4>
+		<p>Are you able to connect knowledge about design with development? Do you have a couple of years working experience and live in or around Munich? You speak english? Then you are the right candidate for the job! </p>
+
+		<p>At syslab.com you will work closely with our design team to translate concepts into living, breathing prototypes. Your primary responsibilities are analysis, design and implementation of software projects connected with Python and Plone backends. You are deeply involved in all aspects of your projects, which you follow up on from acquisition to service. You will also keep contact to the community and release your projects as open source.</p>
+
+		<p>Besides that you will:</p>
+		<ul>
+			<li>Deliver innovative, engaging prototypes using the latest in front-end technologies</li>
+			<li>Work with and extend the emerging open source patternslib project</li>
+			<li>Advise, collaborate with and synthesize feedback from UX designers and researchers</li>
+			<li>Fulfill several project requests simultaneously while meeting tight deadlines</li>
+			<li>Serve as a mentor for junior UX engineers and peers</li>
+			<li>Assist backend engineers with final development of customer products</li>
+		</ul>
+
+
+		<h4>We offer</h4>
+		<p>... an enjoyable environment - we work where it is best. At the office, at home, in the park. We use conventions only for our programming techniques. We think that you thrive if you get your flexibility. As everybody depends on each other, we have a good and productive working climate.</p>
+
+		<h4>About Syslab.com</h4>
+		<p>We create innovative solutions based on content management frameworks. As an alternative to commercial monolithic ECM software, we strive to tie the best components of open source software together to match the individual needs. Doing so we are not bound to any specific industry but service the general need for information management. Our team is small but experienced and international and we use modern tools and technologies to achieve what we want.</p>
+
+		<h4>Interested?</h4>
+
+		<p>Then do not hesitate to send your application by e-mail to <a title="external-link" href="mailto:info@syslab.com">info@syslab.com</a>.</p>
+
+	</div>
+</section>

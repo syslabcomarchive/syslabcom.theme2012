@@ -1,6 +1,7 @@
 ---
 layout: sub-page
 title: News site
+name: news
 category: intranet-solutions
 tagline: mailing lists to a real employee news site
 image: pi-news.jpg

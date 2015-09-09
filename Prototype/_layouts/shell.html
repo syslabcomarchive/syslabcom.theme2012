@@ -1,9 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.lang }}">
   <head>
     <meta charset="UTF-8"/>
   	<title>Syslab.com</title>
-
+{% assign posts=site.posts | where:"name", page.name %}
+{% for post in posts %}
+  {% if post.lang != page.lang %}
+    <link rel="alternate" hreflang="{{post.lang}}" href="{{post.url}}" />
+  {% endif %}
+{% endfor %}
     <link rel="stylesheet" media="screen" type="text/css" href="/style/screen.css"/>
   	<!--script src="/libraries/patterns-standalone.min.js" type="text/javascript"></script-->
   	<script src="/libraries/patterns-2.0.1.min.js" type="text/javascript"></script>

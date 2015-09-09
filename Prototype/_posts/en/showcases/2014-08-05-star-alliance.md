@@ -1,6 +1,7 @@
 ---
 layout: showcase
 title: Star Alliance Extranet
+name: star-alliance-extranet
 category: showcases
 summary: The Star Alliance Extranet.
 images:
