@@ -10,10 +10,10 @@
 	    {{ t['createdby']}}
 	    <a {% if page.url == mainnav['homepage'].url %}data-scroll{% endif %} href="{% unless page.layout == 'index.html' %}{{mainnav['people'].url }}{% endunless %}#people">{{ mainnav['people'].name }}</a>
   	</li>
+    <li class="languages">
     {% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
     {% for post in posts %}
-    <li class="languages">
-        <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
-    </li>
+        <a href="{{ post.url }}" class="{% if post.lang == page.lang %}current{% endif %}">{{ post.lang }}</a>
     {% endfor %}
+    </li>
 </ul>
