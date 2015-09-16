@@ -42,10 +42,10 @@ t:
 
   de:
     home: "Start"
-    andother: "und andere"
-    createdby: "erdacht von"
+    andother: "und leistungsfähige"
+    createdby: "entwickelt von"
     social_intranet_solutions: "Social Intranet Lösungen"
-    social_intranet_solutions_text: "Syslab's Intranet Lösungen helfen beim…"
+    social_intranet_solutions_text: "Die Syslab Intranet Lösung hilft bei ihrer Weiterentwicklung…"
     web_solutions: "Weblösungen"
     references_text: "Wir formen das Web für Firmen und Organisationen."
     people_headline: "Mitarbeiter"
@@ -78,7 +78,7 @@ mainnav:
       name: "Weblösungen"
       url: "/startseite/index.html#services"
     people:
-      name: "hochmotivierten Menschen"
+      name: "engagierten Teams"
       url: "/startseite/index.html#people"
 
 appendix:
