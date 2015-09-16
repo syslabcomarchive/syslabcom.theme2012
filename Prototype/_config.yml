@@ -29,7 +29,7 @@ defaults:
 t:
   en:
     home: "Home"
-    andother: "and other"
+    andother: "and powerful"
     createdby: "created by"
     social_intranet_solutions: "Social intranet solutions"
     social_intranet_solutions_text: "Syslab's intranet solution helps you make the transtion from…"
@@ -65,7 +65,7 @@ mainnav:
       name: "Web solutions"
       url: "/homepage/index.html#services"
     people:
-      name: "Passionate People"
+      name: "Passionate Teams"
       url: "/homepage/index.html#people"
   de:
     homepage:
