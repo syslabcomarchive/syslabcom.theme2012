@@ -1,10 +1,10 @@
 ---
 layout: sub-page
-title: User profiles
+title: Valueful User Profiles
 name: user-profiles
 category: intranet-solutions
-tagline: shattered contacts to user profiles
+tagline: from shattered contacts to managed user profiles
 image: pi-profile.jpg
 ---
 
-Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+Human resources are a wonderful and valueful asset. Organisations that support employees to give better access to their skills and channels are helping to develop faster and reach better results in shorter time. This leaves employees with free time to improve further.
