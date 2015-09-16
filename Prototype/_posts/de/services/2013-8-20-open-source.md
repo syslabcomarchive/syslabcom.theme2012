@@ -4,9 +4,9 @@ title: Open source
 category: services
 ---
 
-Open Source is a central topic in the IT business today. We build Open Source Software, because we believe in the concept. With Open Source Software (OSS) the source code as opposed to proprietary software is made available and can be changed. An open (and therefore normally larger) group of developers work on the software. Improvements are constantly published in the newest (developer) version. Because of the licence model there is no revenue from royalties. Business models mainly base on consulting services, implementation, integration and maintenance.
+Open Source ist ein zentrales Thema in der IT-Branche heutzutage. Wir bauen Open Source Software, weil wir an das Konzept glauben. Der Quellcode in Open Source Software (OSS) wird im Gegensatz zu proprietärer Software zur Verfügung gestellt und kann geändert werden. Eine offene (und damit in der Regel größere) Gruppe von Entwicklern arbeiten an der Software. Verbesserungen werden ständig in der neuesten (Entwickler)-Version veröffentlicht. Wegen der Lizenzmodell gibt es keine Einnahmen aus Lizenzgebühren. Geschäftsmodelle basieren hauptsächlich auf Beratung, Implementierung, Integration und Wartung.
 
-- With OSS there is no dependence of single software companies, but a multiple development of software for different platforms (Windows, Linux, MacOS).
-- There is a high amount of developers, therefore development is fast.
-- The application is stable and secure.
-- The software solutions are specifically adjusted to the companies that use them.
+- Mit OSS besteht keine Abhängigkeit von einzelnen Software-Unternehmen, aber eine Vielfache Entwicklung von Software für verschiedene Plattformen (Windows, Linux, MacOS) .
+- Es gibt eine große Anzahl von Entwicklern, daher ist die Entwicklung schnell.
+- Die Anwendung ist stabil und sicher.
+- Die Software-Lösungen sind speziell an die Unternehmen, die sie verwenden, angepasst.
