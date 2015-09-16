@@ -1,10 +1,10 @@
 ---
 layout: sub-page
-title: Workspaces
+title: Focusing Workspaces
 name: workspaces
 category: intranet-solutions
-tagline: file sharing to workspaces
+tagline: from file sharing to productive workspaces
 image: pi-workspace-docs-select-fade-top.jpg
 ---
 
-Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+Imagine a productive workplace to target your challenges and share the vision for solutions clearly for everyone in your teams. Documents are reachable in the right context and well organized to meet everyday needs. Unknot confusion with proper relations leading faster to clear and comprehensible results.
