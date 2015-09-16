@@ -1,10 +1,10 @@
 ---
 layout: sub-page
-title: User profiles
+title: Wertvolle Benutzerprofile
 name: user-profiles
 category: intranet-solutions
-tagline: shattered contacts to user profiles
+tagline: von verteilten Kontaktdaten zu gepflegten Benutzerprofilen
 image: pi-profile.jpg
 ---
 
-Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+Personal ist eine wunderbare und wertvolle Ressource. Organisationen die Ihren Mitarbeitern helfen Ihre Fähigkeiten und Verbindungen besser zu teilen, können sich schneller entwickeln und bessere Ergenisse in kürzerer Zeit erzielen. Mitarbeiter erhalten so mehr zeitlichen Spielraum, um sich weiter zu verbessern.
