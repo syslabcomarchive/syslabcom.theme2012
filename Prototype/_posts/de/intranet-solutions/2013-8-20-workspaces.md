@@ -1,10 +1,10 @@
 ---
 layout: sub-page
-title: Workspaces
+title: Konzentrierte Arbeitsbereiche
 name: workspaces
 category: intranet-solutions
-tagline: file sharing to workspaces
+tagline: vom Teilen von Dateien hin zu produktiven Arbeitsbereichen
 image: pi-workspace-docs-select-fade-top.jpg
 ---
 
-Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+Stellen sie sich eine produktive Arbeitsumgebung vor, um Herausforderungen anzunehmen und die Lösungs-Perspektiven mit allen im Team klar zu teilen. Dokumente werden im richtigen Zusammenhang verfügbar und sind für täglichen Anforderungen optimal organisiert. Lösen sie verwirrende Vorgaben durch klare Zusammenhänge auf, die schneller zu nachvollziehbaren Ergebnissen führen.
