@@ -1,10 +1,10 @@
 ---
 layout: sub-page
-title: News site
+title: Attracting News Site
 name: news
 category: intranet-solutions
-tagline: mailing lists to a real employee news site
+tagline: from mailing lists to an attracting employee news portal
 image: pi-news.jpg
 ---
 
-Ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+Simplify for your corporate communication team to address your employees every day. Working in well structured content with lesser efforts works better. Keep your companies people up to date and connect the latest news to activity streams and discussions as necessary. A good information flow and a high level of knowledge improves quality of processes, services and products significantly.
