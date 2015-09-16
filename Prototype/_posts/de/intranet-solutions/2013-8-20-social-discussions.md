@@ -1,10 +1,10 @@
 ---
 layout: sub-page
-title: Social discussions
+title: Soziale Diskussionen liefern Mehrwert
 name: social-discussions
 category: intranet-solutions
-tagline: e-mail clutter to social disucssions
+tagline: von E-Mail Flut zu Diskussionen direkt im Themen Fokus
 image: pi-discussion.jpg
 ---
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+Herausforderungen, Ideen und Lösungen frühzeitig teilen zu können erfordert das richtige Medium. Der breite Erfolg der Sozialen Medien in unserer Online Gesellschaft führt zur Nachfrage diese Vorteile und Fähigkeiten in Unternehmens-Anwendungen einzusetzen. Zeigen was möglich ist und die Ergebnisse sammeln. Breites Teilen und schnellerer Zugriff auf interne und externe Quellen wird möglich. Umgehende Reaktionen helfen bei Verbesserungen und Entscheidungen. 
