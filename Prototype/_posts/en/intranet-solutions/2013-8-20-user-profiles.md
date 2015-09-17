@@ -3,7 +3,7 @@ layout: sub-page
 title: Valueful User Profiles
 name: user-profiles
 category: intranet-solutions
-tagline: from shattered contacts to managed user profiles
+tagline: from fragmented contacts to managed user profiles
 image: pi-profile.jpg
 ---
 
