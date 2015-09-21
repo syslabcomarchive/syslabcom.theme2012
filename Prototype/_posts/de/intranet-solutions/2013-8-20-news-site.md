@@ -1,10 +1,10 @@
 ---
 layout: sub-page
-title: News site
+title: Attraktive Nachrichten
 name: news
 category: intranet-solutions
-tagline: mailing lists to a real employee news site
+tagline: von Listen Mailings zum attraktiven Mitarbeiter Nachrichten Portal
 image: pi-news.jpg
 ---
 
-Ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+Erleichtern Sie es den Kommunikations-Teams in Ihrem Unternehmen, Ihre Mitarbeiter täglich zu erreichen. Gut strukturierte Inhalte lassen sich mit deutlich weniger Aufwand verwalten. Ihre Mitarbeiter halten Sie auf dem Laufenden und verbinden Sie nach Bedarf direkt mit dem Aktivitätsablauf und Diskussionen. Ein guter Informationfluss und ein hohes Wissensniveau verbessern die Qualität von Prozessen, Dienstleistungen und Produkten entscheidend.

@@ -1,10 +1,10 @@
 ---
 layout: sub-page
-title: Social discussions
+title: Social Discussions give Benefit
 name: social-discussions
 category: intranet-solutions
-tagline: e-mail clutter to social disucssions
+tagline: from e-mail clutter to social discussions in the topic focus
 image: pi-discussion.jpg
 ---
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+Sharing challenges, ideas and solutions early needs the right media. The wider success of social media in our online society leads to demand to apply the benefits and skills to use them to corporate applications. Show what can be done and collect the results. Share access to internal and external resources wider and faster. Get immediate feedback to improve and decide.
