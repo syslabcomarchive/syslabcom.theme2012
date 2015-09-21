@@ -1,6 +1,6 @@
 ---
 layout: sub-page
-title: Design und Usability-Beratung (Anpassung)
+title: Design und Usability-Beratung
 category: services
 ---
 

@@ -3,18 +3,18 @@ layout: showcase
 title: Bildergut
 name: bildergut
 category: showcases
-summary: "Bildergut aims at creating a distinctive style using digital means. The website features hi-res images backed by a CMS for quick update and support for fullscreen and mobile."
+summary: "Bildergut zielt auf die Schaffung eines unverwechselbaren Stills mit digitalen Mitteln. Die Website verfügt über hochauflösende Bilder unterstützt bei einem CMS zur schnellen Aktualisierung und Unterstützung für Vollbild und Mobil."
 images:
   - name: Bildergut
     file: bildergut.jpg
 ---
 
-# Solution
-
-For Bildergut we combined the flexibility of a content management system with the pixel precision needed for this sector. The Bildergut staff has full control over images, text, order, rotation and publication times of all material which allows to conduct directed campaigns and promotional activities in a completely autonomous way.
-
-
 # Bildergut
+Bildergut zielt auf die Schaffung eines unverwechselbaren Stills mit digitalen Mitteln. Die Website verfügt über hochauflösende Bilder unterstützt bei einem CMS zur schnellen Aktualisierung und Unterstützung für Vollbild und Mobil.
 
-Bildergut represents a distinctive style using digital means. It can also mean to add a photo with digitally generated elements in 3D or creating equal entirely virtual scenes. In the fields of fashion, beauty, cosmetics, art, architecture and sport the company work with meticulousness and a high standard of perfection. In the spirit and according to the customer, who expects detailed retouching and professional color management, it tries to recreate the picture that they had in their mind's eye from the beginning.
 
+# Lösung
+Für Bildergut kombinierten wir die Flexibilität eines Content-Management-System mit der Pixel-Präzision, die für diesen Sektor notwendig ist. Das Bildergut-Personal hat die volle Kontrolle über Bilder, Text, Ordnung, Rotation und Veröffentlichungszeiten aller Materialien, wodurch gezielte Kampagnen und Promotion-Aktivitäten in einer völlig autonomen Art und Weise durchgeführt werden können.
+
+Bildergut
+Bildergut steht dafür, mit digitalen Mitteln einen unverwechselbaren Style zu kreieren. Es kann auch bedeuten, ein Foto mit digital generierten Elementen in 3D zu ergänzen oder gleich gänzlich virtuelle Szenerien zu erschaffen. In den Bereichen Automobil, Technik, Architektur, Mode, Beauty, Kosmetik, und Sport, wird mit Akribie und einem hohen Anspruch an Perfektion gearbeitet. Ganz im Sinne und nach Maßgabe der Auftraggeber, die detailgenaue Retuschen und professionelles Farbmanagement erwarten. Und am Ende genau das Bild bekommen, das sie von Anfang an vor ihrem geistigen Auge hatten.... XXX
