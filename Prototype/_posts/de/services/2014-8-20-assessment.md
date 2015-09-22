@@ -1,6 +1,6 @@
 ---
 layout: sub-page
-title: Support (Assessment services)
+title: Assessment services
 category: services
 ---
 
