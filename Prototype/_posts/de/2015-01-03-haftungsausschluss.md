@@ -5,7 +5,7 @@ name: disclaimer
 
 <section id="disclaimer">
     <div class="container">
-        <h2>Disclaimer</h2>
+        <h1>Haftungsausschluss</h1>
         
         <h3>Online-Inhalte</h3>
         <p>Der Autor übernimmt keinerlei Gewähr für die Aktualität, Korrektheit, Vollständigkeit oder Qualität der bereitgestellten Informationen. Haftungsansprüche gegen den Schaden durch die Nutzung der dargebotenen Informationen, einschließlich jeder Art von Informationen, die unvollständig oder unrichtig verursacht wurden, sind grundsätzlich ausgeschlossen. Alle Angebote sind freibleibend und unverbindlich. Teile der Seiten oder das gesamte Angebot einschließlich aller Angebote und Informationen können vom Autor ohne gesonderte Ankündigung erweitert, verändert oder teilweise oder vollständig gelöscht werden.</p>
