@@ -3,9 +3,9 @@ layout: showcase
 title: Star Alliance Extranet
 name: star-alliance-extranet
 category: showcases
-summary: The Star Alliance Extranet.
+summary: "The Star Alliance Extranet is a portal, collaboration and document management solution for information dissemination and team cooperation across the employee network of its member airlines."
 images:
-  - name: Star Alliance Extranet
+  - name: Star Alliance Extranet 
     file: star-alliance.jpg
 ---
 
