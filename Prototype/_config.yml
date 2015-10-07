@@ -112,8 +112,8 @@ appendix:
       name: "Presse"
       url: "/presse/"
     disclaimer:
-      name: "Disclaimer"
-      url: "/disclaimer/"
+      name: "Haftungsausschluss"
+      url: "/haftungsausschluss/"
     news:
       name: "News"
       url: "/startseite/index.html#news"

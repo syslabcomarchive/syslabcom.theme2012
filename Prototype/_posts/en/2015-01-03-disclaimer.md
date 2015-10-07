@@ -1,6 +1,8 @@
 ---
 layout: sub-page
 name: disclaimer
+title: Disclaimer
+description: Disclaimer
 ---
 
 <section id="disclaimer">
