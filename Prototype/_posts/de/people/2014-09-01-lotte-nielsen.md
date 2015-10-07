@@ -1,8 +1,9 @@
 ---
 layout: biography
 title: Lotte Nielsen
+description: "Business Development Manager — Alles über Marketing, Eventmanagement und Pressearbeit. Scharfes Auge und unermüdlicher Erinnerer im Sales-Support. "
 name: lotte-nielsen
 category: people
-summary: "<span itemprop='title'>Business Development Manager</span> — Verwaltung aller Aspekte des Marketing, Eventmanagement und Pressearbeit. Das scharfe Auge, das unerbittlich an alle Aspekte des Sales-Supports erinnert. "
+summary: "<span itemprop='title'>Business Development Manager</span> — Alles über Marketing, Eventmanagement und Pressearbeit. Scharfes Auge und unermüdlicher Erinnerer im Sales-Support. "
 ---
 
