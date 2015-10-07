@@ -2,7 +2,8 @@
 <html lang="{{ page.lang }}">
   <head>
     <meta charset="UTF-8"/>
-  	<title>Syslab.com</title>
+    <meta name="Description" CONTENT="{{ page.description }}">
+  	<title>{{ page.title }}</title>
 {% assign posts=site.posts | where:"name", page.name %}
 {% for post in posts %}
   {% if post.lang != page.lang %}
