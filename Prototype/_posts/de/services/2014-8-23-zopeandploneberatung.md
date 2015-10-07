@@ -1,6 +1,6 @@
 ---
 layout: sub-page
-title: Zope und Plone Beratung
+title: "Zope & Plone"
 category: services
 ---
 
