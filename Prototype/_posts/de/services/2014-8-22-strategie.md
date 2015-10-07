@@ -1,6 +1,6 @@
 ---
 layout: sub-page
-title: Beratung
+title: Strategie
 category: services
 ---
 

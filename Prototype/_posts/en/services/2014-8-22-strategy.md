@@ -1,6 +1,6 @@
 ---
 layout: sub-page
-title: Consultancy
+title: Strategy
 category: services
 ---
 
