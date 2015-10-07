@@ -7,23 +7,22 @@ name: disclaimer
     <div class="container">
         <h2>Disclaimer</h2>
         
-        <h3>Online-contents</h3>
-        <p>The author reserves the right not to be responsible for the topicality, correctness, completeness or quality of the information provided. Liability claims regarding damage caused by the use of any information provided, including any kind of information which is incomplete or incorrect, will therefore be rejected.
-        All offers are not-binding and without obligation. Parts of the pages or the complete publication including all offers and information might be extended, changed or partly or completely deleted by the author without separate announcement.</p>
+        <h3>Online-Inhalte</h3>
+        <p>Der Autor übernimmt keinerlei Gewähr für die Aktualität, Korrektheit, Vollständigkeit oder Qualität der bereitgestellten Informationen. Haftungsansprüche gegen den Schaden durch die Nutzung der dargebotenen Informationen, einschließlich jeder Art von Informationen, die unvollständig oder unrichtig verursacht wurden, sind grundsätzlich ausgeschlossen. Alle Angebote sind freibleibend und unverbindlich. Teile der Seiten oder das gesamte Angebot einschließlich aller Angebote und Informationen können vom Autor ohne gesonderte Ankündigung erweitert, verändert oder teilweise oder vollständig gelöscht werden.</p>
 
-        <h3>Referrals and links</h3>
-        <p>The author is not responsible for any contents linked or referred to from his pages - unless he has full knowledge of illegal contents and would be able to prevent the visitors of his site from viewing those pages. If any damage occurs by the use of information presented there, only the author of the respective pages might be liable, not the one who has linked to these pages. Furthermore the author is not liable for any postings or messages published by users of discussion boards, guestbooks or mailinglists provided on his page.</p>
+        <h3>Verweise und Links </h3>
+        <p>Der Autor ist nicht verantwortlich für die Inhalte, auf die von seiner Seiten her verlinkt wird - es sei denn, er hat volle Kenntnis von illegalen Inhalten und wäre in der Lage dazu, die Besucher seiner Webseite vom Betrachten dieser Seiten zu verhindern. Wenn irgendein Schaden durch die Nutzung der dort präsentierten Informationen entstehen sollte, kann nur der Autor der entsprechenden Seiten haftbar gemacht werden, nicht derjenige, der darauf verwiesen hat. Der Autor kann darüber hinaus nicht für Fremdeinträge oder Meldungen, die Nutzer von Diskussionsforen, Gästebüchern oder Mailinglisten auf seiner Seite zur Verfügung gestellt hat, haftbar gemacht werden.</p>
 
-        <h3>Copyright</h3>
-        <p>The author intended not to use any copyrighted material for the publication or, if not possible, to indicate the copyright of the respective object.</p>
+        <h3>Urheberrecht</h3>
+        <p>Der Autor beabsichtigt nicht , irgendein urheberrechtlich geschütztes Material für die Veröffentlichung zu nutzen oder, falls nicht möglich, auf die Urheberrecht des respektiven Objekts zu verweisen.</p>
 
-        <p>The copyright for any material created by the author is reserved. Any duplication or use of objects such as diagrams, sounds or texts in other electronic or printed publications is not permitted without the author's agreement.</p>
+        <p>Das Copyright für das gesamte Material, das vom Autor erstellt ist, ist vorbehalten. Eine Vervielfältigung oder Verwendung solcher Grafiken, Sounds oder Texte in anderen elektronischen oder gedruckten Publikationen ist ohne ausdrückliche Zustimmung des Autors nicht gestattet.</p>
 
-        <h3>Data security</h3>
-        <p>If the oportunity for the input of personal or business data (email addresses, name, addresses) ist given, the input of these data takes place voluntarily. The use and payment of all offered services are permitted - if and so far technically possible and reasonable - without specification of any personal data or under specification of anonymizated data or an alias.</p>
+        <h3>Datensicherheit</h3>
+        <p>Wenn die Möglichkeit zur Eingabe persönlicher oder geschäftlicher Daten (Emailadressen, Namen, Anschriften) besteht, so ist die Preisgabe dieser Daten freiwillig. Die Inanspruchnahme und Bezahlung aller angebotenen Dienste ist - soweit technisch möglich und zumutbar -. Auch ohne Angabe solcher Daten bzw. unter Angabe anonymisierter Daten oder eines Pseudonyms gestattet.</p>
 
-        <h3>Legal force of this disclaimer</h3>
-        <p>This disclaimer is to be regarded as part of the internet publication which you were referred from. If sections or individual terms of this statement are not legal or correct, the content or validity of the other parts remain uninfluenced by this fact.</p>
+        <h3>Rechtswirksamkeit dieses Haftungsausschlusses</h3>
+        <p>Dieser Haftungsausschluss soll als Teil des Internetangebotes angesehen werden, von dem aus auf diese Seite verwiesen wurde. Sofern Teile oder einzelne Formulierungen dieses Textes der geltenden Rechtslage nicht entsprechen, bleiben der Inhalt und ihrer Gültigkeit der übrigen Teile dieser Erklärung davon unberührt.</p>
 
         
     </div>
