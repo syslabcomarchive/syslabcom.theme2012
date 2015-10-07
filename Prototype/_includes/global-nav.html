@@ -4,11 +4,11 @@
 		= -->
 	    {% assign mainnav=site.mainnav[page.lang] %}
 	    {% assign t=site.t[page.lang] %}
-	    <a {% if page.url == mainnav['homepage'].url %}data-scroll{% endif %} href="{% unless page.layout == 'index.html' %}{{mainnav['socialintranet'].url }}{% endunless %}#intranet-solutions">{{ mainnav['socialintranet'].name }}</a>
+	    <a {% if page.url == mainnav['homepage'].url %}data-scroll{% endif %} href="{% unless page.layout == 'index.html' %}{{mainnav['socialintranet'].url }}{% endunless %}">{{ mainnav['socialintranet'].name }}</a>
 			{{ t['andother']}}
-	    <a {% if page.url == mainnav['homepage'].url %}data-scroll{% endif %} href="{% unless page.layout == 'index.html' %}{{mainnav['websolutions'].url }}{% endunless %}#services">{{ mainnav['websolutions'].name }}</a>
+	    <a {% if page.url == mainnav['homepage'].url %}data-scroll{% endif %} href="{% unless page.layout == 'index.html' %}{{mainnav['websolutions'].url }}{% endunless %}">{{ mainnav['websolutions'].name }}</a>
 	    {{ t['createdby']}}
-	    <a {% if page.url == mainnav['homepage'].url %}data-scroll{% endif %} href="{% unless page.layout == 'index.html' %}{{mainnav['people'].url }}{% endunless %}#people">{{ mainnav['people'].name }}</a>
+	    <a {% if page.url == mainnav['homepage'].url %}data-scroll{% endif %} href="{% unless page.layout == 'index.html' %}{{mainnav['people'].url }}{% endunless %}">{{ mainnav['people'].name }}</a>
   	</li>
     <li class="languages">
     {% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
