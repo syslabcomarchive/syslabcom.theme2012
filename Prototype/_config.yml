@@ -72,7 +72,7 @@ mainnav:
       name: "Startseite"
       url: "/startseite/index.html"
     socialintranet:
-      name: "Soziales Intranet"
+      name: "Social Intranet"
       url: "/startseite/index.html#intranet-solutions"
     websolutions:
       name: "Weblösungen"
