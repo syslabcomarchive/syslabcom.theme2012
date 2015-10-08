@@ -85,3 +85,19 @@
 		top: 50% !important;
 	}
 }
+
+.sub-page {
+	.global-nav {
+		li {
+			&.languages {
+				right: 1%;
+				top: 0.85em;
+				font-size: 0.6em;
+
+				-moz-transform: translateX(0);
+				-webkit-transform: translateX(0);
+				transform: translateX(0);
+			}
+		}
+	}
+}
