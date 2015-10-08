@@ -3,7 +3,7 @@ layout: sub-page
 title: Social Discussions give Benefit
 name: social-discussions
 category: intranet-solutions
-tagline: Social discussions
+tagline: Discussions
 image: pi-discussion.jpg
 ---
 

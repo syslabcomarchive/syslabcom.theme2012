@@ -3,7 +3,7 @@ layout: sub-page
 title: Attracting News Site
 name: news
 category: intranet-solutions
-tagline: An attracting employee news portal
+tagline: News portal
 image: pi-news.jpg
 ---
 

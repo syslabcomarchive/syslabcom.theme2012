@@ -6,68 +6,67 @@ layout: shell
 <section id="home">
 	<h1 class="logo" id="site-logo">Syslab.com</h1>
 	<p id="first-scroll" class="lid-opener">
-		<a data-scroll href="#intranet-solutions">Jump to content</a>
+		<a class="pat-scroll" href="#intranet-solutions">Jump to content</a>
 	</p>
 	{% include global-nav.html %}
 </section>
 
 <section id="intranet-solutions">
-	<div class="pat-stacks">
-		<div class="item" id="intranet-solution-intro">
-			<h2>
-				{{ t['social_intranet_solutions'] }} 
-			</h2>
-			<aside class="sidebar">
-				<article class="pat-rich content">
-					<h3>
-						{{ t['social_intranet_solutions_text'] }} 
-					</h3>
-					<ul class="link-list">
-					{% assign posts=site.posts | where:"lang", page.lang %}
-						{% for item in posts %}
-							{% if item.category == 'intranet-solutions' %}    
-							<li>
-								<a href="#intranet-solution-{{ item.id | replace: '/','' }}">{{ item.tagline }}</a>
-							</li>
-							{% endif %}
-						{% endfor %}
-					</ul>
-				</article>
-			</aside>
-			<figure class="illustration laptop">
-				<img class="slide" src="/media/pi-login.jpg" alt="" />
-				<img class="slide" src="/media/pi-dashboard.jpg" alt="" />
-				<img class="slide" src="/media/pi-news.jpg" alt="" />
-				<img class="slide" src="/media/pi-workspaces.jpg" alt="" />
-				<img class="slide" src="/media/pi-workspace.jpg" alt="" />
-				<img class="slide" src="/media/pi-workspace-docs.jpg" alt="" />
-				<img class="slide" src="/media/pi-workspace-image.jpg" alt="" />
-				<img class="slide" src="/media/pi-case.jpg" alt="" />
-				<img class="cover" src="/media/macbook.png" alt="" />
-			</figure>
-		</div>
-		{% for item in posts %}
-			{% if item.category == 'intranet-solutions' %}    
-				<div class="item" id="intranet-solution-{{ item.id | replace: '/','' }}">
-					<aside class="sidebar">
-						<article class="pat-rich content">
-							<h3>
-								{{ item.title }}
-							</h3>
-							{{ item.content | markdownify }}
-			 				<ul class="link-list">
-								<li class="home">
-									<a href="#intranet-solution-intro">Social intranet solutions</a>
-								</li>
-							</ul>
-						</article>
-					</aside>
-					<figure class="illustration">
-						<img class="slide" src="/media/{{ item.image }}" alt="" />
-					</figure>
-				</div>
-			{% endif %}
-		{% endfor %}
+	<div class="container">
+		<h2>
+			{{ t['social_intranet_solutions'] }} 
+		</h2>
+
+		{% assign posts=site.posts | where:"lang", page.lang %}
+
+	  	<nav class="navigation tabs pat-bumper">
+<!-- 	  		<a href="#intranet-solution-intro">Intranet solutions</a>  -->
+	  		{% for item in posts %}
+	  			{% if item.category == 'intranet-solutions' %}   
+	  				<a href="#intranet-solution-{{ item.id | replace: '/','' }}" class="pat-scroll">{{ item.tagline }}</a>
+	  			{% endif %}
+	  		{% endfor %}
+	  	</nav>
+
+		<!-- <h3>
+			{{ t['social_intranet_solutions_text'] }} 
+		</h3> -->
+		<p class="byline">
+			Brand name connects the people in your organisation and helps them to stay focussed. 
+		</p>
+
+	  	<div class="topics">
+			<div class="topic" id="intranet-solution-intro">
+				<figure class="composite laptop">
+					<img class="slide" src="/media/pi-login.jpg" alt="" />
+					<img class="slide" src="/media/pi-dashboard.jpg" alt="" />
+					<img class="slide" src="/media/pi-news.jpg" alt="" />
+					<img class="slide" src="/media/pi-workspaces.jpg" alt="" />
+					<img class="slide" src="/media/pi-workspace.jpg" alt="" />
+					<img class="slide" src="/media/pi-workspace-docs.jpg" alt="" />
+					<img class="slide" src="/media/pi-workspace-image.jpg" alt="" />
+					<img class="slide" src="/media/pi-case.jpg" alt="" />
+					<img class="cover" src="/media/macbook.png" alt="" />
+				</figure>
+			</div>
+			{% for item in posts %}
+				{% if item.category == 'intranet-solutions' %}    
+					<div class="row topic" id="intranet-solution-{{ item.id | replace: '/','' }}">
+						<figure class="illustration seven columns">
+							<img class="slide" src="/media/{{ item.image }}" alt="" />
+						</figure>
+						<aside class="sidebar four columns">
+							<article class="pat-rich content">
+								<h3>
+									{{ item.title }}
+								</h3>
+								{{ item.content | markdownify }}
+							</article>
+						</aside>
+					</div>
+				{% endif %}
+			{% endfor %}
+	  	</div>
 	</div>
 </section>
 
@@ -81,7 +80,7 @@ layout: shell
 
 		{% assign services=site.categories['services'] | where:"lang", page.lang %}
 
-	  	<nav class="navigation tabs">
+	  	<nav class="navigation tabs pat-bumper">
 	  		{% for item in services %}
 	  			<a href="#{{ item.id | remove: '/' }}">{{ item.title }}</a>
 	  		{% endfor %}

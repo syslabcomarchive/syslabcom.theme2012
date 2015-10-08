@@ -3,7 +3,7 @@ layout: sub-page
 title: Valueful User Profiles
 name: user-profiles
 category: intranet-solutions
-tagline: Managed user profiles
+tagline: User profiles
 image: pi-profile.jpg
 ---
 

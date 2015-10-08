@@ -3,7 +3,7 @@ layout: sub-page
 title: Focusing Workspaces
 name: workspaces
 category: intranet-solutions
-tagline: Productive workspaces
+tagline: Workspaces
 image: pi-workspace-docs-select-fade-top.jpg
 ---
 
