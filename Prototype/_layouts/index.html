@@ -27,7 +27,7 @@ layout: shell
 						{% for item in posts %}
 							{% if item.category == 'intranet-solutions' %}    
 							<li>
-								<a href="#intranet-solution-{{ item.title | downcase | replace: ' ','-' }}">{{ item.tagline }}</a>
+								<a href="#intranet-solution-{{ item.id | replace: '/','' }}">{{ item.tagline }}</a>
 							</li>
 							{% endif %}
 						{% endfor %}
@@ -48,7 +48,7 @@ layout: shell
 		</div>
 		{% for item in posts %}
 			{% if item.category == 'intranet-solutions' %}    
-				<div class="item" id="intranet-solution-{{ item.title | downcase | replace: ' ','-' }}">
+				<div class="item" id="intranet-solution-{{ item.id | replace: '/','' }}">
 					<aside class="sidebar">
 						<article class="pat-rich content">
 							<h3>

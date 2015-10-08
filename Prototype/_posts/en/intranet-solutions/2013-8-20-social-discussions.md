@@ -3,7 +3,7 @@ layout: sub-page
 title: Social Discussions give Benefit
 name: social-discussions
 category: intranet-solutions
-tagline: from e-mail clutter to social discussions in the topic focus
+tagline: Social discussions
 image: pi-discussion.jpg
 ---
 

@@ -3,7 +3,7 @@ layout: sub-page
 title: Process Management
 name: case-management-workflows
 category: intranet-solutions
-tagline: from abstract workorders to case depending process workflows
+tagline: Case depending process workflows
 image: pi-case.jpg
 ---
 
