@@ -128,9 +128,15 @@ section {
       width: 100%;
       overflow: hidden;
 
-      &.cover {
-        z-index: 1;
-        width: 100%;
+      img {
+        &.slide {
+          z-index: 0;
+        }      
+        &.cover {
+          z-index: 1;
+          width: 100%;
+          position: relative;
+        }
       }
 
       &.laptop {
@@ -144,8 +150,7 @@ section {
             position: absolute;
             width: 71.8%;
             margin-top: 7.2%;
-            left: 14.2%;
-            z-index: 0;             
+            left: 14.2%;            
 
             opacity: 0;
 
