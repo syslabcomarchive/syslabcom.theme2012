@@ -31,6 +31,11 @@ section {
       a {
         float: left;
 
+        &.current {
+          border-bottom: 0.1em gray solid;
+          padding-bottom: 0.1em;
+        }
+
         &.icon {
           width: 1.3em;
           float: right;
@@ -194,6 +199,15 @@ section {
       .topic {
         padding: 4em 0 0 0;
         overflow: hidden;
+
+        &:nth-child(odd) {
+          .sidebar {
+            float: left;
+          }
+          .illustration {
+            float: right;
+          }
+        }
 
         .illustration {
           position: relative;
