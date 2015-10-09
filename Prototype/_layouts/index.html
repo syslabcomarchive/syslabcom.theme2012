@@ -45,6 +45,7 @@ layout: shell
 	  				<a href="#intranet-solution-{{ item.id | replace: '/','' }}" class="pat-scroll">{{ item.tagline }}</a>
 	  			{% endif %}
 	  		{% endfor %}
+	  		<a href="#home" class="icon home pat-scroll">Home</a>
 	  	</nav>
 	</div>
 	<div class="container topics">
@@ -84,6 +85,7 @@ layout: shell
 	  		{% for item in services %}
 	  			<a href="#{{ item.id | remove: '/' }}">{{ item.title }}</a>
 	  		{% endfor %}
+	  		<a href="#home" class="icon home pat-scroll">Home</a>
 	  	</nav>
 	</div>
 	<div class="container">

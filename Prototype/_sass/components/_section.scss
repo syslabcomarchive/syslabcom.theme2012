@@ -30,6 +30,24 @@ section {
 
       a {
         float: left;
+
+        &.icon {
+          width: 1.3em;
+          float: right;
+          overflow: hidden;
+          margin-right: 1em;
+          white-space: nowrap;
+          padding-left: 0;
+          padding-right: 0;
+
+          &:before {
+            width: 1.5em;
+            float: left;
+            font-family: fontello;
+            content: '\2302';
+            opacity: 0.5;
+          }
+        }
       }
     }
   }
@@ -86,11 +104,12 @@ section {
 
     .subnav {
       background-color: rgba(255,255,255,0.9);
-      border-bottom: 1px solid silver;
 
       &.bumped {
+        border-bottom: 1px solid silver;
+
         .tabs {
-          border-bottom: 1px solid gray;
+          border-bottom: 1px solid silver;
         }
       }
 
@@ -171,7 +190,7 @@ section {
 
     .topics {
       padding-top: 0;
-      
+
       .topic {
         padding: 4em 0 0 0;
         overflow: hidden;
