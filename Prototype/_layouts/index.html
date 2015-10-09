@@ -22,7 +22,7 @@ layout: shell
 				{{ t['social_intranet_solutions_text'] }} 
 			</h3> -->
 
-			Brand name connects the people in your organisation and helps them to stay focussed. 
+			&lt;Brand name&gt; connects the people in your organisation and helps them to stay focussed. 
 		</p>
 
 		<figure class="composite laptop">
@@ -51,19 +51,30 @@ layout: shell
 	<div class="container topics">
 		{% for item in posts %}
 			{% if item.category == 'intranet-solutions' %}    
-				<div class="row topic" id="intranet-solution-{{ item.id | replace: '/','' }}">
-					<figure class="illustration seven columns">
-						<img class="slide" src="/media/{{ item.image }}" alt="" />
-					</figure>
-					<aside class="sidebar four columns">
+				{% if item.image %}
+					<div class="row topic" id="intranet-solution-{{ item.id | replace: '/','' }}">
+						<figure class="illustration six columns">
+							<img class="slide" src="/media/{{ item.image }}" alt="" />
+						</figure>
+						<aside class="sidebar five columns">
+							<article class="pat-rich content">
+								<h3>
+									{{ item.title }}
+								</h3>
+								{{ item.content | markdownify }}
+							</article>
+						</aside>
+					</div>
+				{% else %}
+					<div class="topic no-hero" id="intranet-solution-{{ item.id | replace: '/','' }}">
 						<article class="pat-rich content">
 							<h3>
 								{{ item.title }}
 							</h3>
 							{{ item.content | markdownify }}
 						</article>
-					</aside>
-				</div>
+					</div>
+				{% endif %}
 			{% endif %}
 		{% endfor %}
 	</div>

@@ -209,14 +209,29 @@ section {
           }
         }
 
+        &.no-hero {
+          columns-count: 2;
+          column-gutter: 1em;
+        }
+
+        img {
+          border: 1px solid silver;
+          margin-bottom: 1em;
+          max-width: 80%;
+        }
+
+        p > img {
+          margin: 2em auto;
+        }
+
         .illustration {
           position: relative;
           // float: right;
           // width: 60%;
 
           img {
-            border: 1px solid silver;
             margin-bottom: 2em;
+            max-width: 100%;
           }
         }
 
