@@ -13,60 +13,58 @@ layout: shell
 
 <section id="intranet-solutions">
 	<div class="container">
-		<h2>
-			{{ t['social_intranet_solutions'] }} 
-		</h2>
-
 		{% assign posts=site.posts | where:"lang", page.lang %}
+		<h2>
+			{{ t['social_intranet_solutions'] }}
+		</h2>
+		<p class="byline">
+			<!-- <h3>
+				{{ t['social_intranet_solutions_text'] }} 
+			</h3> -->
 
-	  	<nav class="navigation tabs pat-bumper">
-<!-- 	  		<a href="#intranet-solution-intro">Intranet solutions</a>  -->
-	  		{% for item in posts %}
+			Brand name connects the people in your organisation and helps them to stay focussed. 
+		</p>
+
+		<figure class="composite laptop">
+			<img class="slide" src="/media/pi-login.jpg" alt="" />
+			<img class="slide" src="/media/pi-dashboard.jpg" alt="" />
+			<img class="slide" src="/media/pi-news.jpg" alt="" />
+			<img class="slide" src="/media/pi-workspaces.jpg" alt="" />
+			<img class="slide" src="/media/pi-workspace.jpg" alt="" />
+			<img class="slide" src="/media/pi-workspace-docs.jpg" alt="" />
+			<img class="slide" src="/media/pi-workspace-image.jpg" alt="" />
+			<img class="slide" src="/media/pi-case.jpg" alt="" />
+			<img class="cover" src="/media/macbook.png" alt="" />
+		</figure>
+	</div>
+	<div class="subnav pat-bumper">
+	  	<nav class="container navigation tabs">
+			<a class="section-name pat-scroll" href="#intranet-solutions"><strong>{{ t['social_intranet_solutions'] }}</strong></a>
+			{% for item in posts %}
 	  			{% if item.category == 'intranet-solutions' %}   
 	  				<a href="#intranet-solution-{{ item.id | replace: '/','' }}" class="pat-scroll">{{ item.tagline }}</a>
 	  			{% endif %}
 	  		{% endfor %}
 	  	</nav>
-
-		<!-- <h3>
-			{{ t['social_intranet_solutions_text'] }} 
-		</h3> -->
-		<p class="byline">
-			Brand name connects the people in your organisation and helps them to stay focussed. 
-		</p>
-
-	  	<div class="topics">
-			<div class="topic" id="intranet-solution-intro">
-				<figure class="composite laptop">
-					<img class="slide" src="/media/pi-login.jpg" alt="" />
-					<img class="slide" src="/media/pi-dashboard.jpg" alt="" />
-					<img class="slide" src="/media/pi-news.jpg" alt="" />
-					<img class="slide" src="/media/pi-workspaces.jpg" alt="" />
-					<img class="slide" src="/media/pi-workspace.jpg" alt="" />
-					<img class="slide" src="/media/pi-workspace-docs.jpg" alt="" />
-					<img class="slide" src="/media/pi-workspace-image.jpg" alt="" />
-					<img class="slide" src="/media/pi-case.jpg" alt="" />
-					<img class="cover" src="/media/macbook.png" alt="" />
-				</figure>
-			</div>
-			{% for item in posts %}
-				{% if item.category == 'intranet-solutions' %}    
-					<div class="row topic" id="intranet-solution-{{ item.id | replace: '/','' }}">
-						<figure class="illustration seven columns">
-							<img class="slide" src="/media/{{ item.image }}" alt="" />
-						</figure>
-						<aside class="sidebar four columns">
-							<article class="pat-rich content">
-								<h3>
-									{{ item.title }}
-								</h3>
-								{{ item.content | markdownify }}
-							</article>
-						</aside>
-					</div>
-				{% endif %}
-			{% endfor %}
-	  	</div>
+	</div>
+	<div class="container topics">
+		{% for item in posts %}
+			{% if item.category == 'intranet-solutions' %}    
+				<div class="row topic" id="intranet-solution-{{ item.id | replace: '/','' }}">
+					<figure class="illustration seven columns">
+						<img class="slide" src="/media/{{ item.image }}" alt="" />
+					</figure>
+					<aside class="sidebar four columns">
+						<article class="pat-rich content">
+							<h3>
+								{{ item.title }}
+							</h3>
+							{{ item.content | markdownify }}
+						</article>
+					</aside>
+				</div>
+			{% endif %}
+		{% endfor %}
 	</div>
 </section>
 
@@ -79,13 +77,16 @@ layout: shell
 	  	<!-- <p class="introduction">SYSLAB.COM provides services for companies, organisations and governmental institutions within the whole software lifecycle.</p> -->
 
 		{% assign services=site.categories['services'] | where:"lang", page.lang %}
-
-	  	<nav class="navigation tabs pat-bumper">
+	</div>
+	<div class="subnav pat-bumper">
+	  	<nav class="container navigation tabs">
+	  		<a class="section-name pat-scroll" href="#services"><strong>{{ t['web_solutions'] }} </strong></a>
 	  		{% for item in services %}
 	  			<a href="#{{ item.id | remove: '/' }}">{{ item.title }}</a>
 	  		{% endfor %}
 	  	</nav>
-
+	</div>
+	<div class="container">
   		<div class="pat-stacks">
 	  		{% for item in services %}
 	  			<div class="item" id="{{ item.id | remove: '/' }}">
