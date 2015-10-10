@@ -102,7 +102,7 @@ layout: shell
 	<div class="container">
   		<div class="pat-stacks">
 	  		{% for item in services %}
-	  			<div class="item" id="{{ item.id | remove: '/' }}">
+	  			<div class="item pat-scroll" id="{{ item.id | remove: '/' }}">
 	  				{{ item.content }}
 	  			</div>
 	  		{% endfor %}
