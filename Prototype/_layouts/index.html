@@ -107,7 +107,7 @@ layout: shell
   		<div class="pat-stacks">
 	  		{% for item in services %}
 	  			<div class="item pat-scroll" id="{{ item.id | remove: '/' }}">
-	  				{% if item.description %}
+	  				{% if item.summary %}
 	  				    <p class="intro">
 	  				    	{{ item.summary }}
 	  				    </p>
