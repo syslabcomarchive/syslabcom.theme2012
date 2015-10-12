@@ -27,10 +27,11 @@ $tablet:768px;
 @import "libraries/reset";
 
 // patterns
-@import "libraries/patterns/checklist";
-@import "libraries/patterns/grid";
-@import "libraries/patterns/form";
-@import "libraries/patterns/injection";
+@import "libraries/patterns/components/checklist";
+@import "libraries/patterns/components/grid";
+@import "libraries/patterns/components/form";
+@import "libraries/patterns/components/injection";
+@import "libraries/patterns/components/gallery";
 
 // components
 @import "components/anchor";
