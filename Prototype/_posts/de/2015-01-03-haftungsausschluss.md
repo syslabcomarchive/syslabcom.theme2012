@@ -3,6 +3,8 @@ layout: sub-page
 name: disclaimer
 ---
 
+
+
 <section id="disclaimer">
     <div class="container">
         <h1>Haftungsausschluss</h1>
