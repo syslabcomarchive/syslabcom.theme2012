@@ -115,7 +115,54 @@ layout: shell
 	  				{% if item.image %}
 	  				    <img src="/media/{{ item.image }}" alt="" />
 	  				{% endif %}
+	  				{% if item.showcases %}
+	  				    {% for case in item.showcases %}
+	  				    	{% if forloop.length == 1 %}
+	  				    	    <figure class="showcase caption pat-gallery">
+						    		{% for image in case.images | limit: 1 %}
+						    			<a href="/media/showcases/{{ image.image }}">
+						    				<img src="/media/showcases/{{ image.image }}" alt="">
+						    			</a>
+						    		{% endfor %}
+	  				    	    	<figcaption>
+	  				    	    		<h4>
+	  				    	    			View showcase: {{ case.title }}
+	  				    	    		</h4>
+										<p>
+											{{ case.description }}
+										</p>
+										<p hidden>
+				  				    		{% for image in case.images  %}
+				  				    			<a href="/media/showcases/{{ image.image }}"></a>
+				  				    		{% endfor %}
+				  				    	</p>
+	  				    	    	</figcaption>
+	  				    	    </figure>
+	  				    	{% endif %}
+	  				    {% endfor %}
+	  				{% endif %}
 	  				{{ item.content }}
+	  				{% if item.showcases %}
+	  					<h3>
+	  						Showcases
+	  					</h3>
+	  					<div class="showcases">
+		  				    {% for case in item.showcases %}
+		  				    	{% if forloop.length > 1 %}
+		  				    		<div class="six columns">
+			  				    	    <figure>
+			  				    	    	<img src="/media/showcases/{{ case.image }}" alt="" />
+			  				    	    	<figcaption>
+												<p>
+													{{ case.description }}
+												</p>
+			  				    	    	</figcaption>
+			  				    	    </figure>
+		  				    		</div>
+		  				    	{% endif %}
+		  				    {% endfor %}	
+	  					</div>
+	  				{% endif %}
 	  			</div>
 	  		{% endfor %}
   		</div>

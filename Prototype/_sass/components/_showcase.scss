@@ -1,0 +1,31 @@
+.showcase {
+	background-color: rgba(255,255,255,0.3);
+	padding: 0.8em;
+
+	&.caption {
+		width: 40%;
+		float: left;
+		margin: 0.4em 2em 1em 0
+	}
+
+	img {
+		margin-bottom: 0;
+	}
+
+	figcaption {
+		h4 {
+			font-size: 0.8em;
+			line-height: 1.3;
+		}
+		p {
+			font-size: 0.8em;
+			opacity: 0.8;
+			font-weight: bold;
+			line-height: 1.3;
+		}
+	}
+}
+
+.container .item .showcase img {
+	margin-bottom: 0.5em;
+}
