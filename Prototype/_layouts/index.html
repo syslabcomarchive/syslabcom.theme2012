@@ -6,66 +6,75 @@ layout: shell
 <section id="home">
 	<h1 class="logo" id="site-logo">Syslab.com</h1>
 	<p id="first-scroll" class="lid-opener">
-		<a data-scroll href="#intranet-solutions">Jump to content</a>
+		<a class="pat-scroll" href="#intranet-solutions">Jump to content</a>
 	</p>
 	{% include global-nav.html %}
 </section>
 
 <section id="intranet-solutions">
-	<div class="pat-stacks">
-		<div class="item" id="intranet-solution-intro">
-			<h2>
-				{{ t['social_intranet_solutions'] }} 
-			</h2>
-			<aside class="sidebar">
-				<article class="pat-rich content">
-					<h3>
-						{{ t['social_intranet_solutions_text'] }} 
-					</h3>
-					<ul class="link-list">
-					{% assign posts=site.posts | where:"lang", page.lang %}
-						{% for item in posts %}
-							{% if item.category == 'intranet-solutions' %}    
-							<li>
-								<a href="#intranet-solution-{{ item.title | downcase | replace: ' ','-' }}">{{ item.tagline }}</a>
-							</li>
-							{% endif %}
-						{% endfor %}
-					</ul>
-				</article>
-			</aside>
-			<figure class="illustration laptop">
-				<img class="slide" src="/media/pi-login.jpg" alt="" />
-				<img class="slide" src="/media/pi-dashboard.jpg" alt="" />
-				<img class="slide" src="/media/pi-news.jpg" alt="" />
-				<img class="slide" src="/media/pi-workspaces.jpg" alt="" />
-				<img class="slide" src="/media/pi-workspace.jpg" alt="" />
-				<img class="slide" src="/media/pi-workspace-docs.jpg" alt="" />
-				<img class="slide" src="/media/pi-workspace-image.jpg" alt="" />
-				<img class="slide" src="/media/pi-case.jpg" alt="" />
-				<img class="cover" src="/media/macbook.png" alt="" />
-			</figure>
-		</div>
+	<div class="container">
+		{% assign posts=site.posts | where:"lang", page.lang %}
+		<h2>
+			{{ t['social_intranet_solutions'] }}
+		</h2>
+		<p class="byline">
+			<!-- <h3>
+				{{ t['social_intranet_solutions_text'] }} 
+			</h3> -->
+
+			&lt;Brand name&gt; connects the people in your organisation and helps them to stay focussed. 
+		</p>
+
+		<figure class="composite laptop">
+			<img class="slide" src="/media/pi-login.jpg" alt="" />
+			<img class="slide" src="/media/pi-dashboard.jpg" alt="" />
+			<img class="slide" src="/media/pi-news.jpg" alt="" />
+			<img class="slide" src="/media/pi-workspaces.jpg" alt="" />
+			<img class="slide" src="/media/pi-workspace.jpg" alt="" />
+			<img class="slide" src="/media/pi-workspace-docs.jpg" alt="" />
+			<img class="slide" src="/media/pi-workspace-image.jpg" alt="" />
+			<img class="slide" src="/media/pi-case.jpg" alt="" />
+			<img class="cover" src="/media/macbook.png" alt="" />
+		</figure>
+	</div>
+	<div class="subnav pat-bumper">
+	  	<nav class="container navigation tabs">
+			<a class="section-name pat-scroll" href="#intranet-solutions"><strong>{{ t['social_intranet_solutions'] }}</strong></a>
+			{% for item in posts %}
+	  			{% if item.category == 'intranet-solutions' %}   
+	  				<a href="#intranet-solution-{{ item.id | replace: '/','' }}" class="pat-scroll">{{ item.tagline }}</a>
+	  			{% endif %}
+	  		{% endfor %}
+	  		<a href="#home" class="icon home pat-scroll">Home</a>
+	  	</nav>
+	</div>
+	<div class="container topics">
 		{% for item in posts %}
 			{% if item.category == 'intranet-solutions' %}    
-				<div class="item" id="intranet-solution-{{ item.title | downcase | replace: ' ','-' }}">
-					<aside class="sidebar">
+				{% if item.image %}
+					<div class="row topic" id="intranet-solution-{{ item.id | replace: '/','' }}">
+						<figure class="illustration six columns">
+							<img class="slide" src="/media/{{ item.image }}" alt="" />
+						</figure>
+						<aside class="sidebar five columns">
+							<article class="pat-rich content">
+								<h3>
+									{{ item.title }}
+								</h3>
+								{{ item.content | markdownify }}
+							</article>
+						</aside>
+					</div>
+				{% else %}
+					<div class="topic no-hero" id="intranet-solution-{{ item.id | replace: '/','' }}">
 						<article class="pat-rich content">
 							<h3>
 								{{ item.title }}
 							</h3>
 							{{ item.content | markdownify }}
-			 				<ul class="link-list">
-								<li class="home">
-									<a href="#intranet-solution-intro">Social intranet solutions</a>
-								</li>
-							</ul>
 						</article>
-					</aside>
-					<figure class="illustration">
-						<img class="slide" src="/media/{{ item.image }}" alt="" />
-					</figure>
-				</div>
+					</div>
+				{% endif %}
 			{% endif %}
 		{% endfor %}
 	</div>
@@ -80,16 +89,20 @@ layout: shell
 	  	<!-- <p class="introduction">SYSLAB.COM provides services for companies, organisations and governmental institutions within the whole software lifecycle.</p> -->
 
 		{% assign services=site.categories['services'] | where:"lang", page.lang %}
-
-	  	<nav class="navigation tabs">
+	</div>
+	<div class="subnav pat-bumper">
+	  	<nav class="container navigation tabs">
+	  		<a class="section-name pat-scroll" href="#services"><strong>{{ t['web_solutions'] }} </strong></a>
 	  		{% for item in services %}
 	  			<a href="#{{ item.id | remove: '/' }}">{{ item.title }}</a>
 	  		{% endfor %}
+	  		<a href="#home" class="icon home pat-scroll">Home</a>
 	  	</nav>
-
+	</div>
+	<div class="container">
   		<div class="pat-stacks">
 	  		{% for item in services %}
-	  			<div class="item" id="{{ item.id | remove: '/' }}">
+	  			<div class="item pat-scroll" id="{{ item.id | remove: '/' }}">
 	  				{{ item.content }}
 	  			</div>
 	  		{% endfor %}
@@ -131,7 +144,7 @@ layout: shell
 						{% endif %}
 						{% for subitem in item.images %}
 							<p>
-								<img src="media/showcases/{{ subitem.file }}" alt="{{subitem.name}}" />
+								<img src="/media/showcases/{{ subitem.file }}" alt="{{subitem.name}}" />
 							</p>
 						{% endfor %}
 					</div>
@@ -149,13 +162,13 @@ layout: shell
 	<div class="container">
 		<h2>News</h2>
 		<p>
-			<img src="media/reporter-dp.svg" class="hero" alt="Newsflash" class="illustration" />
+			<img src="/media/reporter-dp.svg" class="hero" alt="Newsflash" class="illustration" />
 		</p>
 		<div class="article-listing">
 
 		</div>
 		<script type="text/javascript">
-var rssurl = 'https://www.syslab.com/blog/?cat=6&feed=rss2';
+var rssurl = 'https://new.syslab.com/blog/?cat=6&feed=rss2';
 $(document).ready(function(){
   $.get(rssurl, function(data) {
     var $xml = $(data);
@@ -212,35 +225,5 @@ $(document).ready(function(){
   			</div>
   		{% endfor %}
 
-<!--
-		<h2>{{ t['careers']}}</h2>
-		<img src="/media/Careers2.png" alt="Carreers" class="illustration float-after" />
-		<p class="byline">Are you our next UX and Design Engineer?</p>
-		<h4>We are looking for a UX Engineer specialising in Design and Javascript. </h4>
-		<p>Are you able to connect knowledge about design with development? Do you have a couple of years working experience and live in or around Munich? You speak english? Then you are the right candidate for the job! </p>
-
-		<p>At syslab.com you will work closely with our design team to translate concepts into living, breathing prototypes. Your primary responsibilities are analysis, design and implementation of software projects connected with Python and Plone backends. You are deeply involved in all aspects of your projects, which you follow up on from acquisition to service. You will also keep contact to the community and release your projects as open source.</p>
-
-		<p>Besides that you will:</p>
-		<ul>
-			<li>Deliver innovative, engaging prototypes using the latest in front-end technologies</li>
-			<li>Work with and extend the emerging open source patternslib project</li>
-			<li>Advise, collaborate with and synthesize feedback from UX designers and researchers</li>
-			<li>Fulfill several project requests simultaneously while meeting tight deadlines</li>
-			<li>Serve as a mentor for junior UX engineers and peers</li>
-			<li>Assist backend engineers with final development of customer products</li>
-		</ul>
-
-
-		<h4>We offer</h4>
-		<p>... an enjoyable environment - we work where it is best. At the office, at home, in the park. We use conventions only for our programming techniques. We think that you thrive if you get your flexibility. As everybody depends on each other, we have a good and productive working climate.</p>
-
-		<h4>About Syslab.com</h4>
-		<p>We create innovative solutions based on content management frameworks. As an alternative to commercial monolithic ECM software, we strive to tie the best components of open source software together to match the individual needs. Doing so we are not bound to any specific industry but service the general need for information management. Our team is small but experienced and international and we use modern tools and technologies to achieve what we want.</p>
-
-		<h4>Interested?</h4>
-
-		<p>Then do not hesitate to send your application by e-mail to <a title="external-link" href="mailto:info@syslab.com">info@syslab.com</a>.</p>
--->
 	</div>
 </section>

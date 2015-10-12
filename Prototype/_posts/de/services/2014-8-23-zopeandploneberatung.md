@@ -1,9 +1,9 @@
 ---
 layout: sub-page
-title: Zope und Plone Beratung
+title: "Zope & Plone"
 category: services
 ---
 
 ![Illustration (right aligned)](/media/assessment-dp.svg)
 
-SYSLAB.COM ist eines der größten und erfahrensten Zope- und Plone-Entwicklungsunternehmen in Deutschland. Wir helfen Unternehmen bei der effektiven Skalierung ihrer Plattformen für hohes Volumen, Geschwindigkeit und Leistung durch die Untersuchung ihrer Systeme und der Lösung situationsspezifischer Probleme. Wenn Sie also Unterstützung benötigen, können wir mit Ihrem Unternehmen zusammenarbeiten, um interne Mitarbeiter über die beste Praxis, Nutzung, Bereitstellung und Entwicklung von Lösungen auf Basis von Zope und Plone zu informieren und trainieren.
+Syslab.com ist einer der größten und erfahrensten Zope- und Plone-Entwickler in Deutschland. Wir helfen Unternehmen bei der effektiven Skalierung ihrer Systeme für hohe Datenmengen, Geschwindigkeit und Leistung durch die Analyse der Systeme und durch Lösung situationsspezifischer Probleme. Wenn Sie Unterstützung benötigen, finden wir mit Ihnen zusammen die besten Wege, um Ihre Mitarbeiter effektiv in Best-Practice, Verwendung, Deployment und Softwareentwicklung auf Basis von Zope und Plone zu schulen.

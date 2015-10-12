@@ -1,31 +1,55 @@
 ---
 layout: sub-page
 name: disclaimer
+title: Haftungsausschluss
+description: Haftungsausschluss
 ---
 
 
 
 <section id="disclaimer">
     <div class="container">
-        <h1>Haftungsausschluss</h1>
-        
-        <h3>Online-Inhalte</h3>
-        <p>Der Autor übernimmt keinerlei Gewähr für die Aktualität, Korrektheit, Vollständigkeit oder Qualität der bereitgestellten Informationen. Haftungsansprüche gegen den Schaden durch die Nutzung der dargebotenen Informationen, einschließlich jeder Art von Informationen, die unvollständig oder unrichtig verursacht wurden, sind grundsätzlich ausgeschlossen. Alle Angebote sind freibleibend und unverbindlich. Teile der Seiten oder das gesamte Angebot einschließlich aller Angebote und Informationen können vom Autor ohne gesonderte Ankündigung erweitert, verändert oder teilweise oder vollständig gelöscht werden.</p>
 
-        <h3>Verweise und Links </h3>
-        <p>Der Autor ist nicht verantwortlich für die Inhalte, auf die von seiner Seiten her verlinkt wird - es sei denn, er hat volle Kenntnis von illegalen Inhalten und wäre in der Lage dazu, die Besucher seiner Webseite vom Betrachten dieser Seiten zu verhindern. Wenn irgendein Schaden durch die Nutzung der dort präsentierten Informationen entstehen sollte, kann nur der Autor der entsprechenden Seiten haftbar gemacht werden, nicht derjenige, der darauf verwiesen hat. Der Autor kann darüber hinaus nicht für Fremdeinträge oder Meldungen, die Nutzer von Diskussionsforen, Gästebüchern oder Mailinglisten auf seiner Seite zur Verfügung gestellt hat, haftbar gemacht werden.</p>
+<h1>Haftungsausschluss</h1>
 
-        <h3>Urheberrecht</h3>
-        <p>Der Autor beabsichtigt nicht , irgendein urheberrechtlich geschütztes Material für die Veröffentlichung zu nutzen oder, falls nicht möglich, auf die Urheberrecht des respektiven Objekts zu verweisen.</p>
+<h3>Haftung für Inhalte</h3>
 
-        <p>Das Copyright für das gesamte Material, das vom Autor erstellt ist, ist vorbehalten. Eine Vervielfältigung oder Verwendung solcher Grafiken, Sounds oder Texte in anderen elektronischen oder gedruckten Publikationen ist ohne ausdrückliche Zustimmung des Autors nicht gestattet.</p>
+<p>Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für 
+eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. 
+Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht 
+verpflichtet, übermittelte oder gespeicherte fremde Informationen zu 
+überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige 
+Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der 
+Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon 
+unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem 
+Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei 
+Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte 
+umgehend entfernen.</p>
 
-        <h3>Datensicherheit</h3>
-        <p>Wenn die Möglichkeit zur Eingabe persönlicher oder geschäftlicher Daten (Emailadressen, Namen, Anschriften) besteht, so ist die Preisgabe dieser Daten freiwillig. Die Inanspruchnahme und Bezahlung aller angebotenen Dienste ist - soweit technisch möglich und zumutbar -. Auch ohne Angabe solcher Daten bzw. unter Angabe anonymisierter Daten oder eines Pseudonyms gestattet.</p>
+<h3>Haftung für Links</h3>
 
-        <h3>Rechtswirksamkeit dieses Haftungsausschlusses</h3>
-        <p>Dieser Haftungsausschluss soll als Teil des Internetangebotes angesehen werden, von dem aus auf diese Seite verwiesen wurde. Sofern Teile oder einzelne Formulierungen dieses Textes der geltenden Rechtslage nicht entsprechen, bleiben der Inhalt und ihrer Gültigkeit der übrigen Teile dieser Erklärung davon unberührt.</p>
+<p>Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren 
+Inhalte wir keinen Einfluss haben. Deshalb können wir für diese 
+fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte 
+der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der 
+Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung 
+auf mögliche Rechtsverstöße überprüft. Rechtswidrige 
+Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente 
+inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte 
+einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen 
+werden wir derartige Links umgehend entfernen.</p>
 
+<h3>Urheberrecht</h3>
+
+<p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten 
+unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und 
+jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen 
+der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads 
+und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen 
+Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, 
+werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche 
+gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. 
+Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.</p>
         
     </div>
 </section>

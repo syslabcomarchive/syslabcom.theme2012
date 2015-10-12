@@ -35,7 +35,8 @@ body {
 	}
 
 	h2 + .byline,
-	.pat-stacks + .byline {
+	.pat-stacks + .byline,
+	.navigation.tabs + byline {
 		text-align: center;
 		font-size: 1.5em;
 		margin-top: -0.5em;
