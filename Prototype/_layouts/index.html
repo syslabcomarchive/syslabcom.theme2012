@@ -86,6 +86,10 @@ layout: shell
 			{{ t['web_solutions'] }} 
 		</h2>
 
+		<p class="byline">
+			{{ t['references_text'] }} 
+		</p>
+
 	  	<!-- <p class="introduction">SYSLAB.COM provides services for companies, organisations and governmental institutions within the whole software lifecycle.</p> -->
 
 		{% assign services=site.categories['services'] | where:"lang", page.lang %}
@@ -103,15 +107,19 @@ layout: shell
   		<div class="pat-stacks">
 	  		{% for item in services %}
 	  			<div class="item pat-scroll" id="{{ item.id | remove: '/' }}">
+	  				{% if item.description %}
+	  				    <p class="intro">
+	  				    	{{ item.description }}
+	  				    </p>
+	  				{% endif %}
+	  				{% if item.image %}
+	  				    <img src="/media/{{ item.image }}" alt="" />
+	  				{% endif %}
 	  				{{ item.content }}
 	  			</div>
 	  		{% endfor %}
   		</div>
-
-		<p class="byline">
-			{{ t['references_text'] }} 
-		</p>
-
+{% comment %}
 		<div class="pat-stacks">
 			<div class="item" id="logos">
 				<p class="logo-cloud">
@@ -153,7 +161,7 @@ layout: shell
 	  		{% endfor %}
 
 		</div>
-	
+{% endcomment %}	
 	</div>
 
 </section>
