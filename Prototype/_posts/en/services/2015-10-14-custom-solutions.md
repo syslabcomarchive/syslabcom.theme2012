@@ -21,3 +21,7 @@ Open Source is a central topic in the IT business today. We build Open Source So
 #### Custom solutions based on standard software
 
 The open source ecosystem covers a broad field of application. Many of the available software solutions have been around for a long time and can be considered rock solid. Based on that foundation, we can effectively model organisational business processes and create tools that effectively solve the challenges unique to your company.
+
+#### Stable and future proof
+
+We implement solutions closely following the core Plone and Plone Intranet style guides. This is necessary to assure that solutions can be easily upgraded and don't conflict with security hotfixes. We are happy to also provide service levels to maintain all custom development - just specify your needs, we will cover them.
