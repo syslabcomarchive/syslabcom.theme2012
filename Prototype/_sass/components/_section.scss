@@ -33,7 +33,7 @@ section {
         float: left;
 
         &.current {
-          border-bottom: 0.1em gray solid;
+          border-bottom: 0.1em white solid;
           padding-bottom: 0.1em;
         }
 
@@ -110,6 +110,13 @@ section {
 
     .subnav {
       background-color: white;
+
+      a {
+        &.current {
+          border-bottom: 0.1em white solid;
+          padding-bottom: 0.1em;
+        }
+      }
 
       &.bumped {
         border-bottom: 1px solid silver;
