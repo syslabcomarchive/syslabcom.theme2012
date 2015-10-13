@@ -2,6 +2,7 @@
 layout: sub-page
 title: Strategie
 category: services
+published: false
 ---
 
 ![Illustration (left aligned)](/media/customisation-dp.svg)
