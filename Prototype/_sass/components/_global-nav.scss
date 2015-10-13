@@ -1,5 +1,5 @@
 .global-nav {
-	background: rgba(0,0,0,0.4);
+	background: #7a681f;
 	position: relative;
 	// Override pat-bumper left value:
 	left: 0 !important;
@@ -7,7 +7,7 @@
 	text-align: center;
 	font-size: 1.3rem;
 	padding: 0.5em 0;
-	// transition: top 0.2s;
+	transition: background-color 4s;
 
 	// &.bumped {
 	// 	position: fixed !important;
@@ -52,6 +52,8 @@
 	}
 
 	&.bumped {
+		background-color: #666;
+
 		li {
 			&.languages {
 				right: 1%;
@@ -83,5 +85,21 @@
 	@media screen and (max-width: $tablet) {
 		// disable bumper for cell phones (Not enough screen estate)
 		top: 50% !important;
+	}
+}
+
+.sub-page {
+	.global-nav {
+		li {
+			&.languages {
+				right: 1%;
+				top: 0.85em;
+				font-size: 0.6em;
+
+				-moz-transform: translateX(0);
+				-webkit-transform: translateX(0);
+				transform: translateX(0);
+			}
+		}
 	}
 }

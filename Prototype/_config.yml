@@ -4,7 +4,7 @@ author: Cornelis G. A. Kolbach
 domain: syslab.com
 media: /media
 markdown: kramdown
-permalink: /:title
+permalink: /:title/
 sass:
   style: :compressed
 exclude: 
@@ -12,3 +12,111 @@ exclude:
   - Gemfile.lock
   - config.codekit
   - config.rb
+defaults:
+-
+  scope:
+    path: _posts/en
+  values:
+    layout: default
+    lang: en
+-
+  scope:
+    path: _posts/de
+  values:
+    layout: default
+    lang: de
+
+t:
+  en:
+    home: "Home"
+    andother: "and powerful"
+    createdby: "created by"
+    social_intranet_solutions: "Social intranet solutions"
+    social_intranet_solutions_text: "Syslab's intranet solution helps you to…"
+    web_solutions: "Web solutions"
+    references_text: "We shape the web for businesses and organisations."
+    people_headline: "People"
+    people_byline: "The people behind Syslab.com"
+    people_subline: "…plus a team of highly skilled and open-source devoted developers, designers and administrators."
+    careers: "Careers"
+
+  de:
+    home: "Start"
+    andother: "und leistungsfähige"
+    createdby: "entwickelt von"
+    social_intranet_solutions: "Social Intranet Lösungen"
+    social_intranet_solutions_text: "Die Syslab Intranet Lösung hilft bei ihrer Weiterentwicklung…"
+    web_solutions: "Weblösungen"
+    references_text: "Wir formen das Web für Firmen und Organisationen."
+    people_headline: "Mitarbeiter"
+    people_byline: "Die Menschen hinter Syslab.com"
+    people_subline: "…sowie ein Team aus hochspezialisierten Open-Source Entwicklern, Designern und Administratoren."
+    careers: "Karriere"
+
+mainnav:
+  en:
+    homepage:
+      name: "Homepage"
+      url: "/homepage/index.html"
+    socialintranet:
+      name: "Social intranet"
+      url: "/homepage/index.html#intranet-solutions"
+    websolutions:
+      name: "Web solutions"
+      url: "/homepage/index.html#services"
+    people:
+      name: "Passionate Teams"
+      url: "/homepage/index.html#people"
+  de:
+    homepage:
+      name: "Startseite"
+      url: "/startseite/index.html"
+    socialintranet:
+      name: "Social Intranet"
+      url: "/startseite/index.html#intranet-solutions"
+    websolutions:
+      name: "Weblösungen"
+      url: "/startseite/index.html#services"
+    people:
+      name: "engagierten Teams"
+      url: "/startseite/index.html#people"
+
+appendix:
+  en:
+    contact:
+      name: "Contact"
+      url: "/contact/"
+    about:
+      name: "About"
+      url: "/about/"
+    press:
+      name: "Press"
+      url: "/press/"
+    disclaimer:
+      name: "Disclaimer"
+      url: "/disclaimer/"
+    news:
+      name: "News"
+      url: "/homepage/index.html#news"
+    careers:
+      name: "Careers"
+      url: "/homepage/index.html#careers"
+  de:
+    contact:
+      name: "Kontakt"
+      url: "/kontakt/"
+    about:
+      name: "Über"
+      url: "/ueber/"
+    press:
+      name: "Presse"
+      url: "/presse/"
+    disclaimer:
+      name: "Haftungsausschluss"
+      url: "/haftungsausschluss/"
+    news:
+      name: "News"
+      url: "/startseite/index.html#news"
+    careers:
+      name: "Karriere"
+      url: "/homepage/index.html#careers"

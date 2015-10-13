@@ -1,15 +1,19 @@
-<ul class="global-nav navigation pat-bumper">
+<ul class="global-nav navigation">
 	<li class="topics">
 		<!-- <a {% if page.url == '/index.html' %}data-scroll{% endif %} href="{% unless page.layout == 'index.html' %}/index.html{% endunless %}#home">Syslab</a>
 		= -->
-		<a {% if page.url == '/index.html' %}data-scroll{% endif %} href="{% unless page.layout == 'index.html' %}/index.html{% endunless %}#intranet-solutions">Social intranet</a>
-		and other
-		<a {% if page.url == '/index.html' %}data-scroll{% endif %} href="{% unless page.layout == 'index.html' %}/index.html{% endunless %}#services">Web solutions</a>
-		 created by
-      	<a {% if page.url == '/index.html' %}data-scroll{% endif %} href="{% unless page.layout == 'index.html' %}/index.html{% endunless %}#people">Passionate people</a>
+	    {% assign mainnav=site.mainnav[page.lang] %}
+	    {% assign t=site.t[page.lang] %}
+	    <a class="pat-scroll" href="{% if page.layout == 'sub-page' %}{{mainnav['socialintranet'].url }}{% else %}#intranet-solutions{% endif %}">{{ mainnav['socialintranet'].name }}</a>
+			{{ t['andother']}}
+	    <a class="pat-scroll" href="{% if page.layout == 'sub-page' %}{{mainnav['websolutions'].url }}{% else %}#services{% endif %}">{{ mainnav['websolutions'].name }}</a>
+	    {{ t['createdby']}}
+	    <a class="pat-scroll" href="{% if page.layout == 'sub-page' %}{{mainnav['people'].url }}{% else %}#people{% endif %}">{{ mainnav['people'].name }}</a>
   	</li>
-  	<li class="languages">
-		<a href="" class="current">EN</a>
-		<a href="">DE</a>
-  	</li>
+    <li class="languages">
+    {% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
+    {% for post in posts %}
+        <a href="{{ post.url }}index.html" class="pat-inject {% if post.lang == page.lang %}current{% endif %}">{{ post.lang }}</a>
+    {% endfor %}
+    </li>
 </ul>

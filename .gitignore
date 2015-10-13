@@ -34,5 +34,7 @@ _site/
 *.espressostorage
 
 Prototype/Media/.DS_Store
+Prototype/Gemfile.lock
+Prototype/.sass-cache
 
 *.scssc
