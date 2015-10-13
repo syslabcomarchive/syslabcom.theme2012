@@ -20,7 +20,7 @@ Open Source is a central topic in the IT business today. We build Open Source So
 
 #### Custom solutions based on standard software
 
-The open source ecosystem covers a broad field of application. Many of the available software solutions have been around for a long time and can be considered rock solid. Based on that foundation, we can effectively model organisational business processes and create tools that effectively solve the challenges unique to your company.
+The open source ecosystem covers a broad field of application. Many of the available software solutions have been around for a long time and can be considered rock solid. Based on that foundation, we can effectively model organisational business processes and create tools that efficiently solve the challenges unique to your company.
 
 #### Stable and future proof
 
