@@ -1,6 +1,6 @@
 ---
 layout: sub-page
-title: News
+title: Communication
 name: news
 category: intranet-solutions
 tagline: "Communication"

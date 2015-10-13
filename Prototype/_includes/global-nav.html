@@ -13,7 +13,7 @@
     <li class="languages">
     {% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
     {% for post in posts %}
-        <a href="{{ post.url }}index.html" class="pat-inject {% if post.lang == page.lang %}current{% endif %}">{{ post.lang }}</a>
+        <a href="{{ post.url }}index.html" class="xpat-inject {% if post.lang == page.lang %}current{% endif %}">{{ post.lang }}</a>
     {% endfor %}
     </li>
 </ul>

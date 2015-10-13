@@ -1,9 +1,9 @@
 ---
 layout: sub-page
-title: Wertvolle Benutzerprofile
+title: Benutzerprofile
 name: user-profiles
 category: intranet-solutions
-tagline: von verteilten Kontaktdaten zu gepflegten Benutzerprofilen
+tagline: Benutzerprofile
 image: pi-profile.jpg
 ---
 
