@@ -118,26 +118,31 @@ layout: shell
 	  				{% if item.showcases %}
 	  				    {% for case in item.showcases %}
 	  				    	{% if forloop.length == 1 %}
-	  				    	    <figure class="showcase caption pat-gallery">
-						    		{% for image in case.images | limit: 1 %}
-						    			<a href="/media/showcases/{{ image.image }}">
-						    				<img src="/media/showcases/{{ image.image }}" alt="">
-						    			</a>
-						    		{% endfor %}
-	  				    	    	<figcaption>
-	  				    	    		<h4>
-	  				    	    			View showcase: {{ case.title }}
-	  				    	    		</h4>
-										<p>
-											{{ case.description }}
-										</p>
-										<p hidden>
-				  				    		{% for image in case.images  %}
-				  				    			<a href="/media/showcases/{{ image.image }}"></a>
-				  				    		{% endfor %}
-				  				    	</p>
-	  				    	    	</figcaption>
-	  				    	    </figure>
+	  				    		<div class="pat-gallery">
+		  				    	    <figure itemprop="associatedMedia" class="showcase caption"itemscope itemtype="http://schema.org/ImageObject">
+							    		{% for image in case.images | limit: 1 %}
+							    			<a itemprop="contentUrl" href="/media/showcases/{{ image.image }}" title="{{ image.description }}">
+							    				<img itemprop="thumbnail" src="/media/showcases/{{ image.image }}" alt="{{ case.description }}">
+							    			</a>
+							    		{% endfor %}
+		  				    	    	<figcaption>
+		  				    	    		<h4>
+		  				    	    			View showcase: {{ case.title }}
+		  				    	    		</h4>
+											<p itemprop="caption description">
+												{{ case.description }}
+											</p>
+		  				    	    	</figcaption>
+		  				    	    </figure>
+		  				    	    <figure itemprop="associatedMedia" hidden itemscope itemtype="http://schema.org/ImageObject">
+			  				    		{% for image in case.images  %}
+			  				    			<a itemprop="contentUrl" href="/media/showcases/{{ image.image }}">{{ image.title }}</a>
+			  				    		{% endfor %}
+		  				    	    	<figcaption class="pat-gallery" itemprop="caption description">
+		  				    	    		{{ image.description }}
+		  				    	    	</figcaption>
+		  				    	    </figure>
+		  				    	</div>
 	  				    	{% endif %}
 	  				    {% endfor %}
 	  				{% endif %}
