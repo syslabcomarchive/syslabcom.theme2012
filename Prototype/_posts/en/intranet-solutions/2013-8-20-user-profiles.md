@@ -1,10 +1,12 @@
 ---
 layout: sub-page
-title: Valueful User Profiles
+title: User Profiles
 name: user-profiles
 category: intranet-solutions
 tagline: User profiles
 image: pi-profile.jpg
 ---
 
-Human resources are a wonderful and valueful asset. Organisations that support employees to give better access to their skills and channels are helping to develop faster and reach better results in shorter time. This leaves employees with free time to improve further.
+Get to know the people you work with.
+See what they're working on, what skills and interests they have and reach out to them.
+You can follow, endorse and make other contacts directly from a *User Profile*.
