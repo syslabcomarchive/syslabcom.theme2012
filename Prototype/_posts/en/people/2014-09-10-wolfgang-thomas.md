@@ -1,10 +1,10 @@
 ---
 layout: biography
 title: Wolfgang Thomas
-description: "Technical Director — Specialist and allrounder with extensive experience in software design and architecture. Deeply rooted in open source technology and team management."
+description: "Technical Director — Specialist and allrounder with extensive experience in software design and architecture. Deeply rooted in Open Source technology and team management."
 name: wolfgang-thomas
 category: people
-summary: "<span itemprop='title'>Technical Director</span> — Specialist and allrounder with extensive experience in software design and architecture. Deeply rooted in open source technology and team management."
+summary: "<span itemprop='title'>Technical Director</span> — Specialist and allrounder with extensive experience in software design and architecture. Deeply rooted in Open Source technology and team management."
 ---
 
 At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
