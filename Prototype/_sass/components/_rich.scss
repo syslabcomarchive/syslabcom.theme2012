@@ -1,0 +1,21 @@
+.pat-rich {
+	img, 
+	figure {
+		max-width: 85%;
+		margin: 3em auto;
+		display: block;
+
+		img {
+			max-width: 100%;
+			margin: 0em;
+		}
+	}
+
+
+	h2 {
+		font-size: 1.5em;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		text-align: left;
+	}
+}
