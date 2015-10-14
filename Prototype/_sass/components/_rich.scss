@@ -9,6 +9,20 @@
 			max-width: 100%;
 			margin: 0em;
 		}
+
+		@media screen and (min-width: $tablet) {
+			&.float-before,
+			&[alt*="(left aligned)"] {
+				float: left;
+				margin-right: 2em;
+			}
+
+			&.float-after,
+			&[alt*="(right aligned)"] {
+				float: right;
+				margin-left: 2em;
+			}
+		}
 	}
 
 

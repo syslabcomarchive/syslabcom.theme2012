@@ -4,20 +4,6 @@ img {
 		float: none;
 	}
 
-	@media screen and (min-width: $tablet) {
-		&.float-before,
-		&[alt*="(left aligned)"] {
-			float: left;
-			margin-right: 2em;
-		}
-
-		&.float-after,
-		&[alt*="(right aligned)"] {
-			float: right;
-			margin-left: 2em;
-		}
-	}
-
 	max-width: 100%;
 	display: block;
 	margin: 0 auto;
