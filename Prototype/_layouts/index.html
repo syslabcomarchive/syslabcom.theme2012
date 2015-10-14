@@ -115,34 +115,26 @@ layout: shell
 	  				{% if item.image %}
 	  				    <img src="/media/{{ item.image }}" alt="" />
 	  				{% endif %}
-	  				{% if item.showcases %}
-	  				    {% for case in item.showcases %}
-	  				    	{% if forloop.length == 1 %}
-	  				    		<div class="pat-gallery">
+	  				{% if item.case %}
+	  				    {% for case in site.posts %}
+	  				    	{% if case.layout == 'showcase' and case.title == item.case %}
+	  				    	
+							    {% for image in case.images | limit: 1 %}
+							    
 		  				    	    <figure itemprop="associatedMedia" class="showcase caption"itemscope itemtype="http://schema.org/ImageObject">
-							    		{% for image in case.images | limit: 1 %}
-							    			<a itemprop="contentUrl" href="/media/showcases/{{ image.image }}" title="{{ image.description }}">
-							    				<img itemprop="thumbnail" src="/media/showcases/{{ image.image }}" alt="{{ case.description }}">
+							    			<a class="pat-modal" itemprop="contentUrl" href="{{ case.url }}#main" title="{{ image.description }}">
+							    				<img itemprop="thumbnail" src="/media/showcases/{{ image.file }}" alt="{{ case.description }}">
 							    			</a>
-							    		{% endfor %}
 		  				    	    	<figcaption>
 		  				    	    		<h4>
 		  				    	    			View showcase: {{ case.title }}
 		  				    	    		</h4>
 											<p itemprop="caption description">
-												{{ case.description }}
+												{{ image.description }}
 											</p>
 		  				    	    	</figcaption>
 		  				    	    </figure>
-		  				    	    <figure itemprop="associatedMedia" hidden itemscope itemtype="http://schema.org/ImageObject">
-			  				    		{% for image in case.images  %}
-			  				    			<a itemprop="contentUrl" href="/media/showcases/{{ image.image }}">{{ image.title }}</a>
-			  				    		{% endfor %}
-		  				    	    	<figcaption class="pat-gallery" itemprop="caption description">
-		  				    	    		{{ image.description }}
-		  				    	    	</figcaption>
-		  				    	    </figure>
-		  				    	</div>
+	  				    	    {% endfor %}
 	  				    	{% endif %}
 	  				    {% endfor %}
 	  				{% endif %}

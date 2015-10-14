@@ -1,0 +1,56 @@
+#pat-modal {
+	background-color: #666;
+	position: fixed;
+	top: 0 !important;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100% !important;
+	z-index: 1000;
+
+	.panel-content {
+		overflow: auto;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	.header {
+		.close-panel {
+			position: absolute;
+			right: 1em;
+			top: 1em;
+			width: 5em;
+			height: 5em;
+			overflow: hidden;
+			background: none;
+			text-indent: -1000em;
+			z-index: 1;
+
+			&:before,
+			&:after {
+				text-indent: 0;
+				position: absolute;
+				background-color: white;
+				content: ' ';
+				width: 1px;
+				height: 4em;
+				left: 2em;
+				top: 0;
+				-moz-transform: rotate(45deg);
+				-webkit-transform: rotate(45deg);
+				transform: rotate(45deg);
+			}
+
+			&:after {
+				-moz-transform: rotate(-45deg);
+				-webkit-transform: rotate(-45deg);
+				transform: rotate(-45deg);
+			}
+		}
+	}
+}
