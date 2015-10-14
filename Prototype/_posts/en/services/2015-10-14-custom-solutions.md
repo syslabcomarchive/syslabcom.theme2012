@@ -2,7 +2,7 @@
 layout: sub-page
 title: Custom solutions
 category: services
-image: showcases/oira.jpg
+case: OiRA - Online interactive Risk Assessment
 summary: We offer dedicated solutions, unique to each company´s business practices and processes. Customisation may involve augmentation or adaptation of standard solutions, compatibility extension to additional tools and technologies or even the realisation of bespoke software solutions that are built from the ground up to fit your needs.
 ---
 

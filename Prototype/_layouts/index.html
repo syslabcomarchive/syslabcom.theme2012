@@ -138,7 +138,9 @@ layout: shell
 	  				    	{% endif %}
 	  				    {% endfor %}
 	  				{% endif %}
-	  				{{ item.content }}
+	  				<article class="pat-rich">
+	  					{{ item.content }}
+	  				</article>
 	  				{% if item.showcases %}
 	  					<h3>
 	  						Showcases
