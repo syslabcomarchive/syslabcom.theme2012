@@ -13,6 +13,81 @@ section {
     line-height: 1.3;
   }
 
+  .composite {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+    img {
+      &.slide {
+        z-index: 0;
+      }      
+      &.cover {
+        z-index: 1;
+        width: 100%;
+        position: relative;
+      }
+    }
+
+    &.laptop {
+      margin-bottom: 2em;
+
+      img {
+        float: left;
+        outline: none;
+        
+        &.slide {
+          position: absolute;
+          width: 71.8%;
+          margin-top: 7.2%;
+          left: 14.2%;            
+
+          opacity: 0;
+
+          -webkit-animation-name: xfade;
+          animation-name: xfade;
+          -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+          -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+
+          &:nth-child(1) {
+            -webkit-animation-delay: 0;
+            animation-delay: 0;
+          }
+          &:nth-child(2) {
+            -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+          }
+          &:nth-child(3) {
+            -webkit-animation-delay: 6s;
+            animation-delay: 6s;
+          }
+          &:nth-child(4) {
+            -webkit-animation-delay: 9s;
+            animation-delay: 9s;
+          }
+          &:nth-child(5) {
+            -webkit-animation-delay: 11s;
+            animation-delay: 11s;
+          }
+          &:nth-child(6) {
+            -webkit-animation-delay: 14s;
+            animation-delay: 14s;
+          }
+          &:nth-child(7) {
+            -webkit-animation-delay: 17s;
+            animation-delay: 17s;
+          }
+          &:nth-child(8) {
+            -webkit-animation-delay: 20s;
+            animation-delay: 20s;
+          }
+        }
+      }
+    }
+  }
+
   .subnav {
     z-index: 10;
     opacity: 0.9;
@@ -73,6 +148,15 @@ section {
     @media screen and (max-width: $tablet) {
       padding: 4rem 5%;
       top: 50% !important;
+    }
+
+    &.topics {
+      padding-top: 0;
+
+      .topic {
+        padding: 3em 0 0 0;
+        overflow: hidden;
+      }
     }
 
     @include clear-floats(both);
@@ -136,88 +220,8 @@ section {
       }
     }
 
-    .composite {
-      position: relative;
-      width: 100%;
-      overflow: hidden;
-
-      img {
-        &.slide {
-          z-index: 0;
-        }      
-        &.cover {
-          z-index: 1;
-          width: 100%;
-          position: relative;
-        }
-      }
-
-      &.laptop {
-        margin-bottom: 2em;
-
-        img {
-          float: left;
-          outline: none;
-          
-          &.slide {
-            position: absolute;
-            width: 71.8%;
-            margin-top: 7.2%;
-            left: 14.2%;            
-
-            opacity: 0;
-
-            -webkit-animation-name: xfade;
-            animation-name: xfade;
-            -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-            -webkit-animation-duration: 3s;
-            animation-duration: 3s;
-
-            &:nth-child(1) {
-              -webkit-animation-delay: 0;
-              animation-delay: 0;
-            }
-            &:nth-child(2) {
-              -webkit-animation-delay: 3s;
-              animation-delay: 3s;
-            }
-            &:nth-child(3) {
-              -webkit-animation-delay: 6s;
-              animation-delay: 6s;
-            }
-            &:nth-child(4) {
-              -webkit-animation-delay: 9s;
-              animation-delay: 9s;
-            }
-            &:nth-child(5) {
-              -webkit-animation-delay: 11s;
-              animation-delay: 11s;
-            }
-            &:nth-child(6) {
-              -webkit-animation-delay: 14s;
-              animation-delay: 14s;
-            }
-            &:nth-child(7) {
-              -webkit-animation-delay: 17s;
-              animation-delay: 17s;
-            }
-            &:nth-child(8) {
-              -webkit-animation-delay: 20s;
-              animation-delay: 20s;
-            }
-          }
-        }
-      }
-    }
-
     .topics {
-      padding-top: 0;
-
       .topic {
-        padding: 4em 0 0 0;
-        overflow: hidden;
-
         &:nth-child(odd) {
           .sidebar {
             float: left;
