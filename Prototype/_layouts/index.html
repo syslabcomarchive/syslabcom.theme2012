@@ -94,7 +94,7 @@ layout: shell
 			<p class="logo-cloud">
 		  		{% for item in site.posts %}
 		  			{% if item.layout == 'showcase' and item.level == 'gold' item.images %}
-		  			    <a title="{{ item.summary }}" href="{{ item.url }}" class="pat-modal"><img src="/media/logos/{{ item.id | remove: '/' }}.svg" alt="" /></a>
+		  			    <a title="{{ item.summary }}" href="{{ item.url }}#main" class="pat-modal"><img src="/media/logos/{{ item.id | remove: '/' }}.svg" alt="" /></a>
 		  			{% endif %}
 		  		{% endfor %}
 			</p>
