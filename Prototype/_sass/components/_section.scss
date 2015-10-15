@@ -95,6 +95,8 @@ section {
     margin: 0 auto;
     position: relative;
 
+    @include box-sizing();
+
     @media screen and (max-width: $tablet) {
       padding: 4rem 5%;
       top: 50% !important;
@@ -279,4 +281,8 @@ section {
 
 .sub-page section .container {
     padding-top: 2.8rem;
+
+    @media screen and (min-width: $tablet)  {
+      padding: 6% 4%;
+    }
 }
