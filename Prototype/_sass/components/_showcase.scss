@@ -3,9 +3,13 @@
 	padding: 0.8em;
 
 	&.caption {
-		width: 40%;
-		float: right;
-		margin: 0.4em 0 1em 2em;
+		margin-bottom: 1em;
+
+		@media screen and (min-width: $tablet) {
+			width: 40%;
+			float: right;
+			margin: 0.4em 0 1em 2em;
+		}
 	}
 
 	img {
