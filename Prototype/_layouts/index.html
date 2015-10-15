@@ -93,7 +93,7 @@ layout: shell
 		<div class="item" id="logos">
 			<p class="logo-cloud">
 		  		{% for item in site.posts %}
-		  			{% if item.layout == 'showcase' and item.level == 'gold' item.images %}
+		  			{% if item.layout == 'showcase' and item.level == 'gold' %}
 		  			    <a title="{{ item.summary }}" href="{{ item.url }}#main" class="pat-modal"><img src="/media/logos/{{ item.id | remove: '/' }}.svg" alt="" /></a>
 		  			{% endif %}
 		  		{% endfor %}
