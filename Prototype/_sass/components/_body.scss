@@ -7,6 +7,10 @@ body {
 	color: white;
 	height: 100%;
 
+	&.sub-page {
+		padding-top: 6%;
+	}
+
 	&.biography {
 		background-color: $colour-quinary;
 	}

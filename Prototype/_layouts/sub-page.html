@@ -3,6 +3,12 @@ layout: shell
 template: sub-page
 ---
 
-{% include global-nav.html %}
-
-{{ content }}
+<section>
+	<div class="subnav pat-bumper">
+	  	<nav class="container navigation tabs">
+			<a class="section-name pat-scroll" href="#intranet-solutions"><strong>{{ page.title }}</strong></a>
+	  		<a href="/" class="icon home">Home</a>
+	  	</nav>
+	</div>
+	{{ content }}
+</section>

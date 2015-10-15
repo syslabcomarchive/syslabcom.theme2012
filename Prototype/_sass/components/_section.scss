@@ -91,6 +91,7 @@ section {
   .subnav {
     z-index: 10;
     opacity: 0.9;
+    background-color: #666;
 
     &.bumped {
       border-bottom: 1px white solid;
@@ -106,6 +107,9 @@ section {
 
     .tabs {
       padding: 0;
+      &.container {
+        padding: 0;
+      }
       margin-bottom: -1px;
       border-bottom: 1px white solid;
 
