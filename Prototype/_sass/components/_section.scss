@@ -97,10 +97,10 @@ section {
 
     @include box-sizing();
 
-    @media screen and (max-width: $tablet) {
-      padding: 4rem 5%;
-      top: 50% !important;
-    }
+    // @media screen and (max-width: $tablet) {
+    //   padding: 4rem 5%;
+    //   top: 50% !important;
+    // }
 
     &.topics {
       padding-top: 0;
@@ -252,9 +252,9 @@ section {
   &#people,
   &#people .navigation.tabs {
     background-color: $colour-quinary;
-    @media screen and (min-width: $tablet) {
-      p {text-align: center;}
-    }
+    // @media screen and (min-width: $tablet) {
+    //   p {text-align: center;}
+    // }
   }
 
   &.biography {
@@ -282,7 +282,7 @@ section {
 .sub-page section .container {
     padding-top: 2.8rem;
 
-    @media screen and (min-width: $tablet)  {
+    @include screen-size(small-medium) {
       padding: 6% 4%;
     }
 }
