@@ -1,9 +1,6 @@
 .people-cloud {
 	text-align: center;
 	padding: 2em 0 2em 0;
-	@media screen and (max-width: $tablet) {
-		padding: 0;
-	}
 	font-size: 0.9em;
 	line-height: 1.5em;
 
@@ -15,6 +12,10 @@
 
 		@include screen-size(large) {
 			width: 33.333332%;
+		}
+
+		@include screen-size(medium) {
+			width: 50%;
 		}
 
 		vertical-align: top;

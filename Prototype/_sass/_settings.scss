@@ -2,6 +2,10 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,500,700);
 @import "fontello/css/fontello.css";
 
+$break-small: 768px;
+$break-medium: 1024px;
+$break-large: 1280px;
+
 // Primary colours
 $colour-primary: #A31E39;
 $colour-secondary: #5F9EA0;
