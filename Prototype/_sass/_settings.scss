@@ -25,13 +25,9 @@ $tablet:768px;
 @import "libraries/animate";
 @import "libraries/mixins";
 @import "libraries/reset";
+@import "libraries/patterns/patterns";
 
 // patterns
-@import "libraries/patterns/components/checklist";
-@import "libraries/patterns/components/grid";
-@import "libraries/patterns/components/form";
-@import "libraries/patterns/components/injection";
-@import "libraries/patterns/components/gallery";
 
 // components
 @import "components/anchor";

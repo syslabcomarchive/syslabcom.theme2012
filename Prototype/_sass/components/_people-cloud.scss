@@ -8,20 +8,16 @@
 	line-height: 1.5em;
 
 	.person {
-		margin: 0 2em 3em;
-		vertical-align: top;
+		margin: 0 0 3em;
+		padding: 0 3%;
+		float: left;
+		@include box-sizing();
 
-		@media screen and (min-width: $tablet) {
-			width: 14em;
-			display: inline-block;
+		@include screen-size(large) {
+			width: 33.333332%;
 		}
-		@media screen and (max-width: $tablet) {
-			display: block;
-			width: 80%;
-			margin: 4em auto;
-			// Disable pat-equaliser for mobile devices
-			height: auto !important;
-		}
+
+		vertical-align: top;
 
 		figcaption {
 			text-align: center;
@@ -39,10 +35,6 @@
 			margin-bottom: 1em;
 			border-radius: 50%;
 			margin-bottom: 1.5em;
-			
-			@media screen and (min-width: $tablet) {
-				height: 14em;
-			}
 		}
 	}
 }

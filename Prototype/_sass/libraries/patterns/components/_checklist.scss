@@ -1,40 +1,65 @@
+@charset "UTF-8";
+
+@mixin checkbox() {
+	padding-left: 1.5em;
+	position: relative;
+
+	&.checked:before,
+	&.unchecked:before {
+		font-family: fontello;
+		content: '#{$glyph-checkbox}';
+		float: left;
+		position: absolute;
+		left: 0;
+		top: 0em;
+	}
+
+	&.checked:before {
+		content: '#{$glyph-checkbox-active}'
+	}
+
+	input[type="checkbox"],
+	input[type="radio"] {
+		opacity: 0;
+		position: absolute;
+	}
+}
+
+label.pat-checklist {
+	@include checkbox();
+}
+
 .pat-checklist {
+
+	> br {
+		display: none;
+	}
 
 	label {
 		display: block;
-		padding-left: 1.5em;
-		position: relative;
+		@include checkbox();
+		@include clear-fix();
+	}
 
-		input[type="checkbox"],
-		input[type="radio"] {
-			position: absolute;
-			left: 0;
-			top: 0;
-			opacity: 0;
-		}
-
-		&:before {
-			font-family: "fontello";
-			font-size: 0.8em;
-			content: "\e808";
-			margin-left: -1.75em;
-			position: relative;
-			top: 0.25em;
-			float: left;
-		}
-
-		&.checked:before {
-			content: "\e809"
+	&.cloud {
+		label {
+			display: inline-block;
+			margin-right: 1em;
 		}
 	}
 
 	&.radio label {
 		&:before {
-			content: "\e807";
+			content: '#{$glyph-radio-button}';
 		}
-
 		&.checked:before {
-			content: "\e806";
+			content: '#{$glyph-radio-button-active}';
 		}
+	}
+
+	fieldset.composed {
+		padding-left: 0;
+		margin-bottom: 0;
+		position: relative;
 	}
 }
