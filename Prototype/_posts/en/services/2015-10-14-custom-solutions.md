@@ -36,6 +36,6 @@ Where possible, we take advantage of these solutions and apply them to your orga
 
 #### Stable and future proof
 
-We implement solutions closely following the best practices for core Plone and <brand name> development.
+We implement solutions closely following the best practices for core Plone and Quave development.
 This is necessary to assure that solutions can be easily upgraded and don't conflict with security hotfixes.
 We are happy to also provide service levels to maintain all custom development - just specify your needs, we will cover them.
