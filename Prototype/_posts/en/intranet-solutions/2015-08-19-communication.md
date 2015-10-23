@@ -7,7 +7,7 @@ tagline: "Communication"
 image: pi-news-long.jpg
 ---
 
-#### &lt;brand name&gt; helps you keep up
+#### Quaive helps you keep up
 
 Share exciting news with your organisation so everyone knows what's happening.
 News items are structured in a familiar way, making it straight forward to create attractive articles.
