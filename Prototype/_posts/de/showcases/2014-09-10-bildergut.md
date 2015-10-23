@@ -2,6 +2,7 @@
 layout: showcase
 title: Bildergut
 name: bildergut
+logo: bildergut
 category: showcases
 summary: "Bildergut zielt auf die Schaffung eines unverwechselbaren Stills mit digitalen Mitteln. Die Website verfügt über hochauflösende Bilder unterstützt bei einem CMS zur schnellen Aktualisierung und Unterstützung für Vollbild und Mobil."
 images:

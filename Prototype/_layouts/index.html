@@ -87,11 +87,12 @@ layout: shell
 			{{ t['references_text'] }} 
 		</p>
 
+		{% assign showcases=site.categories['showcases'] | where:"lang", page.lang %}
 		<div class="item" id="logos">
 			<p class="logo-cloud">
-		  		{% for item in site.posts %}
-		  			{% if item.layout == 'showcase' and item.level == 'gold' %}
-		  			    <a title="{{ item.summary }}" href="{{ item.url }}#main" class="pat-modal"><img src="/media/logos/{{ item.id | remove: '/' }}.svg" alt="" /></a>
+		  		{% for item in showcases %}
+		  			{% if item.level == 'gold' %}
+		  			    <a title="{{ item.summary }}" href="{{ item.url }}#main" class="pat-modal"><img src="/media/logos/{{ item.logo }}.svg" alt="" /></a>
 		  			{% endif %}
 		  		{% endfor %}
 			</p>
@@ -99,7 +100,7 @@ layout: shell
 
 	  	<!-- <p class="introduction">SYSLAB.COM provides services for companies, organisations and governmental institutions within the whole software lifecycle.</p> -->
 
-		{% assign services=site.categories['services'] | where:"lang", page.lang %}
+	{% assign services=site.categories['services'] | where:"lang", page.lang %}
 	</div>
 	<div class="subnav pat-bumper">
 	  	<nav class="container navigation tabs">

@@ -2,6 +2,8 @@
 layout: showcase
 title: Star Alliance Extranet
 name: star-alliance-extranet
+logo: star-alliance
+level: gold
 category: showcases
 summary: "Die Star Alliance Extranet ist ein Portal-, Collaboration und Dokumenten-Management- Lösung, die für die Verbreitung von Informationen und die Zusammenarbeit im Team über die Mitarbeiternetzwerk der Mitgliedsfluggesellschaften"
 images:
