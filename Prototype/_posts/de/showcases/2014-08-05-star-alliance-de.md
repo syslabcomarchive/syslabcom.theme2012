@@ -1,7 +1,7 @@
 ---
 layout: showcase
 title: Star Alliance Extranet
-name: star-alliance-extranet
+name: star-alliance
 logo: star-alliance
 level: gold
 category: showcases

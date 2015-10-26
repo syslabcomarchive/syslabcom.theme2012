@@ -51,7 +51,7 @@ layout: shell
 				{% if item.image %}
 					<div class="row topic" id="intranet-solution-{{ item.id | replace: '/','' }}">
 						<figure class="illustration six columns">
-							<img class="slide" src="/media/{{ item.image }}" alt="" />
+							<img class="slide" src="/media/{{ item.image }}" alt="" {% if item.name == 'demo' %}style="background:#869ebf; padding:1em;"{% endif %} />
 						</figure>
 						<aside class="sidebar five columns">
 							<article class="pat-rich content">
