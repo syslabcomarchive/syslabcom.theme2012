@@ -1,0 +1,277 @@
+---
+layout: shell
+---
+{% assign t=site.t[page.lang] %}
+
+<section id="home">
+	<h1 class="logo" id="site-logo">Syslab.com</h1>
+	<p id="first-scroll" class="lid-opener">
+		<a class="pat-scroll" href="#intranet-solutions">Jump to content</a>
+	</p>
+	{% include global-nav.html %}
+</section>
+
+<section id="intranet-solutions">
+	<div class="container">
+		{% assign posts=site.posts | where:"lang", page.lang %}
+		<h2>
+			{{ t['social_intranet_solutions'] }}
+		</h2>
+		<p class="byline">
+
+				{{ t['social_intranet_solutions_text'] }} 
+		</p>
+
+		<figure class="composite laptop">
+			<img class="slide" src="/media/pi-login.jpg" alt="" />
+			<img class="slide" src="/media/pi-dashboard.jpg" alt="" />
+			<img class="slide" src="/media/pi-news.jpg" alt="" />
+			<img class="slide" src="/media/pi-workspaces.jpg" alt="" />
+			<img class="slide" src="/media/pi-workspace.jpg" alt="" />
+			<img class="slide" src="/media/pi-workspace-docs.jpg" alt="" />
+			<img class="slide" src="/media/pi-workspace-image.jpg" alt="" />
+			<img class="slide" src="/media/pi-case.jpg" alt="" />
+			<img class="cover" src="/media/macbook.png" alt="" />
+		</figure>
+	</div>
+	<div class="subnav pat-bumper">
+	  	<nav class="container navigation tabs">
+			<a class="section-name pat-scroll" href="#intranet-solutions"><strong>{{ t['social_intranet_solutions'] }}</strong></a>
+			{% for item in posts %}
+	  			{% if item.category == 'intranet-solutions' %}   
+	  				<a href="#intranet-solution-{{ item.id | replace: '/','' }}" class="pat-scroll">{{ item.tagline }}</a>
+	  			{% endif %}
+	  		{% endfor %}
+	  		<a href="#home" class="icon home pat-scroll">Home</a>
+	  	</nav>
+	</div>
+	<div class="container topics">
+		{% for item in posts %}
+			{% if item.category == 'intranet-solutions' %}    
+				{% if item.image %}
+					<div class="row topic" id="intranet-solution-{{ item.id | replace: '/','' }}">
+						<figure class="illustration six columns">
+							<img class="slide" src="/media/{{ item.image }}" alt="" {% if item.name == 'demo' %}style="background:#869ebf; padding:1em;"{% endif %} />
+						</figure>
+						<aside class="sidebar five columns">
+							<article class="pat-rich content">
+								<h3>
+									{{ item.title }}
+								</h3>
+								{{ item.content | markdownify }}
+							</article>
+						</aside>
+					</div>
+				{% else %}
+					<div class="topic no-hero" id="intranet-solution-{{ item.id | replace: '/','' }}">
+						<article class="pat-rich content">
+							<h3>
+								{{ item.title }}
+							</h3>
+							{{ item.content | markdownify }}
+						</article>
+					</div>
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+	</div>
+</section>
+
+<section id="services">
+	<div class="container introduction">
+		<h2>
+			{{ t['web_solutions'] }} 
+		</h2>
+
+		<p class="byline">
+			{{ t['references_text'] }} 
+		</p>
+
+		{% assign showcases=site.categories['showcases'] | where:"lang", page.lang %}
+		<div class="item" id="logos">
+			<p class="logo-cloud">
+		  		{% for item in showcases %}
+		  			{% if item.level == 'gold' %}
+		  			    <a title="{{ item.summary }}" href="{{ item.url }}#main" class="pat-modal"><img src="/media/logos/{{ item.logo }}.svg" alt="" /></a>
+		  			{% endif %}
+		  		{% endfor %}
+			</p>
+		</div>
+
+	  	<!-- <p class="introduction">SYSLAB.COM provides services for companies, organisations and governmental institutions within the whole software lifecycle.</p> -->
+
+	{% assign services=site.categories['services'] | where:"lang", page.lang %}
+	</div>
+	<div class="subnav pat-bumper">
+	  	<nav class="container navigation tabs">
+	  		<a class="section-name pat-scroll" href="#services"><strong>{{ t['web_solutions'] }} </strong></a>
+	  		{% for item in services %}
+	  			<a href="#{{ item.id | remove: '/' }}" class="pat-scroll">{{ item.title }}</a>
+	  		{% endfor %}
+	  		<a href="#home" class="icon home pat-scroll">Home</a>
+	  	</nav>
+	</div>
+	<div class="container topics">
+  		<div class="pat-stacks">
+	  		{% for item in services %}
+	  			<div class="item topic pat-scroll" id="{{ item.id | remove: '/' }}">
+	  				{% if item.summary %}
+	  				    <p class="intro">
+	  				    	{{ item.summary }}
+	  				    </p>
+	  				{% endif %}
+	  				{% if item.image %}
+	  				    <img src="/media/{{ item.image }}" alt="" />
+	  				{% endif %}
+	  				{% if item.case %}
+	  				    {% for case in site.posts %}
+	  				    	{% if case.layout == 'showcase' and case.title == item.case %}
+	  				    	
+							    {% for image in case.images | limit: 1 %}
+							    
+		  				    	    <figure itemprop="associatedMedia" class="showcase caption"itemscope itemtype="http://schema.org/ImageObject">
+							    			<a class="pat-modal" itemprop="contentUrl" href="{{ case.url }}#main" title="{{ image.description }}">
+							    				<img itemprop="thumbnail" src="/media/showcases/{{ image.file }}" alt="{{ case.description }}">
+							    			</a>
+		  				    	    	<figcaption>
+		  				    	    		<h4>
+		  				    	    			View showcase: {{ case.title }}
+		  				    	    		</h4>
+											<p itemprop="caption description">
+												{{ image.description }}
+											</p>
+		  				    	    	</figcaption>
+		  				    	    </figure>
+	  				    	    {% endfor %}
+	  				    	{% endif %}
+	  				    {% endfor %}
+	  				{% endif %}
+	  				<article class="pat-rich">
+	  					{{ item.content }}
+	  				</article>
+	  				{% if item.showcases %}
+	  					<!-- <h3>
+	  						Showcases
+	  					</h3> -->
+	  					<div class="showcases">
+		  				    {% for case in item.showcases %}
+		  				    	{% if forloop.length > 1 %}
+		  				    		<div class="six columns">
+			  				    	    <figure>
+			  				    	    	<img src="/media/showcases/{{ case.image }}" alt="" />
+			  				    	    	<figcaption>
+												<p>
+													{{ case.description }}
+												</p>
+			  				    	    	</figcaption>
+			  				    	    </figure>
+		  				    		</div>
+		  				    	{% endif %}
+		  				    {% endfor %}	
+	  					</div>
+	  				{% endif %}
+	  			</div>
+	  		{% endfor %}
+  		</div>
+{% comment %}
+		<div class="pat-stacks">
+	  		{% for item in showcases %}
+				<div class="item" id="{{ item.id | remove: '/' }}">
+					<div class="description">
+						<h3>{{ item.title }}</h3>
+						{% if item.summary %}
+						    <p>
+						    	{{ item.summary }}
+								{% capture this_content %}{{ item.content | strip | remove: " " }}{% endcapture %}
+								{% capture content_size %}{{ this_content | size }}{% endcapture %}
+
+								{% if this_content and content_size != '1' and content_size != '0' %}
+						    		<a href="{{ item.url }}/#main-content"><strong>Learn more…</strong></a>
+								{% endif %}
+						    </p>
+						{% endif %}
+						{% for subitem in item.images %}
+							<p>
+								<img src="/media/showcases/{{ subitem.file }}" alt="{{subitem.name}}" />
+							</p>
+						{% endfor %}
+					</div>
+					<a href="#logos" class="escape iconified icon-cancel-circle">Choose another project</a>
+				</div>
+	  		{% endfor %}
+
+		</div>
+{% endcomment %}	
+	</div>
+
+</section>
+
+<section id="news">
+	<div class="container">
+		<h2>News</h2>
+		<p>
+			<img src="/media/reporter-dp.svg" class="hero" alt="Newsflash" class="illustration" />
+		</p>
+		<div class="article-listing">
+
+		</div>
+		<script type="text/javascript">
+var rssurl = 'https://new.syslab.com/blog/?cat=6&feed=rss2';
+$(document).ready(function(){
+  $.get(rssurl, function(data) {
+    var $xml = $(data);
+    $xml.find("item").slice(0,6).each(function() {
+        var $this = $(this),
+            item = {
+                title: $this.find("title").text(),
+                link: $this.find("link").text(),
+                description: $this.find("description").text().substring(0, 100) + "…",
+                D: $this.find("pubDate").text().split(' '),
+                author: $this.find("author").text()
+        };
+        //Do something with item here...
+        $('.article-listing').append(
+          '<article class="item"><a href="' + item.link + '">'
+          + '<h3>' + item.title + '</h3>'
+          + '<p class="date"><time>' + item.D[1] + ' ' + item.D[2] + ' ' +  item.D[3] + '</time></p>'
+          + '<p>' + item.description + '</p>'
+          + '</a></article>');
+    });
+  });
+});
+
+		</script>
+	</div>
+</section>
+<section id="people">
+	<div class="container">
+		<h2> {{ t['people_headline'] }} </h2>
+		<p class="byline">
+			{{ t['people_byline'] }}
+		</p>
+		<div class="people-cloud pat-equaliser">
+			{% assign people=site.categories['people'] | where:"lang", page.lang %}
+
+	  		{% for item in people %}
+				<figure class="person" itemscope itemtype="http://data-vocabulary.org/Person">
+					<img itemprop="photo" src="/media/avatar-{{ item.id | remove: '/' }}.jpg" alt="" />
+					<figcaption>
+						<strong itemprop="fn">{{ item.title }}</strong> {{ item.summary }}
+					</figcaption>
+				</figure>
+	  		{% endfor %}
+		</div>
+        <p>{{ t['people_subline']}}</p>
+	</div>
+</section>
+<section id="careers">
+	<div class="container">
+		{% assign career=site.categories['career'] | where:"lang", page.lang %}
+  		{% for item in career %}
+  			<div class="item" id="{{ item.id | remove: '/' }}">
+  				{{ item.content }}
+  			</div>
+  		{% endfor %}
+
+	</div>
+</section>

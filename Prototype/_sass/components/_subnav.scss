@@ -1,0 +1,57 @@
+.subnav {
+  z-index: 10;
+  opacity: 0.9;
+  background-color: #666;
+
+  &.bumped {
+    border-bottom: 1px white solid;
+
+    &.sticky-supported {
+      @media screen and (-webkit-min-device-pixel-ratio:0) {
+        position: -webkit-sticky !important;
+        position: sticky !important;
+        top: 0.01em !important;
+      }
+    }
+  }
+
+  .tabs {
+    padding: 0;
+    &.container {
+      padding: 0;
+    }
+    margin-bottom: -1px;
+    border-bottom: 1px white solid;
+
+    a {
+      float: left;
+
+      &.current {
+        border-bottom: 0.2rem white solid;
+        padding-bottom: 0;
+      }
+
+      &.icon {
+        width: 1.3em;
+        float: right;
+        overflow: hidden;
+        margin-right: 1em;
+        white-space: nowrap;
+        padding-left: 0;
+        padding-right: 0;
+
+        &:before {
+          width: 1.5em;
+          float: left;
+          font-family: fontello;
+          content: '\2302';
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+}
+
+.sub-page .subnav {
+  margin-bottom: 1em;
+}
