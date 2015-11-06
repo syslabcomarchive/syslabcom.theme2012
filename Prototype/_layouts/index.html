@@ -148,7 +148,7 @@ layout: shell
 	  				    {% endfor %}
 	  				{% endif %}
 	  				<article class="pat-rich">
-	  					{{ item.content }}
+	  					{{ item.content | markdownify }}
 	  				</article>
 	  				{% if item.showcases %}
 	  					<!-- <h3>
