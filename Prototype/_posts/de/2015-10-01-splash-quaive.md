@@ -4,7 +4,7 @@ name: homepage
 title: Syslab.com Social Intranet Lösungen
 tagline: Nehmen Sie mit uns Kontakt auf!
 background: polystichum-minutium-neg.jpg
-description: QUAVE - Ihr Social Intranet Lösung von SYSLAB.COM
+description: Quaive - Ihre Social Intranet Lösung von SYSLAB.COM
 lang: en
 ---
 
