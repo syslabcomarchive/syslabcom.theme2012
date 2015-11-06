@@ -209,6 +209,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     }
 
     .topics {
+      padding-bottom: 0;
+
       .topic {
         &:nth-child(odd) {
           .sidebar {
