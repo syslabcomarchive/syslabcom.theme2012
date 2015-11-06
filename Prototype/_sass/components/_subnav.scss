@@ -1,7 +1,10 @@
 .subnav {
   z-index: 10;
   opacity: 0.9;
-  background-color: #666;
+  // background-color: #666;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
 
   &.bumped {
     border-bottom: 1px white solid;
