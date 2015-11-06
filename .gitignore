@@ -38,3 +38,4 @@ Prototype/Gemfile.lock
 Prototype/.sass-cache
 
 *.scssc
+.jekyll-metadata
