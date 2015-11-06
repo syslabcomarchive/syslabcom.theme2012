@@ -1,6 +1,9 @@
 .csspositionsticky {
   section {
     overflow: visible;
+    @-moz-document url-prefix() {
+        overflow: hidden;
+    }
   }
 }
 section {
