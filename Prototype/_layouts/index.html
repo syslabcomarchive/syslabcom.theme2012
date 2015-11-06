@@ -130,7 +130,7 @@ layout: shell
 							    {% for image in case.images | limit: 1 %}
 							    
 		  				    	    <figure itemprop="associatedMedia" class="showcase caption"itemscope itemtype="http://schema.org/ImageObject">
-							    			<a class="pat-inject pat-switch" itemprop="contentUrl" href="{{ case.url }}#main" title="{{ image.description }}">
+							    			<a class="pat-inject pat-switch" data-pat-inject="target: #modal-content" data-pat-switch="selector: body; add: modal-active" itemprop="contentUrl" href="{{ case.url }}#main" title="{{ image.description }}">
 							    				<img itemprop="thumbnail" src="/media/showcases/{{ image.file }}" alt="{{ case.description }}">
 							    			</a>
 		  				    	    	<figcaption>
