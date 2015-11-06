@@ -1,6 +1,7 @@
 // Assets
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,500,700);
 @import "fontello/css/fontello.css";
+@import "mixins";
 
 $break-small: 768px;
 $break-medium: 1024px;
@@ -30,8 +31,6 @@ $tablet:768px;
 @import "libraries/mixins";
 @import "libraries/reset";
 @import "libraries/patterns/patterns";
-
-// patterns
 
 // components
 @import "components/anchor";
