@@ -8,7 +8,11 @@ description: QUAVE - Ihr Social Intranet Lösung von SYSLAB.COM
 lang: en
 ---
 
-## Ihr Erfolg ist unsere Aufgabe!
+### Quaive - Ihre Social Intranet Lösung von SYSLAB.COM
+
+…
+
+### Ihr Erfolg ist unsere Aufgabe!
 
 Unsere Intranet Lösung kombiniert Enterprise Web Content Management, social Tools und Portal Integration, die über eine intuitive und mobil-freundliche Benutzeroberfläche geliefert wird. Wir bauen unsere Lösungen vom Grund auf zusammen mit dem Kunden unter Verwendung von agilen Software-Entwicklungsmethoden.
 
