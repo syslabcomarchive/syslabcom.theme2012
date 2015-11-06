@@ -103,14 +103,15 @@ section {
       img.slide[src*=coffee-with-sugar] {
         background-color: transparent !important;
         border: none !important;
-        width: 130%;
-        position: relative;
-        left: -15%;
-        max-width: 200% !important;
+        @include screen-size(large) {
+           width: 130%;
+          position: relative;
+          left: -15%;
+          max-width: 200% !important;
+        }
       }
     }
     
-
     // @media screen and (max-width: $tablet) {
     //   padding: 4rem 5%;
     //   top: 50% !important;
