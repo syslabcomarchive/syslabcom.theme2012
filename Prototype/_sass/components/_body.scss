@@ -7,6 +7,18 @@ body {
 	color: white;
 	height: 100%;
 
+	&.modal-active {
+		overflow: hidden;
+
+		> section {
+			-webkit-filter: blur(15px); 
+			-moz-filter: blur(15px); 
+			-o-filter: blur(15px); 
+			-ms-filter: blur(15px); 
+			filter: blur(15px);
+		}
+	}
+
 	&.sub-page {
 		padding-top: 6%;
 	}

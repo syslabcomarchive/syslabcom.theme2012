@@ -92,7 +92,7 @@ layout: shell
 			<p class="logo-cloud">
 		  		{% for item in showcases %}
 		  			{% if item.level == 'gold' %}
-		  			    <a title="{{ item.summary }}" href="{{ item.url }}#main" class="pat-modal"><img src="/media/logos/{{ item.logo }}.svg" alt="" /></a>
+		  			    <a title="{{ item.summary }}" href="{{ item.url }}#main" class="pat-inject pat-switch" data-pat-inject="target: #modal-content" data-pat-switch="selector: body; add: modal-active"><img src="/media/logos/{{ item.logo }}.svg" alt="" /></a>
 		  			{% endif %}
 		  		{% endfor %}
 			</p>
@@ -130,7 +130,7 @@ layout: shell
 							    {% for image in case.images | limit: 1 %}
 							    
 		  				    	    <figure itemprop="associatedMedia" class="showcase caption"itemscope itemtype="http://schema.org/ImageObject">
-							    			<a class="pat-modal" itemprop="contentUrl" href="{{ case.url }}#main" title="{{ image.description }}">
+							    			<a class="pat-inject pat-switch" itemprop="contentUrl" href="{{ case.url }}#main" title="{{ image.description }}">
 							    				<img itemprop="thumbnail" src="/media/showcases/{{ image.file }}" alt="{{ case.description }}">
 							    			</a>
 		  				    	    	<figcaption>

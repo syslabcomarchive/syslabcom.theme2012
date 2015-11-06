@@ -1,5 +1,6 @@
-#pat-modal {
-	background-color: #666;
+#pat-modal,
+#modal {
+	background-color: rgba(0,0,0,0.6);
 	position: fixed;
 	top: 0 !important;
 	right: 0;
@@ -8,6 +9,7 @@
 	width: 100%;
 	height: 100% !important;
 	z-index: 1000;
+	display: none;
 
 	.panel-content {
 		overflow: auto;
@@ -52,5 +54,12 @@
 				transform: rotate(-45deg);
 			}
 		}
+	}
+}
+
+.modal-active {
+	#modal,
+	#pat-modal {
+		display: block;
 	}
 }
