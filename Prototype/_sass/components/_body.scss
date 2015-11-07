@@ -14,6 +14,12 @@ body {
 	  -moz-transition: 1s all;
 	  -webkit-transition: 1s all;
   	  transition: 1s all;
+		
+		-moz-filter: blur(0px); 
+		-webkit-filter: blur(0px); 
+		-o-filter: blur(0px); 
+		-ms-filter: blur(0px); 
+		filter: blur(0px);
 	}
 
 	&.modal-active {
