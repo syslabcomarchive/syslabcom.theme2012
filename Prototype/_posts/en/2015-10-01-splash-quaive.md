@@ -33,13 +33,7 @@ Unser Produkt ist Individuell anpassungsfähig auf die Bedürfnisse Ihres Untern
 
 Vertrauen Sie auf unsere Social Intranet Lösung.
 
-Wir helfen Ihnen zum Geschäftserfolg.
-
-Schritt Nr. Eins!  
-
--- Form goes here --
-
-Wir behandeln selbstverständlich Ihre persönliche Informationen absolut vertraulich.
+Wir helfen Ihnen zum Geschäftserfolg. [Schritt Nr. Eins!](mailto:info@syslab.com)
 
 SYSLAB.COM GmbH  
 Landwehrstr. 60-62  
