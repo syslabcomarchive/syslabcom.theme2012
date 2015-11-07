@@ -10,17 +10,16 @@
 	height: 100% !important;
 	z-index: 1000;
 	overflow: auto;
-	display: none;
+	pointer-events: none;
 	opacity: 0;
 
 	-moz-transform: scale(1.5);
 	-webkit-transform: scale(1.5);
 	transform: scale(1.5);
 
-
-	-moz-transition: 1s all;
-	-webkit-transition: 1s all;
-	transition: 1s all;
+	-moz-transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	transition: 0.5s all;
 
 	.panel-content {
 		@include container();
@@ -66,6 +65,7 @@
 	#modal,
 	#pat-modal {
 		display: block;
+		pointer-events: inherit;
 
 		-moz-transform: scale(1);
 		-webkit-transform: scale(1);
