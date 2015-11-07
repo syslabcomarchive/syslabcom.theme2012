@@ -10,11 +10,9 @@ lang: en
 
 ### Quaive - Ihre Social Intranet Lösung von SYSLAB.COM
 
-…
+![Quaive dashboard](/media/quaive-screenshots/quaive-dashboard.jpg)
 
-### Ihr Erfolg ist unsere Aufgabe!
-
-Unsere Intranet Lösung kombiniert Enterprise Web Content Management, social Tools und Portal Integration, die über eine intuitive und mobil-freundliche Benutzeroberfläche geliefert wird. Wir bauen unsere Lösungen vom Grund auf zusammen mit dem Kunden unter Verwendung von agilen Software-Entwicklungsmethoden.
+**Ihr Erfolg ist unsere Aufgabe!** Unsere Intranet Lösung kombiniert Enterprise Web Content Management, social Tools und Portal Integration, die über eine intuitive und mobil-freundliche Benutzeroberfläche geliefert wird. Wir bauen unsere Lösungen vom Grund auf zusammen mit dem Kunden unter Verwendung von agilen Software-Entwicklungsmethoden.
 
 <a href="/startseite/#intranet-solutions" class="pat-button cta">Unsere Features erfahren</a>
 
@@ -50,4 +48,4 @@ Deutschland
 
 Fon: +49 89 306 35 89 0  
 Fax: +49 89 306 35 89 9  
-Email: info@syslab.com
+Email: [info@syslab.com](mailto:info@syslab.com)
