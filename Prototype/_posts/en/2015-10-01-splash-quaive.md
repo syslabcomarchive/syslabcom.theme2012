@@ -14,7 +14,7 @@ lang: en
 
 **Ihr Erfolg ist unsere Aufgabe!** Unsere Intranet Lösung kombiniert Enterprise Web Content Management, social Tools und Portal Integration, die über eine intuitive und mobil-freundliche Benutzeroberfläche geliefert wird. Wir bauen unsere Lösungen vom Grund auf zusammen mit dem Kunden unter Verwendung von agilen Software-Entwicklungsmethoden.
 
-<a href="/startseite/#intranet-solutions" class="pat-button cta">Unsere Features erfahren</a>
+<a href="/startseite/#intranet-solutions" class="pat-button cta icon-info-circle">Unsere Features erfahren</a>
 
 Ihre Vorteile mit unserem Social Intranet:
 
