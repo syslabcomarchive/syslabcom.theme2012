@@ -1,0 +1,24 @@
+---
+layout: shell
+template: splash
+---
+
+<section>
+	<div class="subnav pat-bumper" {% if page.background %}style="background-color: transparent; background-image: url(/media/{{ page.background }})"{% endif %}>
+	  	<nav class="container navigation tabs">
+			<a class="section-name pat-scroll" href="#intranet-solutions"><strong>{{ page.title }}</strong></a>
+	  		<a href="/" class="icon home">Home</a>
+	  	</nav>
+	</div>
+	<div id="main">
+		<section class="container">
+			<h2>
+			{{ page.title }}
+			</h2>
+			<p class="ankeiler byline">
+				<strong>{{ page.tagline }}</strong> <a href="tel:+498930635890">+49 893 063 58 90</a>
+			</p>
+			{{ content }}	
+		</section>
+	</div>
+</section>

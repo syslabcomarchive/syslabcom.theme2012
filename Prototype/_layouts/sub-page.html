@@ -4,15 +4,13 @@ template: sub-page
 ---
 
 <section>
-	<div class="subnav pat-bumper">
+	<div class="subnav pat-bumper" {% if page.background %}style="background-image: url(/media/{{ page.background }})"{% endif %}>
 	  	<nav class="container navigation tabs">
 			<a class="section-name pat-scroll" href="#intranet-solutions"><strong>{{ page.title }}</strong></a>
 	  		<a href="/" class="icon home">Home</a>
 	  	</nav>
 	</div>
 	<div id="main">
-		<section class="container">
-			{{ content }}	
-		</section>
+		{{ content }}	
 	</div>
 </section>

@@ -1,0 +1,14 @@
+.pat-button {
+	color: inherit;
+
+	&.cta {
+		margin: 2em auto;
+		font-size: 2em;
+		padding: 0.2em 2em;
+		position: relative;
+		left: 50%;
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+}
