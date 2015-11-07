@@ -6,7 +6,7 @@ permalink: /sitemaps.xml
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% for post in site.posts %}
   <url>
-    <loc>{{ site.baseurl }}{{ post.url }}</loc>
+    <loc>http://www.syslab.com{{ site.baseurl }}{{ post.url }}</loc>
     {% assign versions=site.posts|where:"name",post.name %}
     {% for version in versions %}
       <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="http://domain.tld{{ version.url }}" />
@@ -23,7 +23,7 @@ permalink: /sitemaps.xml
   {% for page in site.pages %}
   {% if page.sitemap != null and page.sitemap != empty %}
   <url>
-    <loc>{{ site.baseurl }}{{ page.url }}</loc>
+    <loc>http://www.syslab.com{{ site.baseurl }}{{ page.url }}</loc>
     <lastmod>{{ page.sitemap.lastmod | date_to_xmlschema }}</lastmod>
     <changefreq>{{ page.sitemap.changefreq }}</changefreq>
     <priority>{{ page.sitemap.priority }}</priority>
