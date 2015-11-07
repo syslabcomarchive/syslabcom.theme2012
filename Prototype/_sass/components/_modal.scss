@@ -11,6 +11,16 @@
 	z-index: 1000;
 	overflow: auto;
 	display: none;
+	opacity: 0;
+
+	-moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+
+
+	-moz-transition: 1s all;
+	-webkit-transition: 1s all;
+	transition: 1s all;
 
 	.panel-content {
 		@include container();
@@ -56,5 +66,10 @@
 	#modal,
 	#pat-modal {
 		display: block;
+
+		-moz-transform: scale(1);
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		opacity: 1;
 	}
 }
