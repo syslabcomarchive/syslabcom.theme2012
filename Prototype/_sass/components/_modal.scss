@@ -13,16 +13,20 @@
 	pointer-events: none;
 	opacity: 0;
 
-	-moz-transform: scale(1.5);
-	-webkit-transform: scale(1.5);
-	transform: scale(1.5);
-
-	-moz-transition: 0.5s all;
-	-webkit-transition: 0.5s all;
-	transition: 0.5s all;
+	-moz-transition: 0.5s opacity;
+	-webkit-transition: 0.5s opacity;
+	transition: 0.5s opacity;
 
 	.panel-content {
 		@include container();
+
+		-moz-transform: scale(1.5);
+		-webkit-transform: scale(1.5);
+		transform: scale(1.5);
+
+		-moz-transition: 0.5s all;
+		-webkit-transition: 0.5s all;
+		transition: 0.5s all;
 	}
 
 	.header {
@@ -67,9 +71,11 @@
 		display: block;
 		pointer-events: inherit;
 
-		-moz-transform: scale(1);
-		-webkit-transform: scale(1);
-		transform: scale(1);
+		.panel-content {
+			-moz-transform: scale(1);
+			-webkit-transform: scale(1);
+			transform: scale(1);
+		}
 		opacity: 1;
 	}
 }
