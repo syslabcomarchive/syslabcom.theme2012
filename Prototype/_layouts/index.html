@@ -369,36 +369,49 @@ $(document).ready(function(){
 		<p class="byline">
 			{{ t['people_byline'] }}
 		</p>
-		<div class="people-cloud pat-equaliser">
-			{% assign people=site.categories['people'] | where:"lang", page.lang %}
-
-	  		{% for item in people %}
-				<figure class="person" itemscope itemtype="http://data-vocabulary.org/Person">
-					<img itemprop="photo" src="/media/avatar-{{ item.id | remove: '/' }}.jpg" alt="" />
-					<figcaption>
-						<strong itemprop="fn">{{ item.title }}</strong> {{ item.summary }}
-					</figcaption>
-				</figure>
-	  		{% endfor %}
-			<figure class="person">
-				<img itemprop="photo" src="/media/avatar-inconnu.jpg" alt="" />
-				<figcaption>
-					<strong>You?</strong> 
-					Would you like to work with these highly skilled people? Please have a look at <a href="#careers">our vacancies…</a>
-				</figcaption>
-			</figure>
-		</div>
-        <p>{{ t['people_subline']}}</p>
 	</div>
-</section>
-<section id="careers">
-	<div class="container">
-		{% assign career=site.categories['career'] | where:"lang", page.lang %}
-  		{% for item in career %}
-  			<div class="item" id="{{ item.id | remove: '/' }}">
-  				{{ item.content }}
-  			</div>
-  		{% endfor %}
+	<div class="subnav pat-bumper">
+	  	<nav class="container navigation tabs">
+			<a class="section-name pat-scroll" href="#people"><strong>{{ t['people_headline'] }}</strong></a>
+	  		<a class="pat-scroll" href="#the-team">The team</a>
+	  		<a class="pat-scroll" href="#careers">Careers</a>
+	  		<a href="#home" class="icon home pat-scroll">Home</a>
+	  	</nav>
+	</div>
+	<div class="container topics">
+  		<div class="pat-stacks">
+  			<div class="topic item" id="the-team">
+				<div class="people-cloud pat-equaliser">
+					{% assign people=site.categories['people'] | where:"lang", page.lang %}
 
+			  		{% for item in people %}
+						<figure class="person" itemscope itemtype="http://data-vocabulary.org/Person">
+							<img itemprop="photo" src="/media/avatar-{{ item.id | remove: '/' }}.jpg" alt="" />
+							<figcaption>
+								<strong itemprop="fn">{{ item.title }}</strong> {{ item.summary }}
+							</figcaption>
+						</figure>
+			  		{% endfor %}
+					<figure class="person">
+						<img itemprop="photo" src="/media/avatar-inconnu.jpg" alt="" />
+						<figcaption>
+							<strong>You?</strong> 
+							Would you like to work with these highly skilled people? Please have a look at <a href="#careers">our vacancies…</a>
+						</figcaption>
+					</figure>
+				</div>
+    			<p>
+    				{{ t['people_subline']}}
+    			</p>
+  			</div>
+  			<div class="topic item" id="careers">
+				{% assign career=site.categories['career'] | where:"lang", page.lang %}
+		  		{% for item in career %}
+		  			<div class="vacancy" id="{{ item.id | remove: '/' }}">
+		  				{{ item.content }}
+		  			</div>
+		  		{% endfor %}
+  			</div>
+		</div>
 	</div>
 </section>
