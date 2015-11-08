@@ -143,17 +143,14 @@ section {
 
   &#services,
   &#services .subnav {
-    background-color: $colour-primary;
-  }
-
-  &#careers,
-  &#careers .subnav {
+    // background-color: $colour-primary;
     background-color: $colour-secondary;
   }
 
   &#news,
   &#news .subnav {
-    background-color: $colour-tertiary;
+    // background-color: $colour-tertiary;
+    background-color: $colour-primary;
   }
 
   &#projects,
