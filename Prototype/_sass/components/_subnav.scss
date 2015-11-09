@@ -16,10 +16,23 @@
         top: 0.01em !important;
       }
     }
+
+    .tabs.container {
+      width: 100%;
+      max-width: 100%;
+    }
   }
 
   .tabs {
     padding: 0;
+
+    @include screen-size(large) {
+      width: 1100px;
+    }
+
+    -moz-transition: width 0.4s;
+    -webkit-transition: width 0.4s;
+    transition: width 0.4s;
 
     &.container {
       padding: 0;
