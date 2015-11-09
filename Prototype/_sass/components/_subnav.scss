@@ -25,14 +25,19 @@
   .tabs {
     padding: 0;
     max-width: 100%;
+  
+    @include screen-size(small-medium) {
+      width: 100%;
+    }
 
     @include screen-size(large) {
       width: calc(1100px - 4em);
+      -moz-transition: width 0.4s;
+      -webkit-transition: width 0.4s;
+      transition: width 0.4s;
     }
 
-    -moz-transition: width 0.4s;
-    -webkit-transition: width 0.4s;
-    transition: width 0.4s;
+    
 
     &.container {
       padding: 0;
