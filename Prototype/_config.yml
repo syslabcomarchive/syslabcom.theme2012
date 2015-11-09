@@ -38,7 +38,10 @@ t:
     people_headline: "People"
     people_byline: "The people behind Syslab.com"
     people_subline: "…plus a team of highly skilled and open-source devoted developers, designers and administrators."
+    team: "The team"
     careers: "Careers"
+    careers_you: "You?"
+    careers_you_text: "Would you like to work with these highly skilled people? Please have a look at our vacancies…"
 
   de:
     home: "Start"
@@ -51,7 +54,10 @@ t:
     people_headline: "Mitarbeiter"
     people_byline: "Die Menschen hinter Syslab.com"
     people_subline: "…sowie ein Team aus hochspezialisierten Open-Source Entwicklern, Designern und Administratoren."
+    team: "Unser Team"
     careers: "Karriere"
+    careers_you: "Du?"
+    careers_you_text: "Reizt es dich, mit hochqualifizierten Menschen zu arbeiten? Wirf einen Blick auf unsere offenen Stellen…"
 
 mainnav:
   en:

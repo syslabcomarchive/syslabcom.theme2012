@@ -373,8 +373,8 @@ $(document).ready(function(){
 	<div class="subnav pat-bumper">
 	  	<nav class="container navigation tabs">
 			<a class="section-name pat-scroll" href="#people"><strong>{{ t['people_headline'] }}</strong></a>
-	  		<a class="pat-scroll" href="#the-team">The team</a>
-	  		<a class="pat-scroll" href="#careers">Careers</a>
+	  		<a class="pat-scroll" href="#the-team">{{ t['team'] }}</a>
+	  		<a class="pat-scroll" href="#careers">{{ t['careers'] }}</a>
 	  		<a href="#home" class="icon home pat-scroll">Home</a>
 	  	</nav>
 	</div>
@@ -395,8 +395,9 @@ $(document).ready(function(){
 					<figure class="person">
 						<img itemprop="photo" src="/media/avatar-inconnu.jpg" alt="" />
 						<figcaption>
-							<strong>You?</strong> 
-							Would you like to work with these highly skilled people? Please have a look at <a href="#careers" class="pat-scroll">our vacancies…</a>
+							<strong>{{ t['careers_you'] }}</strong> 
+							{{ t['careers_you_text'] }} 
+							<!-- <a href="#careers" class="pat-scroll">our vacancies…</a>-->
 						</figcaption>
 					</figure>
 				</div>
