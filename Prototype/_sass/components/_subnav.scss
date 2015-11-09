@@ -37,8 +37,6 @@
       transition: width 0.4s;
     }
 
-    
-
     &.container {
       padding: 0;
     }
@@ -48,6 +46,10 @@
 
     a {
       float: left;
+
+      strong {
+        font-weight: bold;
+      }
 
       &.current {
         border-bottom: 0.2rem white solid;
