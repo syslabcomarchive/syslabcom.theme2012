@@ -1,6 +1,6 @@
 ---
 layout: sub-page
-title: Demo buchen
+title: Demo
 name: demo
 category: intranet-solutions
 tagline: Demo buchen
