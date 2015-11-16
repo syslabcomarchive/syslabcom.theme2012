@@ -3,7 +3,7 @@ layout: sub-page
 title: Demo
 name: demo
 category: intranet-solutions
-tagline: Demo buchen
+tagline: Demo
 image: cup-of-coffee-with-sugar.png
 ---
 
