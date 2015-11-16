@@ -8,21 +8,27 @@ description: Quaive - Ihre Social Intranet Lösung von SYSLAB.COM
 lang: de
 ---
 
-### Alle wichtigen Infos auf einem Blick - Desktop und Mobil
 
 ![Quaive dashboard](/media/quaive-screenshots/quaive-dashboard.jpg)
 
 
+## Das Wissen ist schwer zugänglich?
+
+<p class="ankeiler byline">Dann muss alles an einen Ort!</p>
+
 **Quaive Social Intranet** kombiniert nahtlos Enterprise Web Content Management, Social Tools und Portal-Integration mit einer intuitiven und mobilen Benutzeroberfläche. Alles ist an einem Ort und stets einfach auffindbar.
 
-<a href="mailto:info@syslab.com?subject=Social Intranet Demo" class="pat-button cta icon-mail">Unverbindlich Demo buchen…</a>
 
-
-Die soziale Medien spielen eine wichtige Rolle in der internen Unternehmenskommunikation. Damit das Unternehmen allen Mitarbeitern aktuelle Informationen zur Verfügung stellen und einen sinnvollen Dialog ermöglichen kann, wird ein Werkzeug benötigt, das für alle zugänglich und leicht bedienbar ist. Hier hilft das **Social Intranet**.
+Die soziale Medien spielen eine wichtige Rolle in der internen Unternehmenskommunikation. Damit das Unternehmen allen Mitarbeitern aktuelle Informationen zur Verfügung stellen und einen sinnvollen Dialog ermöglichen kann, wird ein Werkzeug benötigt, das für alle zugänglich und leicht bedienbar ist. 
 
 - Verlieren Sie sich oft in komplexer und schnelllebiger Unternehmenskommunikation?
 - Sind Ihre Mitarbeiter wegen mangelndem Kommunikationsfluss unzufrieden? 
 - Sie wollen mehr über Social Intranets wissen?
+
+Hier hilft **Quaive Social Intranet**.
+
+<a href="mailto:info@syslab.com?subject=Social Intranet Demo" class="pat-button cta icon-mail">Unverbindlich Demo buchen…</a>
+
 
 Die Vorteile eines Social Intranets:
 
