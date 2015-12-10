@@ -3,6 +3,7 @@ layout: sub-page
 name: disclaimer
 title: Haftungsausschluss
 description: Haftungsausschluss
+lang: de
 ---
 
 

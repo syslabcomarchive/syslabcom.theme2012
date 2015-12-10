@@ -2,6 +2,7 @@
 layout: sub-page
 name: thankyou
 title: "Danke für Ihre Nachricht!"
+lang: de
 description: "Wir melden uns umgehend zurück."
 ---
 

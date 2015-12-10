@@ -3,6 +3,7 @@ layout: sub-page
 name: disclaimer
 title: Disclaimer
 description: Disclaimer
+lang: en
 ---
 
 <section id="disclaimer">
