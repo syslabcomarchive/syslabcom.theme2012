@@ -11,6 +11,11 @@
 
 		a {
 			display: block;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
 			@media screen and (min-width: $tablet) {
 				padding: 1em;
 			}

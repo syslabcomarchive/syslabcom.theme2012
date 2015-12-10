@@ -39,23 +39,25 @@ Quaive Social Intranet ist individuell auf die Bedürfnisse Ihres Unternehmens a
 ## Kostenlose Demo
 
 <form accept-charset="UTF-8" action="https://formspree.io/axkqqrex" method="POST">
-    <fieldset class="vertical group">
-        <label>
-            E-mail
-            <input type="email" name="email" placeholder="Ihre E-Mail-Adresse">
-        </label>
-        <label>
-            Name
-            <input type="text" name="name" placeholder="Ihr Name">
-        </label>
-        <label>
-            Nachricht
-            <textarea name="text" rows="6" placeholder="Ihre Nachricht"></textarea>
-        </label>
+    <fieldset class="vertical">
+        <fieldset class="group">
+            <label>
+                E-mail
+                <input type="email" name="email" placeholder="Ihre E-Mail-Adresse">
+            </label>
+            <label>
+                Name
+                <input type="text" name="name" placeholder="Ihr Name">
+            </label>
+            <label>
+                Nachricht
+                <textarea name="text" rows="6" placeholder="Ihre Nachricht"></textarea>
+            </label>
 
-        <input type="hidden" name="_next" value="//www.syslab.com/danke-sehr/" />
-        <input type="hidden" name="utf8" value="✓">
-        <input type="text" name="_gotcha" style="display: none" />
+            <input type="hidden" name="_next" value="//www.syslab.com/danke-sehr/" />
+            <input type="hidden" name="utf8" value="✓">
+            <input type="text" name="_gotcha" style="display: none" />
+        </fieldset>
         <button class="pat-button icon-ok" type="submit">Unverbindlich Demo buchen</button>
     </fieldset>
 </form>
