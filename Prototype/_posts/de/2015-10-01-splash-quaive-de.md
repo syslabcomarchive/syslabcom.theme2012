@@ -46,7 +46,7 @@ Hier hilft **Quaive Social Intranet**.
         <input type="hidden" name="_next" value="//www.syslab.com/danke-sehr/" />
         <input type="hidden" name="utf8" value="✓">
         <input type="text" name="_gotcha" style="display: none" />
-        <button class="pat-button" type="submit">Senden</button>
+        <button class="pat-button cta icon-mail" type="submit">Unverbindlich Demo buchen</button>
     </fieldset>
 </form>
 
