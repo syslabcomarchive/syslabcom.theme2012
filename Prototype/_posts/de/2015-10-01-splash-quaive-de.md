@@ -1,8 +1,8 @@
 ---
 layout: splash
 name: splash-quaive
-title: Digital teamworken ist schwierig.
-tagline: Wir machen es einfach.
+title: Digital teamworken ist schwierig?
+tagline: Wir machen es einfach!
 background: polystichum-minutium-neg.jpg
 description: Quaive - Ihre Social Intranet Lösung von SYSLAB.COM
 lang: de
@@ -12,11 +12,11 @@ lang: de
 ![Quaive dashboard](/media/quaive-screenshots/quaive-dashboard.jpg)
 
 
-## Das Wissen ist schwer zugänglich?
+## Ihr Wissen ist schwer zugänglich?
 
 <p class="ankeiler byline">Dann muss alles an einen Ort!</p>
 
-**Quaive Social Intranet** kombiniert nahtlos Enterprise Web Content Management, Social Tools und Portal-Integration mit einer intuitiven und mobilen Benutzeroberfläche. Alles ist an einem Ort und stets einfach auffindbar.
+**Quaive Social Intranet** kombiniert nahtlos Enterprise Web Content Management, Social Tools und Portal-Integration mit einer intuitiven und mobilen Benutzeroberfläche. Alles ist an einem Ort und stets intuitiv auffindbar.
 
 
 Die soziale Medien spielen eine wichtige Rolle in der internen Unternehmenskommunikation. Damit das Unternehmen allen Mitarbeitern aktuelle Informationen zur Verfügung stellen und einen sinnvollen Dialog ermöglichen kann, wird ein Werkzeug benötigt, das für alle zugänglich und leicht bedienbar ist. 
@@ -36,7 +36,7 @@ Die Vorteile eines Social Intranets:
 
 Quaive Social Intranet ist individuell auf die Bedürfnisse Ihres Unternehmens anpassbar. <a href="/startseite/#intranet-solutions">Weitere Infos zu Quaive sozialen Intranet</a>…
 
-## Kostenlose Demo
+## Unverbindliche Demo
 
 <form accept-charset="UTF-8" action="https://formspree.io/axkqqrex" method="POST">
     <fieldset class="vertical">
@@ -51,13 +51,15 @@ Quaive Social Intranet ist individuell auf die Bedürfnisse Ihres Unternehmens a
             </label>
             <label>
                 Nachricht
-                <textarea name="text" rows="6" placeholder="Ihre Nachricht"></textarea>
+                <textarea name="text" rows="6" placeholder="Ihre Nachricht">Bitte zeigen Sie mir Quaive.
+
+Am besten passt mir …</textarea>
             </label>
 
             <input type="hidden" name="_next" value="//www.syslab.com/danke-sehr/" />
             <input type="hidden" name="utf8" value="✓">
             <input type="text" name="_gotcha" style="display: none" />
         </fieldset>
-        <button class="pat-button icon-ok" type="submit">Unverbindlich Demo buchen</button>
+        <button class="pat-button icon-ok" type="submit">Demo buchen</button>
     </fieldset>
 </form>
