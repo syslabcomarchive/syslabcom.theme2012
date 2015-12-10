@@ -38,5 +38,7 @@ Die Vorteile eines Social Intranets:
 
 Quaive Social Intranet ist individuell auf die Bedürfnisse Ihres Unternehmens anpassbar.
 
-<a href="/startseite/#intranet-solutions" class="pat-button cta icon-info-circle">Alle Features</a>
+<p><a href="/startseite/#intranet-solutions" class="icon-info-circle">Learm more about Quaive social intranet…</a></p>
+
+
 

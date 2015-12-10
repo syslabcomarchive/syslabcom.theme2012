@@ -27,6 +27,16 @@ Die soziale Medien spielen eine wichtige Rolle in der internen Unternehmenskommu
 
 Hier hilft **Quaive Social Intranet**.
 
+Die Vorteile eines Social Intranets:
+
+- **Dynamische Wissensvermittlung** und **unterstützte Teamarbeit**
+- **Zufriedenere Mitarbeiter**, **schnellere Projektabwicklung** und dadurch **bessere Geschäftsergebnisse**
+- **Mitarbeiter erstellen** und gestalten aktiv **Informationen**
+- Einfache und transparente **Kommunikation im virtuellen Arbeitsraum**
+
+Quaive Social Intranet ist individuell auf die Bedürfnisse Ihres Unternehmens anpassbar. <a href="/startseite/#intranet-solutions">Weitere Infos zu Quaive sozialen Intranet</a>…
+
+## Kostenlose Demo
 
 <form accept-charset="UTF-8" action="https://formspree.io/axkqqrex" method="POST">
     <fieldset class="vertical group">
@@ -46,19 +56,6 @@ Hier hilft **Quaive Social Intranet**.
         <input type="hidden" name="_next" value="//www.syslab.com/danke-sehr/" />
         <input type="hidden" name="utf8" value="✓">
         <input type="text" name="_gotcha" style="display: none" />
-        <button class="pat-button cta icon-mail" type="submit">Unverbindlich Demo buchen</button>
+        <button class="pat-button icon-ok" type="submit">Unverbindlich Demo buchen</button>
     </fieldset>
 </form>
-
-
-Die Vorteile eines Social Intranets:
-
-- **Dynamische Wissensvermittlung** und **unterstützte Teamarbeit**
-- **Zufriedenere Mitarbeiter**, **schnellere Projektabwicklung** und dadurch **bessere Geschäftsergebnisse**
-- **Mitarbeiter erstellen** und gestalten aktiv **Informationen**
-- Einfache und transparente **Kommunikation im virtuellen Arbeitsraum**
-
-Quaive Social Intranet ist individuell auf die Bedürfnisse Ihres Unternehmens anpassbar.
-
-<a href="/startseite/#intranet-solutions" class="pat-button cta icon-info-circle">Alle Features</a>
-
