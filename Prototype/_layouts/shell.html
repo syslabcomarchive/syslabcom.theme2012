@@ -16,7 +16,7 @@
     <meta name="viewport" content="width=320, initial-scale=1" />
 
      </head>
-  <body class="{{ page.template }}" {% if page.background %}style="background-image: url(/media/{{ page.background }})"{% endif %}>
+  <body class="layout-{{ page.template }} layout-{{ layout.template }}" {% if page.background %}style="background-image: url(/media/{{ page.background }})"{% endif %}>
     {{ content }}
     {% include appendix.html %}
 

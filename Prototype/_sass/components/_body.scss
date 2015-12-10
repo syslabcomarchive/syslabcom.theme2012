@@ -34,7 +34,9 @@ body {
 		}
 	}
 
-	&.sub-page {
+	&.sub-page,
+	&.layout-sub-page,
+	&.layout-splash {
 		padding-top: 6%;
 	}
 
