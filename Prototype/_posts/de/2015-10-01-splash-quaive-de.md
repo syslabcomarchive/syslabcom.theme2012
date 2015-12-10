@@ -31,24 +31,22 @@ Hier hilft **Quaive Social Intranet**.
 <form accept-charset="UTF-8" action="https://formspree.io/axkqqrex" method="POST">
     <fieldset class="vertical group">
         <label>
-            Email
-            <input type="email" name="email" placeholder="Your email address">
+            E-mail
+            <input type="email" name="email" placeholder="Ihre E-Mail-Adresse">
         </label>
         <label>
             Name
-            <input type="text" name="name" placeholder="Your name">
+            <input type="text" name="name" placeholder="Ihr Name">
         </label>
         <label>
-            Message
-            <textarea name="text" rows="6" placeholder="Your Message"></textarea>
+            Nachricht
+            <textarea name="text" rows="6" placeholder="Ihre Nachricht"></textarea>
         </label>
 
-        <input type="hidden" name="_next" value="//www.syslab.com/thank-you/" />
+        <input type="hidden" name="_next" value="//www.syslab.com/danke-sehr/" />
         <input type="hidden" name="utf8" value="✓">
-
         <input type="text" name="_gotcha" style="display: none" />
-        
-        <button class="pat-button" type="submit">Send</button>
+        <button class="pat-button" type="submit">Senden</button>
     </fieldset>
 </form>
 
