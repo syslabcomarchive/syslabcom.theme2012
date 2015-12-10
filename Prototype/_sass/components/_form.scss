@@ -1,0 +1,36 @@
+form {
+  input,
+  textarea,
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-family: $body-font-family;
+    display: inline-block;
+    @include box-sizing();
+    padding: 0.2em 0.5em;
+    margin: -0.2em 0;
+    background-color: rgba(255,255,255,0.15);
+    border: none;
+    color: inherit;
+    font-size: 100%;
+    border-radius: 0;
+    max-width: 100%;
+
+    &::-webkit-input-placeholder { 
+      color: rgba(255,255,255,0.6); 
+    }
+
+    &::-moz-placeholder { 
+      color: rgba(255,255,255,0.6); 
+    } /* firefox 19+ */
+
+    &:-ms-input-placeholder { 
+      color: rgba(255,255,255,0.6); 
+    } /* ie */
+
+    &input:-moz-placeholder { 
+      color: rgba(255,255,255,0.6); 
+    }
+  }
+}

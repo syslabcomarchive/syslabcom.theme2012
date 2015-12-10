@@ -30,20 +30,25 @@ Hier hilft **Quaive Social Intranet**.
 
 <form accept-charset="UTF-8" action="https://formspree.io/axkqqrex" method="POST">
     <fieldset class="vertical group">
-    <legend>E-Mail</legend>
-        <input type="email" name="email" placeholder="Ihre E-Mail-Adresse">
-    <legend>Name</legend>
-        <input type="text" name="name" placeholder="Ihr Name">
-    </fieldset>
-    <fieldset class="vertical group">
-        <legend>Nachricht</legend>
-        <textarea name="text" rows="6" placeholder="Wann passt es Ihnen?"></textarea>
-    </fieldset>
-    <fieldset>
-        <input type="hidden" name="_next" value="//www.syslab.com/danke-sehr/" />
+        <label>
+            Email
+            <input type="email" name="email" placeholder="Your email address">
+        </label>
+        <label>
+            Name
+            <input type="text" name="name" placeholder="Your name">
+        </label>
+        <label>
+            Message
+            <textarea name="text" rows="6" placeholder="Your Message"></textarea>
+        </label>
+
+        <input type="hidden" name="_next" value="//www.syslab.com/thank-you/" />
         <input type="hidden" name="utf8" value="✓">
+
         <input type="text" name="_gotcha" style="display: none" />
-        <button class="pat-button cta icon-mail" type="submit">Unverbindlich Demo buchen</button>
+        
+        <button class="pat-button" type="submit">Send</button>
     </fieldset>
 </form>
 
