@@ -1,6 +1,6 @@
 ---
-layout: sub-page
-title: Open source
+layout: "sub-page"
+title: "Open source"
 description: "Angesichts der vielen Firmen und Regierungsorganisationen, die heute Open Source Software wie Linux einsetzen, wird deutlich, dass der Preis nicht der einzige Vorteil solcher Lösungen ist."
 category: services
 published: false
