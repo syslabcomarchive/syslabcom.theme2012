@@ -20,7 +20,7 @@ Sign up for your free demo and try out this amazing and easy-to-use Risk Assessm
 
 Organisations already using our risk assessment tools include:
 
-<p class="logo-cloud">
+<p class="logo-cloud" style="padding-top: 0">
 	<a href="">
 		<img src="/media/logos/tno.svg" alt="TNO innovation for life (NL)" />
 	</a>
