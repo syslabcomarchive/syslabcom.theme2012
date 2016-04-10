@@ -1,7 +1,7 @@
 ---
 layout: sub-page
 name: ra-tools
-title: "The Risk Assessment Tool"
+title: "The Solution"
 description: "The Risk Assessment Tool in Action"
 summary: "The Risk Assessment Tool in Action"
 category: risk-assessment-tools
