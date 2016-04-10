@@ -9,7 +9,7 @@ case:
 lang: en
 ---
 
-
+<img src="/media/bridge-workers.jpg" style="width: 50%; margin: 0 0 2em 2em; float: right" />
 An entrepreneur is exposed to risks; The product in which you invest needs to succeed. What if your customers do not pay, or if there is a burglary at your premises? These are all risks and part of being an entrepreneur. As long as all is well, you and your employees will be able to earn a decent living.
 
 #### Aware of all the risks?
