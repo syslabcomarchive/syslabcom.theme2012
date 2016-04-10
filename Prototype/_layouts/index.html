@@ -78,6 +78,94 @@ layout: shell
 	</div>
 </section>
 
+<section id="risk-assessment-tools">
+	<div class="container introduction">
+		<h2>
+			{{ t['risk_assessment_tools'] }} 
+		</h2>
+
+		<p class="byline">
+			{{ t['references_text'] }} 
+		</p>
+	</div>
+
+	{% assign riskassessmenttools=site.categories['risk-assessment-tools'] | where:"lang", page.lang %}
+
+	<div class="subnav pat-bumper">
+	  	<nav class="container navigation tabs">
+	  		<a class="section-name pat-scroll" href="#risk-assessment-tools"><strong>{{ t['risk_assessment_tools'] }} </strong></a>
+	  	  {% for item in riskassessmenttools %}
+	  		<a href="#{{ item.id | remove: '/' }}" class="pat-scroll">{{ item.title }}</a>			
+   		  {% endfor %}
+	  		<a href="#home" class="icon home pat-scroll">Home</a>
+	  	</nav>
+	</div>
+	<div class="container topics">
+  		<div class="pat-stacks">
+	  		{% for item in riskassessmenttools %}
+	  			<div class="item topic pat-scroll" id="{{ item.id | remove: '/' }}">
+	  				{% if item.summary %}
+	  				    <p class="intro">
+	  				    	{{ item.summary }}
+	  				    </p>
+	  				{% endif %}
+	  				{% if item.image %}
+	  				    <img src="/media/{{ item.image }}" alt="" />
+	  				{% endif %}
+	  				{% if item.case %}
+	  				    {% for case in site.posts %}
+	  				    	{% if case.layout == 'showcase' and case.title == item.case %}
+	  				    	
+							    {% for image in case.images | limit: 1 %}
+							    
+		  				    	    <figure itemprop="associatedMedia" class="showcase caption"itemscope itemtype="http://schema.org/ImageObject">
+							    			<a class="pat-inject pat-switch" data-pat-inject="target: #modal-content" data-pat-switch="selector: body; add: modal-active" itemprop="contentUrl" href="{{ case.url }}#main" title="{{ image.description }}">
+							    				<img itemprop="thumbnail" src="/media/showcases/{{ image.file }}" alt="{{ case.description }}">
+							    			</a>
+		  				    	    	<figcaption>
+		  				    	    		<h4>
+		  				    	    			View showcase: {{ case.title }}
+		  				    	    		</h4>
+											<p itemprop="caption description">
+												{{ image.description }}
+											</p>
+		  				    	    	</figcaption>
+		  				    	    </figure>
+	  				    	    {% endfor %}
+	  				    	{% endif %}
+	  				    {% endfor %}
+	  				{% endif %}
+	  				<article class="pat-rich">
+	  					{{ item.content | markdownify }}
+	  				</article>
+	  				{% if item.showcases %}
+	  					<!-- <h3>
+	  						Showcases
+	  					</h3> -->
+	  					<div class="showcases">
+		  				    {% for case in item.showcases %}
+		  				    	{% if forloop.length > 1 %}
+		  				    		<div class="six columns">
+			  				    	    <figure>
+			  				    	    	<img src="/media/showcases/{{ case.image }}" alt="" />
+			  				    	    	<figcaption>
+												<p>
+													{{ case.description }}
+												</p>
+			  				    	    	</figcaption>
+			  				    	    </figure>
+		  				    		</div>
+		  				    	{% endif %}
+		  				    {% endfor %}	
+	  					</div>
+	  				{% endif %}
+	  			</div>
+	  		{% endfor %}
+  		</div>
+	</div>
+
+</section>
+
 <section id="services">
 	<div class="container introduction">
 		<h2>
