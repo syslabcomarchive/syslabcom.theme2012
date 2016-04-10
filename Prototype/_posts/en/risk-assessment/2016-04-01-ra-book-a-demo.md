@@ -23,3 +23,27 @@ Sign up for your free demo and try out this amazing and easy-to-use Risk Assessm
 - TNO
 - EU-OSHA
 - INRS
+
+<p class="logo-cloud">
+	<a href="">
+		<img src="/media/logos/logo.svg" alt="" />
+	</a>
+	<a href="">
+		<img src="/media/logos/logo.svg" alt="" />
+	</a>
+	<a href="">
+		<img src="/media/logos/logo.svg" alt="" />
+	</a>
+	<a href="">
+		<img src="/media/logos/logo.svg" alt="" />
+	</a>
+	<a href="">
+		<img src="/media/logos/logo.svg" alt="" />
+	</a>
+	<a href="">
+		<img src="/media/logos/logo.svg" alt="" />
+	</a>
+	<a href="">
+		<img src="/media/logos/logo.svg" alt="" />
+	</a>
+</p>
