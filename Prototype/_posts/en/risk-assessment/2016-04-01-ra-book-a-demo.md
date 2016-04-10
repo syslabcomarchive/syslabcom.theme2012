@@ -15,7 +15,7 @@ lang: en
 
 Sign up for your free demo and try out this amazing and easy-to-use Risk Assessment tool. We will guide you through the system using screen sharing and answer all your questions!
 
-<a href="mailto:info@syslab.com?subject=Risk Assessment Tools demo" class="icon-mail pat-button">Request demo…</a>
+<a href="/contact/" class="icon-mail pat-button">Request demo…</a>
 
 
 Organisations already using our risk assessment tools include:
