@@ -20,4 +20,6 @@ Sign up for your free demo and try out this amazing and easy-to-use Risk Assessm
 
 #### Organisations already using it
 
- TNO, EU-OSHA, INRS, …
+- TNO
+- EU-OSHA
+- INRS
