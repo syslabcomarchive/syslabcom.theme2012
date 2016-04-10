@@ -16,4 +16,4 @@ An entrepreneur is exposed to risks; The product in which you invest needs to su
 
 Imagine you have an accident with one of your machines? An employee exposed to hazardous substances? Somebody is unable to work? This will cause production to halt or a reduction of personal. Then there are still the costs for repairs and healthcare. Not to mention the danger to your reputation. These are substantial risks.
 
-<a href="#define-and-tackle" class="icon-right-open pat-button">You need to do a Risk Assessment…</a>
+<a href="#define-and-tackle" class="pat-scroll icon-right-open pat-button">You need to do a Risk Assessment…</a>
