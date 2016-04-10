@@ -1,18 +1,18 @@
 ---
 layout: sub-page
-title: Was ist Open Source?
+title: Open Source
+name: open-source
+description: "With the many business and government organizations that now use Open Source software such as Linux, it's becoming increasingly clear that price is not the only advantage such software holds."
+summary: "With the many business and government organizations that now use Open Source software such as Linux, it's becoming increasingly clear that price is not the only advantage such software holds."
 category: services
 published: false
 ---
 
-![Illustration (left aligned)](/media/opensource1.jpg)
-![Illustration (left aligned)](/media/opensource2.jpg)
-![Illustration (left aligned)](/media/opensource3.jpg)
 
 # Was ist Open Source?
-Zusammenarbeit, Transparenz, schnelle Prototyping und vieles mehr ...
+Zusammenarbeit, Transparenz, schnelle Prototyping und vieles mehr…
 Open Source ist eine dynamische Philosophie mit dem Ziel, die kostenlose Verteilung und Zugang zum Quellcode jeder Software zu fördern.
-Möchten Sie wissen mehr?
+Möchten Sie mehr wissen?
 
 
 # Die Open-Source-Way

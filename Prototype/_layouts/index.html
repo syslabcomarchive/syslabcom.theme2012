@@ -100,15 +100,16 @@ layout: shell
 		</div>
 
 	  	<!-- <p class="introduction">SYSLAB.COM provides services for companies, organisations and governmental institutions within the whole software lifecycle.</p> -->
+	</div>
 
 	{% assign services=site.categories['services'] | where:"lang", page.lang %}
-	</div>
+
 	<div class="subnav pat-bumper">
 	  	<nav class="container navigation tabs">
 	  		<a class="section-name pat-scroll" href="#services"><strong>{{ t['web_solutions'] }} </strong></a>
-	  		{% for item in services %}
-	  			<a href="#{{ item.id | remove: '/' }}" class="pat-scroll">{{ item.title }}</a>
-	  		{% endfor %}
+	  	  {% for item in services %}
+	  		<a href="#{{ item.id | remove: '/' }}" class="pat-scroll">{{ item.title }}</a>			
+   		  {% endfor %}
 	  		<a href="#home" class="icon home pat-scroll">Home</a>
 	  	</nav>
 	</div>
