@@ -94,7 +94,7 @@ layout: shell
 	<div class="subnav pat-bumper">
 	  	<nav class="container navigation tabs">
 	  		<a class="section-name pat-scroll" href="#risk-assessment-tools"><strong>{{ t['risk_assessment_tools'] }} </strong></a>
-	  	  {% for item in riskassessmenttools %}
+	  	  {% for item in riskassessmenttools reversed %}
 	  		<a href="#{{ item.id | remove: '/' }}" class="pat-scroll">{{ item.title }}</a>			
    		  {% endfor %}
 	  		<a href="#home" class="icon home pat-scroll">Home</a>
