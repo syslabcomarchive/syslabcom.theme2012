@@ -51,8 +51,8 @@ t:
     createdby: "entwickelt von"
     social_intranet_solutions: "Social Intranet Lösungen"
     social_intranet_solutions_text: "Quaive Intranet verbindet die Menschen und hilft ihnen, zu fokussieren."
-    risk_assessment_tools: "Gefährdungsbeurteilungtools"
-    risk_assessment_tools_text: "The Euphorie Risk Assessment tool helps you define and create healthier workplaces."
+    risk_assessment_tools: "Gefährdungsbeurteilung"
+    risk_assessment_tools_text: "Gefährdungsbeurteilung Online hilft Ihnen, sichere Arbeitsplätze zu definieren und zu gewährleisten."
     web_solutions: "Weblösungen"
     references_text: "Wir formen das Web für Firmen und Organisationen."
     people_headline: "Mitarbeiter"
@@ -88,7 +88,7 @@ mainnav:
       name: "Social Intranet"
       url: "/startseite/index.html#intranet-solutions"
     riskassessmenttools:
-      name: "Gefährdungsbeurteilungtools"
+      name: "Gefährdungsbeurteilung"
       url: "/homepage/index.html#risk-assessment-tools"
     websolutions:
       name: "Weblösungen"
