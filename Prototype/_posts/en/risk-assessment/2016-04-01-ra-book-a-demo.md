@@ -28,7 +28,7 @@ Organisations already using our risk assessment tools include:
 		<img src="/media/logos/inail.svg" alt="INAIL - Workers Compensation Authority (IT)" />
 	</a>
 	<a href="http://www.inrs.fr">
-		<img src="/media/logos/inrs.svg" alt="INRS - National Research and Safety Institute for occupational Accidents Prevention (FR)" />
+		<img src="/media/logos/inrs.png" alt="INRS - National Research and Safety Institute for occupational Accidents Prevention (FR)" />
 	</a>
 	<a href="http://client.oiraproject.eu">
 		<img src="/media/logos/osha.svg" alt="EU-OSHA - Online interactive Risk Assessment / OiRA (EU)" />
