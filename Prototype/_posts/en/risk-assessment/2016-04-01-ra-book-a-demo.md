@@ -26,19 +26,19 @@ Sign up for your free demo and try out this amazing and easy-to-use Risk Assessm
 
 <p class="logo-cloud">
 	<a href="">
-		<img src="/media/logos/logo.svg" alt="" />
+		<img src="/media/logos/tno.svg" alt="TNO innovation for life (NL)" />
 	</a>
 	<a href="">
-		<img src="/media/logos/logo.svg" alt="" />
+		<img src="/media/logos/inail.svg" alt="INAIL - Workers Compensation Authority (IT)" />
 	</a>
 	<a href="">
-		<img src="/media/logos/logo.svg" alt="" />
+		<img src="/media/logos/inrs.svg" alt="INRS - National Research and Safety Institute for occupational Accidents Prevention (FR)" />
 	</a>
 	<a href="">
-		<img src="/media/logos/logo.svg" alt="" />
+		<img src="/media/logos/osha.svg" alt="EU-OSHA - Online interactive Risk Assessment / OiRA (EU)" />
 	</a>
 	<a href="">
-		<img src="/media/logos/logo.svg" alt="" />
+		<img src="/media/logos/vinnueftirlitid.svg" alt="Vinnueftirlitid" />
 	</a>
 	<a href="">
 		<img src="/media/logos/logo.svg" alt="" />
