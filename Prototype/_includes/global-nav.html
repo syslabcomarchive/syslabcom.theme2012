@@ -4,7 +4,8 @@
 		= -->
 	    {% assign mainnav=site.mainnav[page.lang] %}
 	    {% assign t=site.t[page.lang] %}
-	    <a class="pat-scroll" href="{% if page.layout == 'sub-page' %}{{mainnav['socialintranet'].url }}{% else %}#intranet-solutions{% endif %}">{{ mainnav['socialintranet'].name }}</a>
+	    <a class="pat-scroll" href="{% if page.layout == 'sub-page' %}{{mainnav['socialintranet'].url }}{% else %}#intranet-solutions{% endif %}">{{ mainnav['socialintranet'].name }}</a>,
+	    <a class="pat-scroll" href="{% if page.layout == 'sub-page' %}{{mainnav['riskassessmenttools'].url }}{% else %}#risk-assessment-tools{% endif %}">{{ mainnav['riskassessmenttools'].name }}</a>
 			{{ t['andother']}}
 	    <a class="pat-scroll" href="{% if page.layout == 'sub-page' %}{{mainnav['websolutions'].url }}{% else %}#services{% endif %}">{{ mainnav['websolutions'].name }}</a>
 	    {{ t['createdby']}}

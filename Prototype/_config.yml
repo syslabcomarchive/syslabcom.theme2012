@@ -67,6 +67,9 @@ mainnav:
     socialintranet:
       name: "Social intranet"
       url: "/homepage/index.html#intranet-solutions"
+    riskassessmenttools:
+      name: "Risk Assessment Tools"
+      url: "/homepage/index.html#risk-assessment-tools"
     websolutions:
       name: "Web solutions"
       url: "/homepage/index.html#services"
@@ -80,6 +83,9 @@ mainnav:
     socialintranet:
       name: "Social Intranet"
       url: "/startseite/index.html#intranet-solutions"
+    riskassessmenttools:
+      name: "Gefährdungsbeurteilungtools"
+      url: "/homepage/index.html#risk-assessment-tools"
     websolutions:
       name: "Weblösungen"
       url: "/startseite/index.html#services"
