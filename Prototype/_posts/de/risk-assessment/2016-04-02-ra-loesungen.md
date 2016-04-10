@@ -28,7 +28,7 @@ Ihre Risikobewertung muss die folgenden sechs Fragen beantworten:
 
 #### Schritt 2: Bewertung
 
-Sie definieren die Risiken. Das Ergebnis ist eine Zusammenfassung der Engpässe in Ihrem Unternehmen. Für jeden Engpass müssen Sie da Ausmaß der Gefahr bewerten.
+Sie definieren die Risiken. Das Ergebnis ist eine Zusammenfassung der Engpässe in Ihrem Unternehmen. Für jeden Engpass müssen Sie das Ausmaß der Gefahr bewerten.
 
 ![Other risks - second risk](/media/risk-assessment/Other risks - second risk - stretched.png)
 
