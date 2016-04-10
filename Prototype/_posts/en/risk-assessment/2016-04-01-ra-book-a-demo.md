@@ -33,16 +33,16 @@ Organisations already using our risk assessment tools include:
 	<a href="http://client.oiraproject.eu">
 		<img src="/media/logos/osha.svg" alt="EU-OSHA - Online interactive Risk Assessment / OiRA (EU)" />
 	</a>
-	<a href="http://www.vinnueftirlit.is/">
+<!-- 	<a href="http://www.vinnueftirlit.is/">
 		<img src="/media/logos/vinnueftirlitid.jpeg" alt="Vinnueftirlitid - Administration of Occupational Safety and Health in Iceland (IS)" />
 	</a>
-	<a href="http://www.lavoro.gov.it/">
+ -->	<a href="http://www.lavoro.gov.it/">
 		<img src="/media/logos/itminlav.svg" alt="Ministry of Employment and Social Policies (IT)" />
 	</a>
-	<a href="http://www.werk.belgie.be/">
+<!-- 	<a href="http://www.werk.belgie.be/">
 		<img src="/media/logos/vbofeb.svg" alt="FPS — Employment, Labour and Social Dialogue (BE)" />
 	</a>
 	<a href="http://www.ttl.fi/en">
 		<img src="/media/logos/FIOH_Logo.jpg" alt="FIOH - Finnish Institute of Occupational Health (FI)" />
 	</a>
-</p>
+ --></p>
