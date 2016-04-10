@@ -22,18 +22,29 @@ Your Risk Assessment must answer the following six questions:
 - What precautions are necessary? And how do I implement these?
 - How do I ensure that the precautions continue to work?
 
+![Identification - evaluation - estimated priority](/media/risk-assessment/Identification - evaluation - estimated priority.png)
+
+
 
 #### Step 2: Evaluation
 
 You define the risks.The result is a summary of the bottlenecks in your company. For each bottleneck you will evaluate the magnitude of the hazards.
 
+![Other risks - second risk](/media/risk-assessment/Other risks - second risk - stretched.png)
+
+
 #### Step 3: Action Plan
 
 Next step: Compare all the risks on the list and place them in the correct order. Which risks are the most threatening? The third step is: set time periods for tackling the risks in your company. Who will start working on which risk? What will it provide? In short, a plan of action. This allows you to resolve the risks one at a time, preferably at the source.
 
+![Action plan - extra measure](/media/risk-assessment/Action plan - extra measure.png)
+
+
 #### Step 4: Report - Keep it up-to-date
 
 Improvements are never finished! After implementing the Plan you discuss the progress with your employees every year. If you make changes in the company, you must change the Risk Assessment too. So, if you have finished your (first) Risk Assessment, you have only just started. You have started to improve the health and safety standards in your company.
+
+![Session - reporting](/media/risk-assessment/Test session - reporting.png)
 
 
 <a href="#ra-book-a-demo" class="pat-scroll icon-right-open pat-button">See the tool live!</a>
@@ -42,4 +53,4 @@ Improvements are never finished! After implementing the Plan you discuss the pro
 ----------
 
 
-The Risk Assessment Tool was developed by SYSLAB and TNO in cooperation with Simplon and Cornelis Kolbach in commission of The European Agency for Safety and Health at Work as part of the Healthy Workplaces campaign.
+_* The Risk Assessment Tool was developed by SYSLAB and TNO in cooperation with Simplon and Cornelis Kolbach in commission of The European Agency for Safety and Health at Work as part of the Healthy Workplaces campaign._
