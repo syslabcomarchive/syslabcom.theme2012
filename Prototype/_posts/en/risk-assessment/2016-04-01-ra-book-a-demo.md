@@ -18,11 +18,7 @@ Sign up for your free demo and try out this amazing and easy-to-use Risk Assessm
 <a href="mailto:info@syslab.com?subject=Risk Assessment Tools demo" class="icon-mail pat-button">Request demo…</a>
 
 
-#### Organisations already using it
-
-- TNO
-- EU-OSHA
-- INRS
+Organisations already using our risk assessment tools include:
 
 <p class="logo-cloud">
 	<a href="">
