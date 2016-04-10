@@ -27,4 +27,4 @@ These four steps are the best way of reducing the risks:
 - *Report and keep it up-to-date*: Done? Then you are on your way!
 
 
-=> See these steps in action
+<a href="#ra-the-solution" class="icon-arrow-right pat-button">See these steps in action…</a>

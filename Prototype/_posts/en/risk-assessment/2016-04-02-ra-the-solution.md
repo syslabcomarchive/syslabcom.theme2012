@@ -36,7 +36,7 @@ Next step: Compare all the risks on the list and place them in the correct order
 Improvements are never finished! After implementing the Plan you discuss the progress with your employees every year. If you make changes in the company, you must change the Risk Assessment too. So, if you have finished your (first) Risk Assessment, you have only just started. You have started to improve the health and safety standards in your company.
 
 
-=> See the tool live!
+<a href="#ra-book-a-demo" class="icon-arrow-right pat-button">See the tool live!</a>
 
 
 ----------
