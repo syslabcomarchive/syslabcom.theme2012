@@ -37,3 +37,9 @@ Improvements are never finished! After implementing the Plan you discuss the pro
 
 
 => See the tool live!
+
+
+----------
+
+
+The Risk Assessment Tool was developed by SYSLAB and TNO in cooperation with Simplon and Cornelis Kolbach in commission of The European Agency for Safety and Health at Work as part of the Healthy Workplaces campaign.
