@@ -22,10 +22,10 @@ Die Liste der möglichen Gefährdungen zu entwickeln und in eine sinnvolle Struk
 
 Diese vier Schritte sind der beste Weg, um Risiken zu reduzieren:
 
-- *Ermitteln der Gefährdungen*: Alle Fragen aus der Liste werden mit Ja oder Nein beantwortet.
+- *Ermitteln der Gefährdungen*: Die Fragen aus der Liste werden mit Ja oder Nein beantwortet.
 - *Bewerten*: Alle ermittelten Gefahren werden nach Grad des Risikos beurteilt.
-- *Aktionsplan*: Maßnahmen definieren, wie alle vorhandenen Risiken anzugehen sind und ein Plan, **wer** **was** und **bis wann** erledigt.
-- *Berichten und aktuell halten*: der aktuelle Stand der Gefährdungsbeurteilung und des Aktionsplans kann jederzeit heruntergeladen werden.
+- *Aktionsplan*: Es werden Maßnahmen definiert, wie alle vorhandenen Risiken anzugehen sind und ein Plan erstellt, **wer** **was** und **bis wann** erledigt.
+- *Berichten und aktuell halten*: Der aktuelle Stand der Gefährdungsbeurteilung und des Aktionsplans kann jederzeit heruntergeladen werden.
 
 
 <a href="#ra-loesungen" class="pat-scroll icon-right-open pat-button">Sehen Sie die vier Schritte in Aktion…</a>

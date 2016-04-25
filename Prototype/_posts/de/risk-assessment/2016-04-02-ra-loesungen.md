@@ -3,7 +3,7 @@ layout: sub-page
 name: ra-tools
 title: "Lösung"
 description: "Das Online Prevention Kit in Aktion"
-summary: "Das Online Prevention Kit in Aktion"
+summary: "Das Online Prevention Kit* in Aktion"
 category: risk-assessment-tools
 case:
 lang: de
