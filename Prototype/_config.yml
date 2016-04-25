@@ -7,7 +7,7 @@ markdown: kramdown
 permalink: /:title/
 sass:
   style: :compressed
-exclude: 
+exclude:
   - Gemfile
   - Gemfile.lock
   - config.codekit
@@ -52,7 +52,7 @@ t:
     social_intranet_solutions: "Social Intranet Lösungen"
     social_intranet_solutions_text: "Quaive Intranet verbindet die Menschen und hilft ihnen, zu fokussieren."
     risk_assessment_tools: "Gefährdungsbeurteilung"
-    risk_assessment_tools_text: "Gefährdungsbeurteilung Online hilft Ihnen, sichere Arbeitsplätze zu definieren und zu gewährleisten."
+    risk_assessment_tools_text: "Das Online Prevention Kit - mehr Arbeitsschutz, weniger Papier"
     web_solutions: "Weblösungen"
     references_text: "Wir formen das Web für Firmen und Organisationen."
     people_headline: "Mitarbeiter"

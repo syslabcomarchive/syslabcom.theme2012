@@ -1,49 +1,50 @@
 ---
 layout: sub-page
 name: ra-tools
-title: "Lösungen"
-description: "The Risk Assessment Tool in Action"
-summary: "The Risk Assessment Tool in Action"
+title: "Lösung"
+description: "Das Online Prevention Kit in Aktion"
+summary: "Das Online Prevention Kit in Aktion"
 category: risk-assessment-tools
-case: 
+case:
 lang: de
 ---
 
 
-#### Schritt 1: Identifizierung
+### Schritt 1: Ermitteln
 
-Alle Gefahren auf einer Liste: Erstellen Sie eine Liste aller Gefahren in Ihrem Unternehmen (oder Sie können einen Experten bitten, Ihre Risikobewertung durch zu führen)
+Die Arbeitschutzbeauftragten des Unternehmens haben (über das eingebaute Content Management System) einen Fragenkatalog erstellt. Jetzt liegt es an den Führungskräften an der jeweiligen Produktionsstätte, die Fragen zu beantworten.
 
-Ihre Risikobewertung muss die folgenden sechs Fragen beantworten:
+![Identification - evaluation - estimated priority](/media/risk-assessment/oira_identification.png)
 
-- Gab es in der Vergangenheit Unfälle im Unternehmen?
-- Was könnte zur Zeit im Unternehmen schief gehen, was Unfälle oder erhöhte Fehlzeiten verursachen könnte?
-- Wie groß ist die Chance, dass dies geschieht?
-- Wie begrenze ich ein Risiko oder den Schaden, wenn etwas schief geht?
-- Welche Vorsichtsmaßnahmen sind notwendig? Und wie implementiere ich diese?
-- Wie kann ich sicherstellen, dass die Schutzmaßnahmen auf Dauer funktionieren?
-
-![Identification - evaluation - estimated priority](/media/risk-assessment/Identification - evaluation - estimated priority.png)
+Manchmal ist es dabei viel einfacher, direkt vor einer Maschine oder Anlage zu stehen als im Büro am Rechner zu sitzen. Daher kann man die einzelnen Gefährdungen genauso gut vor Ort mit Smart-Phone oder Tablet durchgehen - ohne dass dafür eine App installiert werden muss!
 
 
-#### Schritt 2: Bewertung
+### Schritt 2: Bewerten
 
-Sie definieren die Risiken. Das Ergebnis ist eine Zusammenfassung der Engpässe in Ihrem Unternehmen. Für jeden Engpass müssen Sie das Ausmaß der Gefahr bewerten.
+Es bleibt den Erstellern des Fragenkatalogs überlassen, wie die Bewertung der Priorität einer Gefährdung durchgeführt wird.
 
-![Other risks - second risk](/media/risk-assessment/Other risks - second risk - stretched.png)
+* Berechnet: aus den Antworten für Wahrscheinlichkeit, Häufigkeit und Schweregrad
+* Geschätzt: Einfache Auswahl aus "gering", "mittel" und "hoch"
+* Voreingestellt als "hoch": für Gefahren, die als besonders bedeutend gekennzeichnet wurden
+
+![Identification - via smartphone](/media/risk-assessment/oira_iphone_identification_evaluation.png)
+
+Sie können jederzeit unterbrechen und Arbeit später wieder aufnehmen. Alle Angaben bleiben erhalten, aber nur Sie haben Zugriff!
 
 
-#### Schritt 3: Handlungsplan
+### Schritt 3: Aktionsplan
 
-Nächster Schritt: Vergleichen Sie die Risiken auf der Liste und ordnen Sie diese. Welche Risiken sind die gefährlichsten? Der dritte Schritt ist das festlegen von Zeiträumen, um die Risiken in Ihrem Unternehmen zu bekämpfen. Wer beginnt an welchem Risiko zu arbeiten? Was wird erbracht? Kurz, die Erstellung eines Handlungsplans. Damit können Sie die Risiken - eines nach dem anderen - anpacken, vorzugsweise an der Wurzel.
+Um den als vorhanden erkannten Gefahren zu begegnen, wird ein Aktionsplan erstellt. Zu jeder Gefährdung können eine oder mehrere Maßnahmen festgelegt werden - also eine Anleitung, **was** zu tun ist, **wer** dafür verantworlich ist und **bis wann** die Umsetzung erfolgen soll. Optional kann auch ein **Budget** für jede Maßnahme eingetragen werden.
 
-![Action plan - extra measure](/media/risk-assessment/Action plan - extra measure.png)
+Damit können Sie die Risiken - eines nach dem anderen - anpacken, vorzugsweise an der Wurzel.
 
-#### Schritt 4: Berichterstattung - Bleiben Sie Aktuell! 
+![Action plan](/media/risk-assessment/oira_ipad_action_plan.png)
 
-Verbesserungen sind nie abgeschlossen! Nach der Durchführung des Plans diskutieren Sie jedes Jahr den Fortschritt mit Ihren Mitarbeitern. Änderungen im Unternehmen bedingen Änderungen an der Gefährdungsbeurteilung. Ist die (erste) Gefährdungsbeurteilung abgeschlossen, so haben Sie gerade  begonnen. Sie haben damit begonnen, die Gesundheits- und Sicherheitsstandards in Ihrem Unternehmen zu verbessern!
+### Schritt 4: Berichterstattung - Bleiben Sie aktuell!
 
-![Session - reporting](/media/risk-assessment/Test session - reporting.png)
+Verbesserungen sind nie abgeschlossen. Nach der Durchführung des Plans diskutieren Sie jedes Jahr den Fortschritt mit Ihren Mitarbeitern. Änderungen im Unternehmen bedingen Änderungen an der Gefährdungsbeurteilung. Ist die (erste) Gefährdungsbeurteilung abgeschlossen, so haben Sie gerade begonnen, die Gesundheits- und Sicherheitsstandards in Ihrem Unternehmen zu verbessern - und die Ergebnisse für alle nachvollziehbar zu dokumentieren.
+
+![Session - reporting](/media/risk-assessment/oira_reports.png)
 
 
 <a href="#ra-demo-buchen" class="pat-scroll icon-right-open pat-button">Probieren Sie es aus!</a>
@@ -51,5 +52,5 @@ Verbesserungen sind nie abgeschlossen! Nach der Durchführung des Plans diskutie
 
 ----------
 
-_* Die online Gefährtungsbeurteilung wurde von SYSLAB und TNO in Zusammenarbeit mit Simplon und Cornelis Kolbach im Auftrag der Europäischen Agentur für Sicherheit und Gesundheitsschutz am Arbeitsplatz als Teil der Kampagne für Gesunde Arbeitsplätze entwickelt._
+_* Das Online Prevention Kit wurde von SYSLAB und TNO in Zusammenarbeit mit Simplon und Cornelis Kolbach im Auftrag der Europäischen Agentur für Sicherheit und Gesundheitsschutz am Arbeitsplatz (EU-OSHA) als Teil der Kampagne für Gesunde Arbeitsplätze entwickelt._
 

@@ -5,14 +5,16 @@ title: "Demo buchen"
 description: "Die online Gefährdungsbeurteilung im Webbrowser."
 summary: "Die online Gefährdungsbeurteilung im Webbrowser."
 category: risk-assessment-tools
-case: 
+case:
 lang: de
 ---
 
 
-#### Demo buchen
+<img src="/media/risk-assessment/oira_backend.png" style="width: 50%; margin: 0 0 2em 3em; float: right" />
 
-Melden Sie sich für eine kostenfreie Demo an und erleben Sie ein überzeugendes und vor allem einfach zu benutzendes Werkzeug für die Gefährdungsbeurteilung. Wir demonstrieren Ihnen einen Testeserver und beantworten all Ihre Fragen!
+### Demo buchen
+
+Melden Sie sich für eine kostenfreie Demo an und erleben Sie ein überzeugendes und vor allem einfach zu benutzendes Werkzeug für die Gefährdungsbeurteilung. Wir demonstrieren Ihnen unser "Online Prevention Kit" auf einem Testeserver und beantworten all Ihre Fragen!
 
 
 <a href="/kontakt/" class="icon-mail pat-button">Demo buchen…</a>
@@ -21,7 +23,7 @@ Melden Sie sich für eine kostenfreie Demo an und erleben Sie ein überzeugendes
 Organisationen die bereits unser Werkzeug zur Gefährdungsbeurteilung nutzen:
 
 
-<p class="logo-cloud" style="padding-top: 0">
+<p class="logo-cloud" style="padding-top: 0; clear:both">
 	<a href="http://www.rie.nl">
 		<img src="/media/logos/tno.svg" alt="TNO innovation for life (NL)" />
 	</a>
