@@ -2,49 +2,50 @@
 layout: sub-page
 name: ra-tools
 title: "The Solution"
-description: "The Risk Assessment Tool in Action"
-summary: "The Risk Assessment Tool in Action"
+description: "The Online Prevention Kit* in Action"
+summary: "The Online Prevention Kit* in Action"
 category: risk-assessment-tools
-case: 
+case:
 lang: en
 ---
 
-#### Step 1: Identification
+### Step 1: Identification
 
-All the hazards on one list: draw up a list of all the hazards in your company (or you can ask an expert to conduct your Risk Assessment)
+The Occupational Safety and Health experts of your organisation have created a questionnaire for all hazards (via the the built-in content management system). Now the individual heads of the different departments can go answer the questions based on the situation on site.
 
-Your Risk Assessment must answer the following six questions:
+![Identification - evaluation - estimated priority](/media/risk-assessment/oira_identification.png)
 
-- Have there been any past accidents in my company?
-- What could currently go wrong in my company, causing accidents or absenteeism?
-- How great is the chance of this happening?
-- How do I limit a risk or the damage, if something goes wrong?
-- What precautions are necessary? And how do I implement these?
-- How do I ensure that the precautions continue to work?
+In this process, it is sometimes much easier to stand directly in front of a machine or production facility, rather than sitting at the desk back in the office. Therefore the questionnaire can be answered just as easily on a smartphone or tablet device - no extra app needs to be installed!
 
-![Identification - evaluation - estimated priority](/media/risk-assessment/Identification - evaluation - estimated priority.png)
+### Step 2: Evaluation
 
+It is up to the creators of the questionnaire to define how the priority for each risk should be set:
 
+* Calculated: Based on the answers for _frequency_, _probability_ and _severity_
+* Estimated: A simple choice between "low", "medium" and "high"
+* Pre-set as "high": For hazards that are marked as especially important
+* Skipped: In this case, the content creators must set the priority beforehand
 
-#### Step 2: Evaluation
+![Identification - via smartphone](/media/risk-assessment/oira_iphone_identification_evaluation.png)
 
-You define the risks.The result is a summary of the bottlenecks in your company. For each bottleneck you will evaluate the magnitude of the hazards.
-
-![Other risks - second risk](/media/risk-assessment/Other risks - second risk - stretched.png)
+You can interupt your risk assessment at any time during any phase, and pick up where you left off next time. All your replies are kept, but only you have access to them!
 
 
-#### Step 3: Action Plan
+### Step 3: Action Plan
 
-Next step: Compare all the risks on the list and place them in the correct order. Which risks are the most threatening? The third step is: set time periods for tackling the risks in your company. Who will start working on which risk? What will it provide? In short, a plan of action. This allows you to resolve the risks one at a time, preferably at the source.
+To tackle the risks that have been identified, an action plan is created. For every hazard, one or more measures can be defined - in other words, an instruction on **what** to do, **who** is responsible and **until when** the measure should be completed. Optionally, every measure can also be assigned a **budget**.
 
-![Action plan - extra measure](/media/risk-assessment/Action plan - extra measure.png)
+This will enable you to deal with your hazards, one by one.
+
+![Action plan](/media/risk-assessment/oira_ipad_action_plan.png)
 
 
-#### Step 4: Report - Keep it up-to-date
+### Step 4: Reporting - Keep it up to date
 
-Improvements are never finished! After implementing the Plan you discuss the progress with your employees every year. If you make changes in the company, you must change the Risk Assessment too. So, if you have finished your (first) Risk Assessment, you have only just started. You have started to improve the health and safety standards in your company.
 
-![Session - reporting](/media/risk-assessment/Test session - reporting.png)
+Improvements are never finished! After implementing the plan you discuss its progress with your employees every year. If you make changes in the company, the risk assessment needs to be adjusted, too. So, if you have finished your (first) risk assessment, you have started to improve the health and safety standards in your company. And you will have provided thorough documentation on the results to all involved parties.
+
+![Session - reporting](/media/risk-assessment/oira_reports.png)
 
 
 <a href="#ra-book-a-demo" class="pat-scroll icon-right-open pat-button">See the tool live!</a>
@@ -53,4 +54,4 @@ Improvements are never finished! After implementing the Plan you discuss the pro
 ----------
 
 
-_* The Risk Assessment Tool was developed by SYSLAB and TNO in cooperation with Simplon and Cornelis Kolbach in commission of The European Agency for Safety and Health at Work as part of the Healthy Workplaces campaign._
+_* The Online Prevention Kit was developed by SYSLAB and TNO under the name "OiRA - Online interactive Risk Assessment" in cooperation with Simplon and Cornelis Kolbach in commission of The European Agency for Safety and Health at Work (EU-OSHA) as part of the Healthy Workplaces campaign._

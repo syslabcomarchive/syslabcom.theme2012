@@ -2,18 +2,23 @@
 layout: sub-page
 name: ra-why
 title: "About Risks"
-description: "Running a business means running risks"
-summary: "Running a business means running risks"
+description: "Healthy Workplaces - it's good business"
+summary: "Healthy Workplaces - it's good business"
 category: risk-assessment-tools
-case: 
+case:
 lang: en
 ---
 
 <img src="/media/bridge-workers.jpg" style="width: 50%; margin: 0 0 2em 3em; float: right" />
-An entrepreneur is exposed to risks. The product in which you invest needs to succeed. What if your customers do not pay, or if there is a burglary at your premises? These are all risks and part of being an entrepreneur. As long as all is well, you and your employees will be able to earn a decent living.
+In every company or organisations numerous risks are present which can endanger the health of its employees. This could be an accident involving one of the machines, exposure to dangerous substances, repetitive strain injuries... All these can cause outages of staff and a throttled  production.  Then there are still the costs for repairs and healthcare. Not to mention the danger to your reputation.
 
-#### Aware of all the risks?
+### Safety at work - it's up to the boss
 
-Imagine you have an accident with one of your machines? An employee exposed to hazardous substances? Somebody is unable to work? This will cause production to halt or a reduction of staff. Then there are still the costs for repairs and healthcare. Not to mention the danger to your reputation. These are substantial risks.
+In many countries employers are required by law to provide safe and healthy workplaces. Apart from legal considerations, it also makes sense from the economic perspective to keep employees healthy and motivated.
 
-<a href="#define-and-tackle" class="pat-scroll icon-right-open pat-button">You need to do a Risk Assessment…</a>
+To achieve this, many organisations are already using the instrument of **risk assessment**. Often considereable effort is put into this process, combined with a large paper trail.
+
+But what if a risk assessment could be performed with less effort, yet better structured? And what happens if your organisation evolves and you need to keep your documents on safety procedures up to date?
+
+
+<a href="#define-and-tackle" class="pat-scroll icon-right-open pat-button">Take a look at our Online Prevention Kit…</a>

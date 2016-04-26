@@ -5,22 +5,23 @@ title: "Book a demo"
 description: "The Risk Assessment Tool is available as online interactive solution."
 summary: "The Risk Assessment Tool is available as online interactive solution."
 category: risk-assessment-tools
-case: 
+case:
 lang: en
 ---
 
 
+<img src="/media/risk-assessment/oira_backend.png" style="width: 50%; margin: 0 0 2em 3em; float: right" />
 
-#### Book a demo
+### Book a demo
 
-Sign up for your free demo and try out this amazing and easy-to-use Risk Assessment tool. We will guide you through the system using screen sharing and answer all your questions!
+Sign up for your free demo and try out this amazing and easy-to-use risk assessment tool. We will guide you through the system using screen sharing and answer all your questions!
 
 <a href="/contact/" class="icon-mail pat-button">Request demo…</a>
 
 
 Organisations already using our risk assessment tools include:
 
-<p class="logo-cloud" style="padding-top: 0">
+<p class="logo-cloud" style="padding-top: 0; clear:both">
 	<a href="http://www.rie.nl">
 		<img src="/media/logos/tno.svg" alt="TNO innovation for life (NL)" />
 	</a>

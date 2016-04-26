@@ -26,6 +26,7 @@ Es bleibt den Erstellern des Fragenkatalogs überlassen, wie die Bewertung der P
 * Berechnet: aus den Antworten für Wahrscheinlichkeit, Häufigkeit und Schweregrad
 * Geschätzt: Einfache Auswahl aus "gering", "mittel" und "hoch"
 * Voreingestellt als "hoch": für Gefahren, die als besonders bedeutend gekennzeichnet wurden
+* Übersprungen: in diesem Fall wurde die Priorität von den Erstellern voreingestellt
 
 ![Identification - via smartphone](/media/risk-assessment/oira_iphone_identification_evaluation.png)
 
