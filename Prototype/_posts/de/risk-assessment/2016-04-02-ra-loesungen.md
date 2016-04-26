@@ -52,5 +52,5 @@ Verbesserungen sind nie abgeschlossen. Nach der Durchführung des Plans diskutie
 
 ----------
 
-_* Das Online Prevention Kit wurde von SYSLAB und TNO in Zusammenarbeit mit Simplon und Cornelis Kolbach im Auftrag der Europäischen Agentur für Sicherheit und Gesundheitsschutz am Arbeitsplatz (EU-OSHA) als Teil der Kampagne für Gesunde Arbeitsplätze entwickelt._
+_* Das Online Prevention Kit wurde unter dem Namen "OiRA - Online interactive Risk Assessment" von SYSLAB und TNO in Zusammenarbeit mit Simplon und Cornelis Kolbach im Auftrag der Europäischen Agentur für Sicherheit und Gesundheitsschutz am Arbeitsplatz (EU-OSHA) als Teil der Kampagne für Gesunde Arbeitsplätze entwickelt._
 
