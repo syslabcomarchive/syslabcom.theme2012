@@ -5,6 +5,7 @@ name: open-source
 description: "With the many business and government organizations that now use Open Source software such as Linux, it's becoming increasingly clear that price is not the only advantage such software holds."
 summary: "With the many business and government organizations that now use Open Source software such as Linux, it's becoming increasingly clear that price is not the only advantage such software holds."
 category: services
+published: false
 ---
 
 ![Illustration (left aligned)](/media/opensource1.jpg)

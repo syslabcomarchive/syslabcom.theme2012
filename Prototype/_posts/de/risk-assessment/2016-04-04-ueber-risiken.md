@@ -22,4 +22,4 @@ In vielen Unternehmen kommt deswegen bereits das Instrument **Gefährdungsbeurte
 Aber kann man diesen Prozess auch mit weniger Aufwand und dafür besser strukturiert durchführen? Und gleichzeit viel einfacher auf dem aktuellen Stand bleiben, wenn sich der Betrieb weiterentwickelt?
 
 
-<a href="#definieren-und-anpacken" class="pat-scroll icon-right-open pat-button">Lernen Sie unsere Applikation "Online Prevention Kit" kennen  …</a>
+<a href="#definieren-und-anpacken" class="pat-scroll icon-right-open pat-button">Lernen Sie das Online Prevention Kit kennen…</a>
