@@ -1,6 +1,6 @@
 ---
 layout: sub-page
-title: Focus
+title: Collaboration
 name: workspaces
 category: intranet-solutions
 tagline: Collaboration

@@ -1,6 +1,6 @@
 ---
 layout: sub-page
-title: Fokussieren
+title: Zusammen arbeiten
 name: workspaces
 category: intranet-solutions
 tagline: "Zusammen arbeiten"
