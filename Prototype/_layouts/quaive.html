@@ -1,0 +1,76 @@
+---
+layout: shell
+---
+
+{% assign t=site.t[page.lang] %}
+
+<section id="intranet-solutions">
+	<div class="container">
+		{% assign posts=site.posts | where:"lang", page.lang %}
+		<h2>
+			{{ t['social_intranet_solutions'] }}
+		</h2>
+		<p class="byline">
+
+				{{ t['social_intranet_solutions_text'] }} 
+		</p>
+	</div>
+	<div class="subnav pat-bumper">
+	  	<nav class="container navigation tabs">
+			<a class="section-name pat-scroll" href="#intranet-solutions"><strong>{{ t['social_intranet_solutions'] }}</strong></a>
+			{% for item in posts %}
+	  			{% if item.category == 'intranet-solutions' %}   
+	  				<a href="#intranet-solution-{{ item.id | replace: '/','' }}" class="pat-scroll">{{ item.tagline }}</a>
+	  			{% endif %}
+	  		{% endfor %}
+	  		<a href="/homepage/#home" class="icon home">Home</a>
+	  	</nav>
+	</div>
+	<div class="container">
+		<h3>Take a 2 minute tour to see Quaive in action</h3>
+			<figure class="composite laptop">			
+				<video width="320" height="240" controls>
+				 	<source src="/media/videos/quaive-social-intranet.mp4" type="video/mp4">
+					<img class="slide" src="/media/quaive-screenshots/quaive-login.jpg" alt="" />
+					<img class="slide" src="/media/quaive-screenshots/quaive-dashboard.jpg" alt="" />
+					<img class="slide" src="/media/quaive-screenshots/quaive-news.jpg" alt="" />
+					<img class="slide" src="/media/quaive-screenshots/quaive-workspaces.jpg" alt="" />
+					<img class="slide" src="/media/quaive-screenshots/quaive-workspace.jpg" alt="" />
+					<img class="slide" src="/media/quaive-screenshots/quaive-workspace-documents.jpg" alt="" />
+					<img class="slide" src="/media/quaive-screenshots/quaive-napkin-sketch.jpg" alt="" />
+					<img class="slide" src="/media/quaive-screenshots/quaive-case.jpg" alt="" />
+				</video>
+				<img class="cover" src="/media/macbook.png" alt="" />
+			</figure>
+	</div>
+	<div class="container topics">
+		{% for item in posts %}
+			{% if item.category == 'intranet-solutions' %}    
+				{% if item.image %}
+					<div class="row topic" id="intranet-solution-{{ item.id | replace: '/','' }}">
+						<figure class="illustration six columns">
+							<img class="slide" src="/media/{{ item.image }}" alt="" {% if item.name == 'demo' %}style="background:#869ebf; padding:1em;"{% endif %} />
+						</figure>
+						<aside class="sidebar five columns">
+							<article class="pat-rich content">
+								<h3>
+									{{ item.title }}
+								</h3>
+								{{ item.content | markdownify }}
+							</article>
+						</aside>
+					</div>
+				{% else %}
+					<div class="topic no-hero" id="intranet-solution-{{ item.id | replace: '/','' }}">
+						<article class="pat-rich content">
+							<h3>
+								{{ item.title }}
+							</h3>
+							{{ item.content | markdownify }}
+						</article>
+					</div>
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+	</div>
+</section>

@@ -1,0 +1,138 @@
+---
+layout: shell
+---
+
+{% assign t=site.t[page.lang] %}
+
+
+<section id="services">
+	<div class="container introduction">
+		<h2>
+			{{ t['web_solutions'] }} 
+		</h2>
+
+		<p class="byline">
+			{{ t['references_text'] }} 
+		</p>
+
+
+		{% assign showcases=site.categories['showcases'] | where:"lang", page.lang %}
+		<div class="item" id="logos">
+			<p class="logo-cloud">
+		  		{% for item in showcases %}
+		  			{% if item.level == 'gold' %}
+		  			    <a title="{{ item.summary }}" href="{{ item.url }}#main" class="pat-inject pat-switch" data-pat-inject="target: #modal-content" data-pat-switch="selector: body; add: modal-active"><img src="/media/logos/{{ item.logo }}.svg" alt="" /></a>
+		  			{% endif %}
+		  		{% endfor %}
+			</p>
+		</div>
+
+	  	<!-- <p class="introduction">SYSLAB.COM provides services for companies, organisations and governmental institutions within the whole software lifecycle.</p> -->
+	</div>
+
+	{% assign services=site.categories['services'] | where:"lang", page.lang %}
+
+	<div class="subnav pat-bumper">
+	  	<nav class="container navigation tabs">
+	  		<a class="section-name pat-scroll" href="#services"><strong>{{ t['web_solutions'] }} </strong></a>
+	  	  {% for item in services %}
+	  		<a href="#{{ item.id | remove: '/' }}" class="pat-scroll">{{ item.title }}</a>			
+   		  {% endfor %}
+	  		<a href="/homepage/#home" class="icon home">Home</a>
+	  	</nav>
+	</div>
+	<div class="container topics">
+  		<div class="pat-stacks">
+	  		{% for item in services %}
+	  			<div class="item topic pat-scroll" id="{{ item.id | remove: '/' }}">
+	  				{% if item.summary %}
+	  				    <p class="intro">
+	  				    	{{ item.summary }}
+	  				    </p>
+	  				{% endif %}
+	  				{% if item.image %}
+	  				    <img src="/media/{{ item.image }}" alt="" />
+	  				{% endif %}
+	  				{% if item.case %}
+	  				    {% for case in site.posts %}
+	  				    	{% if case.layout == 'showcase' and case.title == item.case %}
+	  				    	
+							    {% for image in case.images | limit: 1 %}
+							    
+		  				    	    <figure itemprop="associatedMedia" class="showcase caption"itemscope itemtype="http://schema.org/ImageObject">
+							    			<a class="pat-inject pat-switch" data-pat-inject="target: #modal-content" data-pat-switch="selector: body; add: modal-active" itemprop="contentUrl" href="{{ case.url }}#main" title="{{ image.description }}">
+							    				<img itemprop="thumbnail" src="/media/showcases/{{ image.file }}" alt="{{ case.description }}">
+							    			</a>
+		  				    	    	<figcaption>
+		  				    	    		<h4>
+		  				    	    			View showcase: {{ case.title }}
+		  				    	    		</h4>
+											<p itemprop="caption description">
+												{{ image.description }}
+											</p>
+		  				    	    	</figcaption>
+		  				    	    </figure>
+	  				    	    {% endfor %}
+	  				    	{% endif %}
+	  				    {% endfor %}
+	  				{% endif %}
+	  				<article class="pat-rich">
+	  					{{ item.content | markdownify }}
+	  				</article>
+	  				{% if item.showcases %}
+	  					<!-- <h3>
+	  						Showcases
+	  					</h3> -->
+	  					<div class="showcases">
+		  				    {% for case in item.showcases %}
+		  				    	{% if forloop.length > 1 %}
+		  				    		<div class="six columns">
+			  				    	    <figure>
+			  				    	    	<img src="/media/showcases/{{ case.image }}" alt="" />
+			  				    	    	<figcaption>
+												<p>
+													{{ case.description }}
+												</p>
+			  				    	    	</figcaption>
+			  				    	    </figure>
+		  				    		</div>
+		  				    	{% endif %}
+		  				    {% endfor %}	
+	  					</div>
+	  				{% endif %}
+	  			</div>
+	  		{% endfor %}
+  		</div>
+{% comment %}
+		<div class="pat-stacks">
+	  		{% for item in showcases %}
+				<div class="item" id="{{ item.id | remove: '/' }}">
+					<div class="description">
+						<h3>{{ item.title }}</h3>
+						{% if item.summary %}
+						    <p>
+						    	{{ item.summary }}
+								{% capture this_content %}{{ item.content | strip | remove: " " }}{% endcapture %}
+								{% capture content_size %}{{ this_content | size }}{% endcapture %}
+
+								{% if this_content and content_size != '1' and content_size != '0' %}
+						    		<a href="{{ item.url }}/#main-content"><strong>Learn more…</strong></a>
+								{% endif %}
+						    </p>
+						{% endif %}
+						{% for subitem in item.images %}
+							<p>
+								<img src="/media/showcases/{{ subitem.file }}" alt="{{subitem.name}}" />
+							</p>
+						{% endfor %}
+					</div>
+					<a href="#logos" class="escape iconified icon-cancel-circle">Choose another project</a>
+				</div>
+	  		{% endfor %}
+
+		</div>
+{% endcomment %}	
+	</div>
+
+</section>
+
