@@ -20,16 +20,16 @@ layout: shell
 		</h2>
 		<p class="byline">
 
-				{{ t['social_intranet_solutions_text'] }} 
+				{{ t['social_intranet_solutions_text'] }}
 		</p>
 				<!-- <img class="slide" src="/media/quaive-screenshots/quaive-napkin-sketch.jpg" alt="" /> -->
 
-		<figure class="composite laptop">			
+		<figure class="composite laptop">
 			<img class="slide" src="/media/quaive-screenshots/quaive-napkin-sketch.jpg" alt="" />
 			<img class="cover" src="/media/macbook.png" alt="" />
 		</figure>
 
-		<p style="text-align:center"><a href="/social-intranet-quaive/" class="pat-button">Take a closer look</a></p>
+		<p style="text-align:center"><a href="/social-intranet-quaive{% if page.lang != 'en' %}-{{ page.lang }}{% endif %}" class="pat-button">{{ t['button_closer_look'] }} </a></p>
 	</div>
 
 </section>
@@ -37,14 +37,14 @@ layout: shell
 <section id="risk-assessment-tools">
 	<div class="container introduction">
 		<h2>
-			{{ t['risk_assessment_tools'] }} 
+			{{ t['risk_assessment_tools'] }}
 		</h2>
 
 		<p class="byline">
-			{{ t['risk_assessment_tools_text'] }} 
+			{{ t['risk_assessment_tools_text'] }}
 		</p>
 
-		<figure class="composite laptop">			
+		<figure class="composite laptop">
 			<img src="/media/risk-assessment/oira_ipad_action_plan.png" alt="Action plan">
 		</figure>
 		<p style="text-align:center"><a href="/risk-assessment/" class="pat-button">See what it can do</a></p>
@@ -55,11 +55,11 @@ layout: shell
 <section id="services">
 	<div class="container introduction">
 		<h2>
-			{{ t['web_solutions'] }} 
+			{{ t['web_solutions'] }}
 		</h2>
 
 		<p class="byline">
-			{{ t['references_text'] }} 
+			{{ t['references_text'] }}
 		</p>
 
 
@@ -86,7 +86,7 @@ layout: shell
 			<img src="/media/reporter-dp.svg" class="hero" alt="Newsflash" class="illustration" />
 		</p>
 		<div class="article-listing">
-			
+
 
 		</div>
 		<script type="text/javascript">
@@ -149,8 +149,8 @@ $(document).ready(function(){
 					<figure class="person">
 						<img itemprop="photo" src="/media/avatar-inconnu.jpg" alt="" />
 						<figcaption>
-							<strong>{{ t['careers_you'] }}</strong> 
-							{{ t['careers_you_text'] }} 
+							<strong>{{ t['careers_you'] }}</strong>
+							{{ t['careers_you_text'] }}
 							<!-- <a href="#careers" class="pat-scroll">our vacancies…</a>-->
 						</figcaption>
 					</figure>

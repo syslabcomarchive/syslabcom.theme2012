@@ -29,6 +29,7 @@ defaults:
 t:
   en:
     home: "Home"
+    home_link: "homepage"
     andother: "and powerful"
     createdby: "created by"
     social_intranet_solutions: "Quaive Social intranet"
@@ -44,13 +45,16 @@ t:
     careers: "Careers"
     careers_you: "You?"
     careers_you_text: "Would you like to work with these highly skilled people? Please have a look at our vacancies…"
+    button_closer_look: "Take a closer look"
+    quaive_video_call: "Take a 2 minute tour to see Quaive in action"
 
   de:
     home: "Start"
+    home_link: "startseite"
     andother: "und leistungsfähige"
     createdby: "entwickelt von"
     social_intranet_solutions: "Social Intranet"
-    social_intranet_solutions_text: "Quaive - Intranet das Spaß macht!"
+    social_intranet_solutions_text: "Quaive - Intranet, das Spaß macht!"
     risk_assessment_tools: "Gefährdungsbeurteilung"
     risk_assessment_tools_text: "Das Online Prevention Kit - mehr Arbeitsschutz, weniger Papier"
     web_solutions: "Weblösungen"
@@ -62,6 +66,8 @@ t:
     careers: "Karriere"
     careers_you: "Du?"
     careers_you_text: "Reizt es dich, mit hochqualifizierten Menschen zu arbeiten? Wirf einen Blick auf unsere offenen Stellen…"
+    button_closer_look: "Schauen Sie sich Quaive genauer an"
+    quaive_video_call: "Lernen Sie Quaive in dieser 2-minütigen Einführung kennen"
 
 mainnav:
   en:

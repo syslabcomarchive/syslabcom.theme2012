@@ -12,23 +12,23 @@ layout: shell
 		</h2>
 		<p class="byline">
 
-				{{ t['social_intranet_solutions_text'] }} 
+				{{ t['social_intranet_solutions_text'] }}
 		</p>
 	</div>
 	<div class="subnav pat-bumper">
 	  	<nav class="container navigation tabs">
 			<a class="section-name pat-scroll" href="#intranet-solutions"><strong>{{ t['social_intranet_solutions'] }}</strong></a>
 			{% for item in posts %}
-	  			{% if item.category == 'intranet-solutions' %}   
+	  			{% if item.category == 'intranet-solutions' %}
 	  				<a href="#intranet-solution-{{ item.id | replace: '/','' }}" class="pat-scroll">{{ item.tagline }}</a>
 	  			{% endif %}
 	  		{% endfor %}
-	  		<a href="/homepage/#home" class="icon home">Home</a>
+	  		<a href="/{{ t['home_link'] }}/#home" class="icon home">Home</a>
 	  	</nav>
 	</div>
 	<div class="container">
-		<h3>Take a 2 minute tour to see Quaive in action</h3>
-			<figure class="composite laptop">			
+		<h3>{{ t['quaive_video_call'] }}</h3>
+			<figure class="composite laptop">
 				<video width="320" height="240" controls>
 				 	<source src="/media/videos/quaive-social-intranet.mp4" type="video/mp4">
 					<img class="slide" src="/media/quaive-screenshots/quaive-login.jpg" alt="" />
@@ -45,7 +45,7 @@ layout: shell
 	</div>
 	<div class="container topics">
 		{% for item in posts %}
-			{% if item.category == 'intranet-solutions' %}    
+			{% if item.category == 'intranet-solutions' %}
 				{% if item.image %}
 					<div class="row topic" id="intranet-solution-{{ item.id | replace: '/','' }}">
 						<figure class="illustration six columns">

@@ -27,6 +27,7 @@ pip-log.txt
 .mr.developer.cfg
 
 .DS_Store
+._*
 
 _site/
 .sass-cache
