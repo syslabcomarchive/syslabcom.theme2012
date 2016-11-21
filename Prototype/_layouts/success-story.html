@@ -1,0 +1,28 @@
+---
+layout: sub-page
+template: sub-page
+---
+
+<article class="pat-rich">
+    <h1>{{page.title}}</h1>
+
+
+    {% for subitem in page.images %}
+        <figure>
+            <img src="/media/success-stories/{{ subitem.file }}" alt="{{subitem.name}}" />
+            <figcaption>
+                <h4>
+                    {{ subitem.name }}
+                </h4>
+            </figcaption>
+        </figure>
+    {% endfor %}
+
+    {% capture this_content %}{{ content | strip | remove: " " }}{% endcapture %}
+    {% capture content_size %}{{ this_content | size }}{% endcapture %}
+
+    {% if this_content and content_size != '1' and content_size != '0' %}
+        {{ content }}
+    {% endif %}
+
+</article>
