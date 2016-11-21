@@ -8,11 +8,11 @@ layout: shell
 <section id="services">
 	<div class="container introduction">
 		<h2>
-			{{ t['web_solutions'] }} 
+			{{ t['web_solutions'] }}
 		</h2>
 
 		<p class="byline">
-			{{ t['references_text'] }} 
+			{{ t['references_text'] }}
 		</p>
 
 
@@ -36,9 +36,9 @@ layout: shell
 	  	<nav class="container navigation tabs">
 	  		<a class="section-name pat-scroll" href="#services"><strong>{{ t['web_solutions'] }} </strong></a>
 	  	  {% for item in services %}
-	  		<a href="#{{ item.id | remove: '/' }}" class="pat-scroll">{{ item.title }}</a>			
+	  		<a href="#{{ item.id | remove: '/' }}" class="pat-scroll">{{ item.title }}</a>
    		  {% endfor %}
-	  		<a href="/homepage/#home" class="icon home">Home</a>
+	  		<a href="/{{ t['home_link'] }}/#home" class="icon home">{{ t['home'] }}</a>
 	  	</nav>
 	</div>
 	<div class="container topics">
@@ -56,9 +56,9 @@ layout: shell
 	  				{% if item.case %}
 	  				    {% for case in site.posts %}
 	  				    	{% if case.layout == 'showcase' and case.title == item.case %}
-	  				    	
+
 							    {% for image in case.images | limit: 1 %}
-							    
+
 		  				    	    <figure itemprop="associatedMedia" class="showcase caption"itemscope itemtype="http://schema.org/ImageObject">
 							    			<a class="pat-inject pat-switch" data-pat-inject="target: #modal-content" data-pat-switch="selector: body; add: modal-active" itemprop="contentUrl" href="{{ case.url }}#main" title="{{ image.description }}">
 							    				<img itemprop="thumbnail" src="/media/showcases/{{ image.file }}" alt="{{ case.description }}">
@@ -97,7 +97,7 @@ layout: shell
 			  				    	    </figure>
 		  				    		</div>
 		  				    	{% endif %}
-		  				    {% endfor %}	
+		  				    {% endfor %}
 	  					</div>
 	  				{% endif %}
 	  			</div>
@@ -131,7 +131,7 @@ layout: shell
 	  		{% endfor %}
 
 		</div>
-{% endcomment %}	
+{% endcomment %}
 	</div>
 
 </section>

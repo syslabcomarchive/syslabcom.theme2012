@@ -47,7 +47,7 @@ layout: shell
 		<figure class="composite laptop">
 			<img src="/media/risk-assessment/oira_ipad_action_plan.png" alt="Action plan">
 		</figure>
-		<p style="text-align:center"><a href="/risk-assessment/" class="pat-button">See what it can do</a></p>
+		<p style="text-align:center"><a href="/risk-assessment{% if page.lang != 'en' %}-{{ page.lang }}{% endif %}/" class="pat-button">{{ t['button_see_oira_can_do'] }}</a></p>
 
 	</div>
 </section>
@@ -73,7 +73,7 @@ layout: shell
 		<em>Jon de la Vega / Sarenet</em>
 		</blockquote>
 
-		<p style="text-align:center"><a href="/web-solutions/" class="pat-button">See what we can do for you</a></p>
+		<p style="text-align:center"><a href="/web-solutions{% if page.lang != 'en' %}-{{ page.lang }}{% endif %}/" class="pat-button">{{ t['button_see_we_can_do'] }}
 
 	</div>
 

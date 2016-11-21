@@ -46,6 +46,8 @@ t:
     careers_you: "You?"
     careers_you_text: "Would you like to work with these highly skilled people? Please have a look at our vacancies…"
     button_closer_look: "Take a closer look"
+    button_see_oira_can_do: "See what it can do"
+    button_see_we_can_do: "See what we can do for you"
     quaive_video_call: "Take a 2 minute tour to see Quaive in action"
 
   de:
@@ -67,6 +69,8 @@ t:
     careers_you: "Du?"
     careers_you_text: "Reizt es dich, mit hochqualifizierten Menschen zu arbeiten? Wirf einen Blick auf unsere offenen Stellen…"
     button_closer_look: "Schauen Sie sich Quaive genauer an"
+    button_see_oira_can_do: "Finden Sie heraus, was es kann"
+    button_see_we_can_do: "Sehen Sie, was wir für Sie tun können"
     quaive_video_call: "Lernen Sie Quaive in dieser 2-minütigen Einführung kennen"
 
 mainnav:
