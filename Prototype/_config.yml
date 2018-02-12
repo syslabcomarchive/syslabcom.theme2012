@@ -4,6 +4,7 @@ author: Cornelis G. A. Kolbach
 domain: syslab.com
 media: /media
 markdown: kramdown
+port: 4006
 permalink: /:title/
 sass:
   style: :compressed
