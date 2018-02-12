@@ -12,9 +12,7 @@
 	    <a class="pat-scroll" href="{% if page.layout == 'sub-page' %}{{mainnav['people'].url }}{% else %}#people{% endif %}">{{ mainnav['people'].name }}</a>
   	</li>
     <li class="languages">
-    {% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
-    {% for post in posts %}
-        <a href="{{ post.url }}index.html" class="xpat-inject {% if post.lang == page.lang %}current{% endif %}">{{ post.lang }}</a>
-    {% endfor %}
+        <a href="http://www.syslab.com" class="">de</a>
+        <a href="http://en.syslab.com/homepage/index.html" class="xpat-inject current">en</a>
     </li>
 </ul>
